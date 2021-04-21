@@ -218,6 +218,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
 SWIFT_CLASS("_TtC15BanubaSdkSimple12InputService")
 @interface InputService : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
