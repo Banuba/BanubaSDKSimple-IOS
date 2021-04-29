@@ -194,11 +194,11 @@
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		7RReYG4lR7AkSBcm8ULlLK0IgZU=
+		U6qmHddS91dwBN1P6/BdAneY+x0=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		7RReYG4lR7AkSBcm8ULlLK0IgZU=
+		U6qmHddS91dwBN1P6/BdAneY+x0=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OgFt2gV346mh9QZV9LDtMqM3ovQ=
+		5frYGrsvwwqzB4p24ySB3T4QZ70=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		OgFt2gV346mh9QZV9LDtMqM3ovQ=
+		5frYGrsvwwqzB4p24ySB3T4QZ70=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -741,22 +741,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7RReYG4lR7AkSBcm8ULlLK0IgZU=
+			U6qmHddS91dwBN1P6/BdAneY+x0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mxyftTGi0RIMKNZymRQQR2Z23hqLlyL57RlsEX7gY1E=
+			dlN74LZvqirhSaUfhCPZLaLsvMIgv2HsfvkJJ18rxX8=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7RReYG4lR7AkSBcm8ULlLK0IgZU=
+			U6qmHddS91dwBN1P6/BdAneY+x0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mxyftTGi0RIMKNZymRQQR2Z23hqLlyL57RlsEX7gY1E=
+			dlN74LZvqirhSaUfhCPZLaLsvMIgv2HsfvkJJ18rxX8=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -785,11 +785,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OgFt2gV346mh9QZV9LDtMqM3ovQ=
+			5frYGrsvwwqzB4p24ySB3T4QZ70=
 			</data>
 			<key>hash2</key>
 			<data>
-			ITWT5bcpMQ21rs5t9NidmCa5a0rBYKbgF+e28xwEVDg=
+			mGmARqQD889gmw5AV5nFfhAAvksMbfKuNbWpCGRq3Vs=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64.swiftdoc</key>
@@ -818,11 +818,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OgFt2gV346mh9QZV9LDtMqM3ovQ=
+			5frYGrsvwwqzB4p24ySB3T4QZ70=
 			</data>
 			<key>hash2</key>
 			<data>
-			ITWT5bcpMQ21rs5t9NidmCa5a0rBYKbgF+e28xwEVDg=
+			mGmARqQD889gmw5AV5nFfhAAvksMbfKuNbWpCGRq3Vs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
