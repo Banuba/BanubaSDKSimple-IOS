@@ -4,6 +4,7 @@
 import Accelerate
 import BanubaSDKServicing
 @_exported import BanubaSdkSimple
+import BanubaUtilities
 import CoreMotion
 import Foundation
 import MediaPlayer
@@ -376,22 +377,22 @@ public class BanubaSimpleCameraModule {
   @objc public var allowProcessing: Swift.Bool
   @objc public var inputDelegate: BanubaSDKServicing.SDKInputServicingDelegate?
   @objc public var inputARDelegate: BanubaSDKServicing.SDKARInputServicingDelegate?
-  public init(videoResolutionConfiguration: VideoEditor.VideoResolutionConfiguration)
+  public init(videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration)
   @objc deinit
 }
 extension BanubaSimpleCameraModule {
-  @objc dynamic public func createPIPPlayer(withVideoURL url: Foundation.URL, completion: (() -> Swift.Void)?)
+  public func createPIPPlayer(withVideoURL url: Foundation.URL, completion: (() -> Swift.Void)?)
   @objc dynamic public func startPIPPlayer()
   @objc dynamic public func stopPIPPlayer()
-  @objc dynamic public func resetPIPShape()
-  @objc dynamic public func setPIPPlayer(renderBehaviour: BanubaSDKServicing.RenderBehaviorAdapter)
-  @objc dynamic public func setPIPPlayer(shapeType type: BanubaSDKServicing.PIPShapeTypeAdapter)
-  @objc dynamic public func setPIPPlayer(centerPoint point: CoreGraphics.CGPoint)
+  public func resetPIPShape()
+  public func setPIPPlayer(renderBehaviour: BanubaSDKServicing.RenderBehaviorAdapter)
+  public func setPIPPlayer(shapeType type: BanubaSDKServicing.PIPShapeTypeAdapter)
+  public func setPIPPlayer(centerPoint point: CoreGraphics.CGPoint)
   @objc dynamic public func seekPIPPlayer(to time: Foundation.TimeInterval)
 }
 extension BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
-  @objc dynamic public var pipRenderSize: CoreGraphics.CGSize {
-    @objc get
+  public var pipRenderSize: CoreGraphics.CGSize {
+    get
   }
   @objc dynamic public var autoStart: Swift.Bool {
     @objc get
@@ -447,7 +448,7 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutputServicing {
     @objc get
   }
   @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
-  @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue], boundaryHandler: @escaping (CoreMedia.CMTime) -> Swift.Void, totalDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, didStart: (() -> Swift.Void)?, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue], boundaryHandler: @escaping (CoreMedia.CMTime) -> Swift.Void, totalDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc dynamic public func stopVideoCapturing(cancel: Swift.Bool)
 }
 extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
@@ -475,6 +476,33 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeautyEffectManaging 
 }
 extension BanubaSimpleCameraModule : BanubaSdkSimple.BanubaSimpleSdkDelegate {
   public func willOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
+}
+extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKPIPServicing {
+  @objc dynamic public var isPIPSession: Swift.Bool {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic public var pipVideoURL: Foundation.URL? {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic public var pipSwitchSetting: BanubaSDKServicing.PIPSwitchLayoutSetting? {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic public var pipPlayerSetting: BanubaSDKServicing.PIPPlayerLayoutSetting? {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic public var pipCameraSetting: BanubaSDKServicing.PIPCameraLayoutSetting? {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc dynamic public func setupPIPSession(withVideoURL url: Foundation.URL)
+  @objc dynamic public func startPIPSessionIfNeeded()
+  @objc dynamic public func applyPIPCameraSettingIfNeeded(_ setting: BanubaSDKServicing.PIPCameraLayoutSetting)
+  @objc dynamic public func applyPIPPlayerSettingIfNeeded(_ setting: BanubaSDKServicing.PIPPlayerLayoutSetting)
+  @objc dynamic public func applyPIPSwitchSettingIfNeeded(_ setting: BanubaSDKServicing.PIPSwitchLayoutSetting)
 }
 public protocol SnapshotProvider {
   func makeSnapshot() -> UIKit.UIImage
