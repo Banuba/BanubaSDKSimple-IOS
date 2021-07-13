@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaSdkSimple
 import Accelerate
 import BanubaSDKServicing
@@ -386,7 +386,7 @@ extension BanubaSimpleCameraModule {
   @objc dynamic public func stopPIPPlayer()
   public func resetPIPShape()
   public func setPIPPlayer(renderBehaviour: BanubaSDKServicing.RenderBehaviorAdapter)
-  public func setPIPPlayer(shapeType type: BanubaSDKServicing.PIPShapeTypeAdapter)
+  public func setRenderTarget(shapeType type: BanubaSDKServicing.PIPShapeTypeAdapter)
   public func setPIPPlayer(centerPoint point: CoreGraphics.CGPoint)
   @objc dynamic public func seekPIPPlayer(to time: Foundation.TimeInterval)
 }
@@ -408,14 +408,9 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
   @objc dynamic public func removeRenderTarget()
   @objc dynamic public func setup(postproccessContext: OpenGLES.EAGLContext)
   @objc dynamic public func postprocessProcessVideoFrame(_ from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, time: CoreMedia.CMTime)
-  @objc dynamic public func postprocessStopVideoProcessing()
-  @objc dynamic public func postprocessPlaybackStop()
-  @objc dynamic public func postprocessSurfaceDestroyed()
   @objc dynamic public func postprocessSurfaceCreated(with size: CoreGraphics.CGSize)
   @objc dynamic public func postprocessSetEffectSize(_ size: CoreGraphics.CGSize)
   @objc dynamic public func postprocessLoadEffect(path: Swift.String)
-  @objc dynamic public func postprocessStartVideoProcessing(with size: CoreGraphics.CGSize)
-  @objc dynamic public func postprocessDraw()
   @objc dynamic public func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc dynamic public func getRendererView() -> UIKit.UIView
 }
@@ -478,6 +473,10 @@ extension BanubaSimpleCameraModule : BanubaSdkSimple.BanubaSimpleSdkDelegate {
   public func willOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
 extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKPIPServicing {
+  @objc dynamic public var isPIPSessionAlreadySetup: Swift.Bool {
+    @objc get
+    @objc set(newValue)
+  }
   @objc dynamic public var isPIPSession: Swift.Bool {
     @objc get
     @objc set(newValue)
@@ -499,10 +498,11 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKPIPServicing {
     @objc set(newValue)
   }
   @objc dynamic public func setupPIPSession(withVideoURL url: Foundation.URL)
-  @objc dynamic public func startPIPSessionIfNeeded()
-  @objc dynamic public func applyPIPCameraSettingIfNeeded(_ setting: BanubaSDKServicing.PIPCameraLayoutSetting)
-  @objc dynamic public func applyPIPPlayerSettingIfNeeded(_ setting: BanubaSDKServicing.PIPPlayerLayoutSetting)
-  @objc dynamic public func applyPIPSwitchSettingIfNeeded(_ setting: BanubaSDKServicing.PIPSwitchLayoutSetting)
+  @objc dynamic public func startPIPSessionIfNeeded(completion: (() -> Swift.Void)?)
+  @objc dynamic public func applyPIPCameraSettingIfNeeded(_ setting: BanubaSDKServicing.PIPCameraLayoutSetting, restoreSession: Swift.Bool)
+  @objc dynamic public func applyPIPPlayerSettingIfNeeded(_ setting: BanubaSDKServicing.PIPPlayerLayoutSetting, restoreSession: Swift.Bool)
+  @objc dynamic public func applyPIPSwitchSettingIfNeeded(_ setting: BanubaSDKServicing.PIPSwitchLayoutSetting, restoreSession: Swift.Bool)
+  @objc dynamic public func setPIPPlayerVolume(_ volume: Swift.Float)
 }
 public protocol SnapshotProvider {
   func makeSnapshot() -> UIKit.UIImage
