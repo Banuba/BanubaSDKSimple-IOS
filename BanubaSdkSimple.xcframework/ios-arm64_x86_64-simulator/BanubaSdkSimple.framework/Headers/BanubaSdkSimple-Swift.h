@@ -247,6 +247,21 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple12InputService")
 @end
 
 
+@class NSNumber;
+
+SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
+@interface OutputConfiguration : NSObject
+@property (nonatomic, readonly) BOOL applyWatermark;
+@property (nonatomic, readonly) BOOL adjustDeviceOrientation;
+@property (nonatomic, readonly) BOOL mirrorFrontCamera;
+@property (nonatomic, readonly) BOOL useHEVCCodecIfPossible;
+- (nonnull instancetype)initWithApplyWatermark:(BOOL)applyWatermark adjustDeviceOrientation:(BOOL)adjustDeviceOrientation mirrorFrontCamera:(BOOL)mirrorFrontCamera useHEVCCodecIfPossible:(BOOL)useHEVCCodecIfPossible OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OutputConfiguration * _Nonnull defaultConfiguration;)
++ (OutputConfiguration * _Nonnull)defaultConfiguration SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class UITouch;
 @class UIEvent;
 @class NSCoder;
@@ -525,6 +540,21 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple12InputService")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
 
+
+@class NSNumber;
+
+SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
+@interface OutputConfiguration : NSObject
+@property (nonatomic, readonly) BOOL applyWatermark;
+@property (nonatomic, readonly) BOOL adjustDeviceOrientation;
+@property (nonatomic, readonly) BOOL mirrorFrontCamera;
+@property (nonatomic, readonly) BOOL useHEVCCodecIfPossible;
+- (nonnull instancetype)initWithApplyWatermark:(BOOL)applyWatermark adjustDeviceOrientation:(BOOL)adjustDeviceOrientation mirrorFrontCamera:(BOOL)mirrorFrontCamera useHEVCCodecIfPossible:(BOOL)useHEVCCodecIfPossible OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OutputConfiguration * _Nonnull defaultConfiguration;)
++ (OutputConfiguration * _Nonnull)defaultConfiguration SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 @class UITouch;
 @class UIEvent;

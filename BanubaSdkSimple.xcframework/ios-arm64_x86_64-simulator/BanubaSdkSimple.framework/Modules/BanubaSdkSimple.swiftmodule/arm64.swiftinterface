@@ -199,7 +199,7 @@ public protocol OutputServicing : AnyObject {
   func takeSnapshot(handler: @escaping (UIKit.UIImage) -> Swift.Void)
   func configureWatermark(_ watermarkInfo: BanubaSdkSimple.WatermarkInfo)
   func removeWatermark()
-  func startVideoCapturing(fileURL: Foundation.URL?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  func startVideoCapturing(fileURL: Foundation.URL?, outputConfiguration: BanubaSdkSimple.OutputConfiguration, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   func stopVideoCapturing(cancel: Swift.Bool)
   func startForwardingFrames(handler: @escaping (CoreVideo.CVPixelBuffer) -> Swift.Void)
   func stopForwardingFrames()
@@ -209,8 +209,21 @@ public protocol OutputServicing : AnyObject {
   func videoStopped()
   var isRecording: Swift.Bool { get }
 }
+@objc public class OutputConfiguration : ObjectiveC.NSObject {
+  @objc final public let applyWatermark: Swift.Bool
+  @objc final public let adjustDeviceOrientation: Swift.Bool
+  @objc final public let mirrorFrontCamera: Swift.Bool
+  @objc final public let useHEVCCodecIfPossible: Swift.Bool
+  @objc public init(applyWatermark: Swift.Bool, adjustDeviceOrientation: Swift.Bool, mirrorFrontCamera: Swift.Bool, useHEVCCodecIfPossible: Swift.Bool)
+  @objc public static var defaultConfiguration: BanubaSdkSimple.OutputConfiguration {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class OutputService {
   final public let renderSize: CoreGraphics.CGSize
+  public var input: BanubaSdkSimple.InputServicing
   public var synchronousVideoCapturing: Swift.Bool
   public var isRecording: Swift.Bool {
     get
@@ -224,7 +237,7 @@ extension OutputService : BanubaSdkSimple.OutputServicing {
   public func configureWatermark(_ watermarkInfo: BanubaSdkSimple.WatermarkInfo)
   public func removeWatermark()
   public func takeSnapshot(handler: @escaping (UIKit.UIImage) -> Swift.Void)
-  public func startVideoCapturing(fileURL: Foundation.URL?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  public func startVideoCapturing(fileURL: Foundation.URL?, outputConfiguration: BanubaSdkSimple.OutputConfiguration, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   public func stopVideoCapturing(cancel: Swift.Bool)
   public func videoStarted()
   public func videoStopped()
@@ -250,6 +263,7 @@ public protocol CameraServicing : AnyObject {
   var isFrontCamera: Swift.Bool { get }
   var isPhotoCameraSession: Swift.Bool { get }
   var isCameraCapturing: Swift.Bool { get }
+  var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput? { get }
   var currentCameraSessionType: BanubaSdkSimple.CameraSessionType { get }
   var exposurePointOfInterest: CoreGraphics.CGPoint { get }
   func startCamera()
@@ -309,6 +323,7 @@ public struct CameraPhotoSettings {
     get
     set(value)
   }
+  public var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput?
   weak public var delegate: BanubaSdkSimple.InputServiceDelegate?
   public init(cameraMode: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?)
   @objc deinit
@@ -377,7 +392,9 @@ public class BanubaSimpleCameraModule {
   @objc public var allowProcessing: Swift.Bool
   @objc public var inputDelegate: BanubaSDKServicing.SDKInputServicingDelegate?
   @objc public var inputARDelegate: BanubaSDKServicing.SDKARInputServicingDelegate?
-  public init(videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration)
+  final public let videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration
+  final public let useHEVCCodecIfPossible: Swift.Bool
+  public init(videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration, useHEVCCodecIfPossible: Swift.Bool)
   @objc deinit
 }
 extension BanubaSimpleCameraModule {
@@ -407,10 +424,10 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
   @objc dynamic public func setRenderTarget(view: UIKit.UIView)
   @objc dynamic public func removeRenderTarget()
   @objc dynamic public func setup(postproccessContext: OpenGLES.EAGLContext)
-  @objc dynamic public func postprocessProcessVideoFrame(_ from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, time: CoreMedia.CMTime)
-  @objc dynamic public func postprocessSurfaceCreated(with size: CoreGraphics.CGSize)
-  @objc dynamic public func postprocessSetEffectSize(_ size: CoreGraphics.CGSize)
-  @objc dynamic public func postprocessLoadEffect(path: Swift.String)
+  public func postprocessProcessVideoFrame(_ from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, time: CoreMedia.CMTime)
+  public func postprocessSurfaceCreated(with size: CoreGraphics.CGSize)
+  public func postprocessSetEffectSize(_ size: CoreGraphics.CGSize)
+  public func postprocessLoadEffect(path: Swift.String)
   @objc dynamic public func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc dynamic public func getRendererView() -> UIKit.UIView
 }
