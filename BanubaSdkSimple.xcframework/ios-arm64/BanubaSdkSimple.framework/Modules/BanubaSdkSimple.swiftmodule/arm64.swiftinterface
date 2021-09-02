@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
-// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaSdkSimple
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaSdkSimple
 import Accelerate
 import BanubaSDKServicing
 @_exported import BanubaSdkSimple
@@ -106,7 +106,6 @@ public protocol BanubaSimpleSdkDelegate : AnyObject {
   }
   public var effectPlayer: BanubaSdkSimple.BNBSimpleEffectPlayer?
   public var faceOrientation: Swift.Int?
-  public static var instance: BanubaSdkSimple.BanubaSdkSimpleManager
   public var voiceChanger: BanubaSdkSimple.VoiceChangeable {
     get
     set(value)
@@ -168,6 +167,8 @@ public protocol VoiceChangeable {
   var isConfigured: Swift.Bool { get }
   func process(file url: Foundation.URL, completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)?)
   func process(file url: Foundation.URL) throws
+  var isVoiceChangerConfiguredHandler: (() -> Swift.Bool)? { get set }
+  var processAudioFile: ((Foundation.URL, Foundation.URL, Swift.Float) -> Swift.Void)? { get set }
 }
 public enum VoiceChangerError : Swift.Error {
   case cantCreateAssetExportSession
@@ -208,6 +209,8 @@ public protocol OutputServicing : AnyObject {
   func videoStarted()
   func videoStopped()
   var isRecording: Swift.Bool { get }
+  var onVideoStarted: (() -> Swift.Void)? { get set }
+  var onVideoStopped: (() -> Swift.Void)? { get set }
 }
 @objc public class OutputConfiguration : ObjectiveC.NSObject {
   @objc final public let applyWatermark: Swift.Bool
@@ -224,6 +227,8 @@ public protocol OutputServicing : AnyObject {
 @_hasMissingDesignatedInitializers public class OutputService {
   final public let renderSize: CoreGraphics.CGSize
   public var input: BanubaSdkSimple.InputServicing
+  public var onVideoStarted: (() -> Swift.Void)?
+  public var onVideoStopped: (() -> Swift.Void)?
   public var synchronousVideoCapturing: Swift.Bool
   public var isRecording: Swift.Bool {
     get
