@@ -396,7 +396,6 @@ public class BanubaSimpleCameraModule {
   @objc public var isLoaded: Swift.Bool
   @objc public var allowProcessing: Swift.Bool
   @objc public var inputDelegate: BanubaSDKServicing.SDKInputServicingDelegate?
-  @objc public var inputARDelegate: BanubaSDKServicing.SDKARInputServicingDelegate?
   final public let videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration
   final public let useHEVCCodecIfPossible: Swift.Bool
   public init(videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration, useHEVCCodecIfPossible: Swift.Bool)
