@@ -11,36 +11,28 @@ import MediaPlayer
 import Swift
 import UIKit
 import VideoEditor
-public protocol RenderEffect : AnyObject {
-  var name: Swift.String { get }
-  var isLoaded: Swift.Bool { get }
-  var isActive: Swift.Bool { get set }
-  func load(size: CoreGraphics.CGSize)
-  func unload()
-  func apply(params: Swift.Dictionary<Swift.String, Swift.String>)
-}
-public class ColorEffect : BanubaSdkSimple.RenderEffect {
-  public var name: Swift.String
-  public var isLoaded: Swift.Bool {
-    get
+public class ColorEffect : BanubaSDKServicing.RenderEffect {
+  @objc public var name: Swift.String
+  @objc public var isLoaded: Swift.Bool {
+    @objc get
   }
-  public var isActive: Swift.Bool
+  @objc public var isActive: Swift.Bool
   public init(file url: Foundation.URL)
-  public func load(size: CoreGraphics.CGSize)
-  public func unload()
-  public func apply(params: Swift.Dictionary<Swift.String, Swift.String>)
+  @objc public func load(size: CoreGraphics.CGSize)
+  @objc public func unload()
+  @objc public func apply(params: Swift.Dictionary<Swift.String, Swift.String>)
   @objc deinit
 }
-public class ShaderEffect : BanubaSdkSimple.RenderEffect {
-  public var name: Swift.String
-  public var isLoaded: Swift.Bool {
-    get
+public class ShaderEffect : BanubaSDKServicing.RenderEffect {
+  @objc public var name: Swift.String
+  @objc public var isLoaded: Swift.Bool {
+    @objc get
   }
-  public var isActive: Swift.Bool
+  @objc public var isActive: Swift.Bool
   public init(name: Swift.String)
-  public func load(size: CoreGraphics.CGSize)
-  public func unload()
-  public func apply(params: Swift.Dictionary<Swift.String, Swift.String>)
+  @objc public func load(size: CoreGraphics.CGSize)
+  @objc public func unload()
+  @objc public func apply(params: Swift.Dictionary<Swift.String, Swift.String>)
   @objc deinit
 }
 public enum EffectPlayerRenderMode {
@@ -250,14 +242,14 @@ extension OutputService : BanubaSdkSimple.OutputServicing {
 }
 public protocol EffectsServicing {
   var availableShaderEffects: [Swift.String] { get }
-  func apply(effect: BanubaSdkSimple.RenderEffect)
-  func remove(effect: BanubaSdkSimple.RenderEffect)
+  func apply(effect: BanubaSDKServicing.RenderEffect)
+  func remove(effect: BanubaSDKServicing.RenderEffect)
   func removeAll()
 }
 @_hasMissingDesignatedInitializers public class EffectsService : BanubaSdkSimple.EffectsServicing {
   final public let availableShaderEffects: [Swift.String]
-  public func apply(effect: BanubaSdkSimple.RenderEffect)
-  public func remove(effect: BanubaSdkSimple.RenderEffect)
+  public func apply(effect: BanubaSDKServicing.RenderEffect)
+  public func remove(effect: BanubaSDKServicing.RenderEffect)
   public func removeAll()
   @objc deinit
 }
@@ -479,8 +471,8 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
   @objc dynamic public func loadMask(name: Swift.String)
   @objc dynamic public func unloadMask()
   @objc dynamic public func removeAllFilters()
-  @objc dynamic public func applyFilter(_ filter: BanubaSDKServicing.EffectModel)
-  @objc dynamic public func removeFilter(_ filter: BanubaSDKServicing.EffectModel)
+  @objc dynamic public func applyFilter(_ filter: BanubaSDKServicing.RenderEffect)
+  @objc dynamic public func removeFilter(_ filter: BanubaSDKServicing.RenderEffect)
   @objc dynamic public func setEffectSubtypeModificationsEventListener(_ listener: BanubaSDKServicing.EffectSubtypeModificationsEventListener)
 }
 extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeautyEffectManaging {
