@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaSdkSimple
 import Accelerate
 import BanubaSDKServicing
@@ -11,6 +11,7 @@ import MediaPlayer
 import Swift
 import UIKit
 import VideoEditor
+import _Concurrency
 public class ColorEffect : BanubaSDKServicing.RenderEffect {
   @objc public var name: Swift.String
   @objc public var isLoaded: Swift.Bool {
@@ -85,7 +86,7 @@ public struct EffectPlayerConfinguration {
 public struct WatermarkInfo {
   public init(image: UIKit.UIImage, normalizedPosition: CoreGraphics.CGPoint, normalizedWidth: CoreGraphics.CGFloat?, normalizedHeight: CoreGraphics.CGFloat?)
 }
-extension BNBSimpleTouch {
+extension BanubaSdkSimple.BNBSimpleTouch {
   public convenience init(_ touch: UIKit.UITouch)
 }
 public protocol BanubaSimpleSdkDelegate : AnyObject {
@@ -128,14 +129,14 @@ public protocol BanubaSimpleSdkDelegate : AnyObject {
   @objc deinit
   public func setup(configuration: BanubaSdkSimple.EffectPlayerConfinguration)
 }
-extension BanubaSdkSimpleManager : BanubaSdkSimple.InputServiceDelegate {
+extension BanubaSdkSimple.BanubaSdkSimpleManager : BanubaSdkSimple.InputServiceDelegate {
   public func push(buffer: CoreMedia.CMSampleBuffer)
   public func push(buffer: CoreVideo.CVPixelBuffer)
 }
-extension BanubaSdkSimpleManager {
+extension BanubaSdkSimple.BanubaSdkSimpleManager {
   public func setFrameDataRecord(_ isRecord: Swift.Bool)
 }
-extension BanubaSdkSimpleManager {
+extension BanubaSdkSimple.BanubaSdkSimpleManager {
   public func startEffectPlayer()
   public func stopEffectPlayer()
   public func destroyEffectPlayer()
@@ -148,8 +149,8 @@ extension BanubaSdkSimpleManager {
   public func stopVideoProcessing(resetEffect: Swift.Bool = false)
   public func processVideoFrame(from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, timeNs: Swift.Int64, iterations: Swift.Int? = nil, cameraOrientation: BanubaSdkSimple.BNBSimpleCameraOrientation = .deg0, requireMirroring: Swift.Bool = false, faceOrientation: Swift.Int = 0, processImageParams: BanubaSdkSimple.BNBSimpleProcessImageParams = BNBSimpleProcessImageParams(acneProcessing: false, acneUserAreas: nil))
 }
-extension UITouch {
-  public var id: Swift.Int64 {
+extension UIKit.UITouch {
+  @_Concurrency.MainActor(unsafe) public var id: Swift.Int64 {
     get
   }
 }
@@ -160,7 +161,7 @@ public protocol VoiceChangeable {
   func process(file url: Foundation.URL, completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)?)
   func process(file url: Foundation.URL) throws
   var isVoiceChangerConfiguredHandler: (() -> Swift.Bool)? { get set }
-  var processAudioFile: ((Foundation.URL, Foundation.URL, Swift.Float) -> Swift.Void)? { get set }
+  var processAudioFile: ((_ atURL: Foundation.URL, _ toURL: Foundation.URL, _ volume: Swift.Float) -> Swift.Void)? { get set }
 }
 public enum VoiceChangerError : Swift.Error {
   case cantCreateAssetExportSession
@@ -171,21 +172,21 @@ public enum VoiceChangerError : Swift.Error {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers public class SimpleEffectPlayerView : BanubaSdkSimple.SimpleEffectPlayerTouchView {
-  @objc override dynamic public class var layerClass: Swift.AnyClass {
-    @objc get
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SimpleEffectPlayerView : BanubaSdkSimple.SimpleEffectPlayerTouchView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
-  @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class SimpleEffectPlayerTouchView : UIKit.UIView {
-  @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @objc override dynamic public func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @objc override dynamic public func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SimpleEffectPlayerTouchView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public protocol OutputServicing : AnyObject {
@@ -213,7 +214,6 @@ public protocol OutputServicing : AnyObject {
   @objc public static var defaultConfiguration: BanubaSdkSimple.OutputConfiguration {
     @objc get
   }
-  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class OutputService {
@@ -227,7 +227,7 @@ public protocol OutputServicing : AnyObject {
   }
   @objc deinit
 }
-extension OutputService : BanubaSdkSimple.OutputServicing {
+extension BanubaSdkSimple.OutputService : BanubaSdkSimple.OutputServicing {
   public func startForwardingFrames(handler: @escaping (CoreVideo.CVPixelBuffer) -> Swift.Void)
   public func stopForwardingFrames()
   public func reset()
@@ -324,15 +324,14 @@ public struct CameraPhotoSettings {
   weak public var delegate: BanubaSdkSimple.InputServiceDelegate?
   public init(cameraMode: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?)
   @objc deinit
-  @objc override dynamic public init()
 }
-extension InputService : BanubaSdkSimple.AVCaptureDataDelegate {
+extension BanubaSdkSimple.InputService : BanubaSdkSimple.AVCaptureDataDelegate {
   @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didDrop sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingRawPhoto rawSampleBuffer: CoreMedia.CMSampleBuffer?, previewPhoto previewPhotoSampleBuffer: CoreMedia.CMSampleBuffer?, resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings, bracketSettings: AVFoundation.AVCaptureBracketedStillImageSettings?, error: Swift.Error?)
   @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photoSampleBuffer: CoreMedia.CMSampleBuffer?, previewPhoto previewPhotoSampleBuffer: CoreMedia.CMSampleBuffer?, resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings, bracketSettings: AVFoundation.AVCaptureBracketedStillImageSettings?, error: Swift.Error?)
 }
-extension InputService : BanubaSdkSimple.InputServicing {
+extension BanubaSdkSimple.InputService : BanubaSdkSimple.InputServicing {
   public func configureFocusSettings(_ point: CoreGraphics.CGPoint?, useContinuousDetection: Swift.Bool)
   public func configureExposureSettings(_ point: CoreGraphics.CGPoint?, useContinuousDetection: Swift.Bool)
   public var exposurePointOfInterest: CoreGraphics.CGPoint {
@@ -372,10 +371,10 @@ extension InputService : BanubaSdkSimple.InputServicing {
   public func startAudioCapturing()
   public func stopAudioCapturing()
 }
-extension InputService {
+extension BanubaSdkSimple.InputService {
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
-extension CameraSessionType {
+extension BanubaSdkSimple.CameraSessionType {
   public var isFrontCamera: Swift.Bool {
     get
   }
@@ -393,7 +392,7 @@ public class BanubaSimpleCameraModule {
   public init(videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration, useHEVCCodecIfPossible: Swift.Bool)
   @objc deinit
 }
-extension BanubaSimpleCameraModule {
+extension BanubaSdkSimple.BanubaSimpleCameraModule {
   public func createPIPPlayer(withVideoURL url: Foundation.URL, completion: (() -> Swift.Void)?)
   @objc dynamic public func startPIPPlayer()
   @objc dynamic public func stopPIPPlayer()
@@ -403,7 +402,7 @@ extension BanubaSimpleCameraModule {
   public func setPIPPlayer(centerPoint point: CoreGraphics.CGPoint)
   @objc dynamic public func seekPIPPlayer(to time: Foundation.TimeInterval)
 }
-extension BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
+extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
   public var pipRenderSize: CoreGraphics.CGSize {
     get
   }
@@ -427,7 +426,7 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
   @objc dynamic public func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc dynamic public func getRendererView() -> UIKit.UIView
 }
-extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKInputServicing {
+extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKInputServicing {
   @objc dynamic public func setCameraSessionType(_ type: BanubaSDKServicing.CameraModuleSessionType)
   @objc dynamic public var zoomFactor: Swift.Float {
     @objc get
@@ -448,7 +447,7 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKInputServicing {
   @objc dynamic public func setTorch(mode: AVFoundation.AVCaptureDevice.TorchMode) -> AVFoundation.AVCaptureDevice.TorchMode
   @objc dynamic public func toggleTorch() -> AVFoundation.AVCaptureDevice.TorchMode
 }
-extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutputServicing {
+extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutputServicing {
   @objc dynamic public var isRecording: Swift.Bool {
     @objc get
   }
@@ -459,7 +458,7 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutputServicing {
   @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, didStart: (() -> Swift.Void)?, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue], boundaryHandler: @escaping (CoreMedia.CMTime) -> Swift.Void, totalDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc dynamic public func stopVideoCapturing(cancel: Swift.Bool)
 }
-extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
+extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
   @objc dynamic public func effectDidBeginApplying()
   @objc dynamic public func effectDidEndApplying()
   @objc dynamic public func effectDidResetApplying()
@@ -475,17 +474,17 @@ extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
   @objc dynamic public func removeFilter(_ filter: BanubaSDKServicing.RenderEffect)
   @objc dynamic public func setEffectSubtypeModificationsEventListener(_ listener: BanubaSDKServicing.EffectSubtypeModificationsEventListener)
 }
-extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeautyEffectManaging {
+extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeautyEffectManaging {
   @objc dynamic public var isBeautificationEnabled: Swift.Bool {
     @objc get
     @objc set(newValue)
   }
   @objc dynamic public func toggleBeautification() -> Swift.Bool
 }
-extension BanubaSimpleCameraModule : BanubaSdkSimple.BanubaSimpleSdkDelegate {
+extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSdkSimple.BanubaSimpleSdkDelegate {
   public func willOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
-extension BanubaSimpleCameraModule : BanubaSDKServicing.SDKPIPServicing {
+extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKPIPServicing {
   @objc dynamic public var isPIPSessionAlreadySetup: Swift.Bool {
     @objc get
     @objc set(newValue)
@@ -524,10 +523,10 @@ public protocol SnapshotProvider {
 public protocol PixelBufferProvider {
   func makeVideoPixelBuffer() -> CoreVideo.CVPixelBuffer
 }
-extension BNBSimpleRenderTarget : BanubaSdkSimple.SnapshotProvider {
+extension BanubaSdkSimple.BNBSimpleRenderTarget : BanubaSdkSimple.SnapshotProvider {
   public func makeSnapshotWithWatermark(_ watermarkPixelBuffer: CoreVideo.CVPixelBuffer) -> UIKit.UIImage
   public func makeSnapshot() -> UIKit.UIImage
 }
-extension BNBSimpleRenderTarget : BanubaSdkSimple.PixelBufferProvider {
+extension BanubaSdkSimple.BNBSimpleRenderTarget : BanubaSdkSimple.PixelBufferProvider {
   public func makeVideoPixelBuffer() -> CoreVideo.CVPixelBuffer
 }
