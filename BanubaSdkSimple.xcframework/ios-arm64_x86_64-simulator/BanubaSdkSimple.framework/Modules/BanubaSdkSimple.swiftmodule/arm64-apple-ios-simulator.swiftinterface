@@ -99,6 +99,7 @@ public protocol BanubaSimpleSdkDelegate : AnyObject {
   }
   public var effectPlayer: BanubaSdkSimple.BNBSimpleEffectPlayer?
   public var faceOrientation: Swift.Int?
+  public var isCameraEnabled: Swift.Bool
   public var voiceChanger: BanubaSdkSimple.VoiceChangeable {
     get
     set(value)
@@ -322,7 +323,7 @@ public struct CameraPhotoSettings {
   }
   public var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput?
   weak public var delegate: BanubaSdkSimple.InputServiceDelegate?
-  public init(cameraMode: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?)
+  public init(cameraMode: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?, isCameraEnabled: Swift.Bool)
   @objc deinit
 }
 extension BanubaSdkSimple.InputService : BanubaSdkSimple.AVCaptureDataDelegate {
@@ -385,6 +386,10 @@ extension BanubaSdkSimple.CameraSessionType {
 public class BanubaSimpleCameraModule {
   public var didStartCaptureFrameHandler: (() -> Swift.Void)?
   @objc public var isLoaded: Swift.Bool
+  @objc public var isCameraEnabled: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
   @objc public var allowProcessing: Swift.Bool
   @objc public var inputDelegate: BanubaSDKServicing.SDKInputServicingDelegate?
   final public let videoResolutionConfiguration: BanubaUtilities.VideoResolutionConfiguration
