@@ -12,10 +12,7 @@ FOUNDATION_EXPORT const unsigned char BNBSimpleEffectPlayerVersionString[];
 FOUNDATION_EXPORT const double BNBSimpleEffectPlayerVersionNumber;
 
 
-#import "BNBSimpleOffscreenEffectPlayer.h"
 #import "BNBSimpleFullImageData.h"
-
-#import "BNBSimplePixelFormat.h"
 #import "BNBSimplePixelRect.h"
 #import "BNBSimpleLogRecordCallback.h"
 #import "BNBSimpleFrameDurationListener.h"

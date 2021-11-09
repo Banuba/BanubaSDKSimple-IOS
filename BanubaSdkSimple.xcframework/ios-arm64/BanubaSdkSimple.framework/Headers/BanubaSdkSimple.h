@@ -4,7 +4,6 @@
 //  Copyright © 2018 Banuba. All rights reserved.
 //
 
-#import "BNBSimpleRenderTarget.h"
 #import "SBSimpleVideoWriter.h"
 #import <BanubaSdkSimple/BanubaEffectPlayer.h>
 
