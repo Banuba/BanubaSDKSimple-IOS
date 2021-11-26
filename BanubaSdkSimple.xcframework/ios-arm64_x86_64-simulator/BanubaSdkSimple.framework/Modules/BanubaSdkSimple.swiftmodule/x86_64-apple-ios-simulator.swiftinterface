@@ -13,7 +13,6 @@ import MediaPlayer
 import OpenGLES
 import Swift
 import UIKit
-import VideoEditor
 import _Concurrency
 public class ColorEffect : BanubaSDKServicing.RenderEffect {
   @objc public var name: Swift.String
@@ -499,6 +498,9 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule {
   @objc dynamic public func applyPIPSwitchSettingIfNeeded(_ setting: BanubaSDKServicing.PIPSwitchLayoutSetting, restoreSession: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
+  @objc dynamic public var renderQueue: Dispatch.DispatchQueue {
+    @objc get
+  }
   public var pipRenderSize: CoreGraphics.CGSize {
     get
   }
@@ -522,6 +524,8 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.CameraMo
   public func postprocessLoadEffect(path: Swift.String)
   @objc dynamic public func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc dynamic public func getRendererView() -> UIKit.UIView
+  @objc dynamic public func startRenderLoop()
+  @objc dynamic public func stopRenderLoop()
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKInputServicing {
   @objc dynamic public func setCameraSessionType(_ type: BanubaSDKServicing.CameraModuleSessionType)
