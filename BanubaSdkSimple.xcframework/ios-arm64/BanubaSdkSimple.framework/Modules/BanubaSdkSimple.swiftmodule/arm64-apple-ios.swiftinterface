@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaSdkSimple
 import AVKit
 import Accelerate
@@ -14,30 +14,6 @@ import OpenGLES
 import Swift
 import UIKit
 import _Concurrency
-public class ColorEffect : BanubaSDKServicing.RenderEffect {
-  @objc public var name: Swift.String
-  @objc public var isLoaded: Swift.Bool {
-    @objc get
-  }
-  @objc public var isActive: Swift.Bool
-  public init(file url: Foundation.URL)
-  @objc public func load(size: CoreGraphics.CGSize)
-  @objc public func unload()
-  @objc public func apply(params: Swift.Dictionary<Swift.String, Swift.String>)
-  @objc deinit
-}
-public class ShaderEffect : BanubaSDKServicing.RenderEffect {
-  @objc public var name: Swift.String
-  @objc public var isLoaded: Swift.Bool {
-    @objc get
-  }
-  @objc public var isActive: Swift.Bool
-  public init(name: Swift.String)
-  @objc public func load(size: CoreGraphics.CGSize)
-  @objc public func unload()
-  @objc public func apply(params: Swift.Dictionary<Swift.String, Swift.String>)
-  @objc deinit
-}
 public enum EffectPlayerRenderMode {
   case photo
   case video
@@ -198,7 +174,6 @@ extension BanubaSdkSimple.BanubaSdkSimpleManager {
   public func setPIPPlayerVolume(_ volume: Swift.Float)
   public func seekPIPPlayer(to time: Foundation.TimeInterval)
   public func setPIPPlayer(renderBehaviour: BanubaSdkSimple.RenderBehavior)
-  public func setPIPPlayer(scale: CoreGraphics.CGFloat)
   public func setPIPPlayer(shapeType type: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType)
   public func setRenderTarget(shapeType type: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType)
   public func setPIPPlayer(centerPoint point: CoreGraphics.CGPoint)
@@ -214,12 +189,13 @@ public protocol PIPShapeable {
   func set(shapeType: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType)
 }
 @_hasMissingDesignatedInitializers public class PIPShapeBuilder {
-  public enum PIPShapeType {
+  public enum PIPShapeType : Swift.Equatable {
     case none
     case oval
     case circle
     case roundRect(radius: CoreGraphics.CGFloat)
     case roundSquare(radius: CoreGraphics.CGFloat)
+    public static func == (a: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType, b: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType) -> Swift.Bool
   }
   public static func buildShape(size: CoreGraphics.CGSize, path: CoreGraphics.CGPath) -> BanubaSdkSimple.PIPShape
   @objc deinit
@@ -269,7 +245,7 @@ public enum VoiceChangerError : Swift.Error {
   public func seek(to time: Foundation.TimeInterval)
   public func drawZoomToFit(in viewportSize: CoreGraphics.CGSize)
   public func draw()
-  public func draw(fullRenderSize: CoreGraphics.CGSize, absoluteCenter: CoreGraphics.CGPoint, scale: CoreGraphics.CGFloat)
+  public func draw(fullRenderSize: CoreGraphics.CGSize, relativeLeftTopPoint: CoreGraphics.CGPoint, scale: CoreGraphics.CGFloat)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SimpleEffectPlayerView : BanubaSdkSimple.SimpleEffectPlayerTouchView {
@@ -491,9 +467,8 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule {
   @objc dynamic public func stopPIPPlayer()
   @objc dynamic public func setPIPPlayerVolume(_ volume: Swift.Float)
   @objc dynamic public func setupPIPSession(withVideoURL url: Foundation.URL)
-  @objc dynamic public func startPIPSessionIfNeeded(completion: (() -> Swift.Void)?)
+  @objc dynamic public func startPIPSessionIfNeeded(withSetting setting: BanubaSDKServicing.PIPPlayerLayoutSetting, completion: (() -> Swift.Void)?)
   @objc dynamic public func applyPIPCameraSettingIfNeeded(_ setting: BanubaSDKServicing.PIPCameraLayoutSetting, restoreSession: Swift.Bool)
-  public func applyPIPPlayerCenteredPoint(scale: CoreGraphics.CGFloat)
   @objc dynamic public func applyPIPPlayerSettingIfNeeded(_ setting: BanubaSDKServicing.PIPPlayerLayoutSetting, restoreSession: Swift.Bool)
   @objc dynamic public func applyPIPSwitchSettingIfNeeded(_ setting: BanubaSDKServicing.PIPSwitchLayoutSetting, restoreSession: Swift.Bool)
 }
@@ -517,7 +492,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.CameraMo
   @objc dynamic public func stop(completion: (() -> Swift.Void)?)
   @objc dynamic public func setRenderTarget(view: UIKit.UIView)
   @objc dynamic public func removeRenderTarget()
-  @objc dynamic public func setup(postproccessContext: OpenGLES.EAGLContext)
+  @objc dynamic public func setup()
   public func postprocessProcessVideoFrame(_ from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, time: CoreMedia.CMTime)
   public func postprocessSurfaceCreated(with size: CoreGraphics.CGSize)
   public func postprocessSetEffectSize(_ size: CoreGraphics.CGSize)
@@ -604,8 +579,7 @@ public protocol PixelBufferProvider {
 @_hasMissingDesignatedInitializers @objc public class RenderTarget : BanubaSdkSimple.PIPShapeDrawer, BanubaSdkSimple.SnapshotProvider, BanubaSdkSimple.PixelBufferProvider {
   public var renderBehaviour: BanubaSdkSimple.RenderBehavior
   public var pipPlayer: BanubaSdkSimple.PIPPlayer?
-  public var pipPlayerCenterPoint: CoreGraphics.CGPoint
-  public var pipPlayerScale: CoreGraphics.CGFloat
+  public var pipPlayerRelativeLeftTopPoint: CoreGraphics.CGPoint
   public var splitRenderOffset: CoreGraphics.CGPoint
   public var playerRect: CoreGraphics.CGRect {
     get
@@ -620,5 +594,5 @@ public protocol PixelBufferProvider {
   @objc public func makeSnapshotWithSettings(_ settings: BanubaSDKServicing.OutputSettings, watermarkPixelBuffer: CoreVideo.CVPixelBuffer?) -> UIKit.UIImage?
   @objc public func activate()
   @objc public func clearRenderColor(r: OpenGLES.GLclampf, g: OpenGLES.GLclampf, b: OpenGLES.GLclampf, a: OpenGLES.GLclampf)
-  @objc public func presentRenderbuffer(_ willPresentHandler: (() -> Swift.Void)?)
+  @objc public func presentRenderbuffer(_ willPresentHandler: ((CoreVideo.CVPixelBuffer?) -> Swift.Void)?)
 }
