@@ -197,7 +197,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import ObjectiveC;
 @import OpenGLES;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -255,6 +254,15 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
 @property (nonatomic, readonly) BOOL adjustDeviceOrientation;
 @property (nonatomic, readonly) BOOL mirrorFrontCamera;
 @property (nonatomic, readonly) BOOL useHEVCCodecIfPossible;
+/// OutputConfiguration constructor
+/// \param applyWatermark apply watermark
+///
+/// \param adjustDeviceOrientation adjust device orientation
+///
+/// \param mirrorFrontCamera mirror front camera
+///
+/// \param useHEVCCodecIfPossible use HEVC codec if possible
+///
 - (nonnull instancetype)initWithApplyWatermark:(BOOL)applyWatermark adjustDeviceOrientation:(BOOL)adjustDeviceOrientation mirrorFrontCamera:(BOOL)mirrorFrontCamera useHEVCCodecIfPossible:(BOOL)useHEVCCodecIfPossible OBJC_DESIGNATED_INITIALIZER;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OutputConfiguration * _Nonnull defaultConfiguration;)
 + (OutputConfiguration * _Nonnull)defaultConfiguration SWIFT_WARN_UNUSED_RESULT;
@@ -266,6 +274,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OutputConfig
 @class UIImage;
 @class NSURL;
 @class NSValue;
+@class ExternalAudioConfiguration;
 
 SWIFT_PROTOCOL("_TtP15BanubaSdkSimple15OutputServicing_")
 @protocol OutputServicing
@@ -276,7 +285,7 @@ SWIFT_PROTOCOL("_TtP15BanubaSdkSimple15OutputServicing_")
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL configuration:(OutputConfiguration * _Nonnull)configuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL progress:(void (^ _Nullable)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nullable)boundaryTimes boundaryHandler:(void (^ _Nullable)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
-- (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL progress:(void (^ _Nullable)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nullable)boundaryTimes boundaryHandler:(void (^ _Nullable)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration configuration:(OutputConfiguration * _Nonnull)configuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL externalAudioConfiguration:(ExternalAudioConfiguration * _Nullable)externalAudioConfiguration progress:(void (^ _Nullable)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nullable)boundaryTimes boundaryHandler:(void (^ _Nullable)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration configuration:(OutputConfiguration * _Nonnull)configuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)stopVideoCapturingWithCancel:(BOOL)cancel;
 - (void)startForwardingFramesWithHandler:(void (^ _Nonnull)(CVPixelBufferRef _Nonnull))handler;
 - (void)stopForwardingFrames;
@@ -322,29 +331,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple12RenderTarget")
 - (void)activate;
 - (void)clearRenderColorWithR:(GLclampf)r g:(GLclampf)g b:(GLclampf)b a:(GLclampf)a;
 - (void)presentRenderbuffer:(void (^ _Nullable)(CVPixelBufferRef _Nullable))willPresentHandler;
-@end
-
-@class UITouch;
-@class UIEvent;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC15BanubaSdkSimple27SimpleEffectPlayerTouchView")
-@interface SimpleEffectPlayerTouchView : UIView
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesCancelled:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC15BanubaSdkSimple22SimpleEffectPlayerView")
-@interface SimpleEffectPlayerView : SimpleEffectPlayerTouchView
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
-+ (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -583,7 +569,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import ObjectiveC;
 @import OpenGLES;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -641,6 +626,15 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
 @property (nonatomic, readonly) BOOL adjustDeviceOrientation;
 @property (nonatomic, readonly) BOOL mirrorFrontCamera;
 @property (nonatomic, readonly) BOOL useHEVCCodecIfPossible;
+/// OutputConfiguration constructor
+/// \param applyWatermark apply watermark
+///
+/// \param adjustDeviceOrientation adjust device orientation
+///
+/// \param mirrorFrontCamera mirror front camera
+///
+/// \param useHEVCCodecIfPossible use HEVC codec if possible
+///
 - (nonnull instancetype)initWithApplyWatermark:(BOOL)applyWatermark adjustDeviceOrientation:(BOOL)adjustDeviceOrientation mirrorFrontCamera:(BOOL)mirrorFrontCamera useHEVCCodecIfPossible:(BOOL)useHEVCCodecIfPossible OBJC_DESIGNATED_INITIALIZER;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OutputConfiguration * _Nonnull defaultConfiguration;)
 + (OutputConfiguration * _Nonnull)defaultConfiguration SWIFT_WARN_UNUSED_RESULT;
@@ -652,6 +646,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OutputConfig
 @class UIImage;
 @class NSURL;
 @class NSValue;
+@class ExternalAudioConfiguration;
 
 SWIFT_PROTOCOL("_TtP15BanubaSdkSimple15OutputServicing_")
 @protocol OutputServicing
@@ -662,7 +657,7 @@ SWIFT_PROTOCOL("_TtP15BanubaSdkSimple15OutputServicing_")
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL configuration:(OutputConfiguration * _Nonnull)configuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL progress:(void (^ _Nullable)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nullable)boundaryTimes boundaryHandler:(void (^ _Nullable)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
-- (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL progress:(void (^ _Nullable)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nullable)boundaryTimes boundaryHandler:(void (^ _Nullable)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration configuration:(OutputConfiguration * _Nonnull)configuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL externalAudioConfiguration:(ExternalAudioConfiguration * _Nullable)externalAudioConfiguration progress:(void (^ _Nullable)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nullable)boundaryTimes boundaryHandler:(void (^ _Nullable)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration configuration:(OutputConfiguration * _Nonnull)configuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)stopVideoCapturingWithCancel:(BOOL)cancel;
 - (void)startForwardingFramesWithHandler:(void (^ _Nonnull)(CVPixelBufferRef _Nonnull))handler;
 - (void)stopForwardingFrames;
@@ -708,29 +703,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple12RenderTarget")
 - (void)activate;
 - (void)clearRenderColorWithR:(GLclampf)r g:(GLclampf)g b:(GLclampf)b a:(GLclampf)a;
 - (void)presentRenderbuffer:(void (^ _Nullable)(CVPixelBufferRef _Nullable))willPresentHandler;
-@end
-
-@class UITouch;
-@class UIEvent;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC15BanubaSdkSimple27SimpleEffectPlayerTouchView")
-@interface SimpleEffectPlayerTouchView : UIView
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesCancelled:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC15BanubaSdkSimple22SimpleEffectPlayerView")
-@interface SimpleEffectPlayerView : SimpleEffectPlayerTouchView
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
-+ (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
