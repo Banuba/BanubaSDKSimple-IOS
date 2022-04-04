@@ -182,15 +182,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PswFFt5vbahCjWLRXCK2Xe+FRDs=
+		AvfOXEzmpVmGrJwTPNuBKCQnevc=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		YBn135LLWRYHENR8AgDun8mchg0=
+		5UWL5AWbH8C5pLt2XBmbqB+ZBIA=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		YBn135LLWRYHENR8AgDun8mchg0=
+		5UWL5AWbH8C5pLt2XBmbqB+ZBIA=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OTuHKnQwTDhNpQjFndNqfoL8WqM=
+		h+kR/pZrgJr1Q3qwJyVClIjRuBw=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		OTuHKnQwTDhNpQjFndNqfoL8WqM=
+		h+kR/pZrgJr1Q3qwJyVClIjRuBw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -535,14 +535,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPJTFjGjCduIwJU5BIQwIWBP200ywsa7mQPN6sv914k=
+			Ypiayz9vdo+noi8rU6VKjfbsckQVBJW9SKrkB9k66CE=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPJTFjGjCduIwJU5BIQwIWBP200ywsa7mQPN6sv914k=
+			Ypiayz9vdo+noi8rU6VKjfbsckQVBJW9SKrkB9k66CE=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -563,7 +563,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLrYlcmpTIHPmz5G5oE/63D8RV2qGgESAx7uksSRnLs=
+			ZJxZSdkWLXPFHrJQxOHLdg6sn+yvZ1Hi0gALedAb4JM=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64.swiftdoc</key>
@@ -584,7 +584,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLrYlcmpTIHPmz5G5oE/63D8RV2qGgESAx7uksSRnLs=
+			ZJxZSdkWLXPFHrJQxOHLdg6sn+yvZ1Hi0gALedAb4JM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
