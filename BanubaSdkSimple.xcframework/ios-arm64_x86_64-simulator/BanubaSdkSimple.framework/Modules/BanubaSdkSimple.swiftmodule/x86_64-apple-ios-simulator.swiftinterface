@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaSdkSimple
 import AVKit
 import Accelerate
@@ -24,8 +24,8 @@ public enum EffectPlayerRenderMode {
   }
 }
 public struct EffectPlayerRenderSize {
-  public static var hd720x1280: CoreGraphics.CGSize
-  public static var hd1080x1920: CoreGraphics.CGSize
+  public static let hd720x1280: CoreGraphics.CGSize
+  public static let hd1080x1920: CoreGraphics.CGSize
 }
 public enum EffectPlayerVideoSize {
   case qhd2560x1440
@@ -89,7 +89,7 @@ public struct EffectPlayerConfinguration {
   @objc deinit
 }
 extension BanubaSdkSimple.BNBSimpleTouch {
-  public convenience init(_ touch: UIKit.UITouch)
+  convenience public init(_ touch: UIKit.UITouch)
 }
 public enum RenderBehavior {
   case fullScreen
@@ -274,7 +274,7 @@ public struct CameraPhotoSettings {
   public var cameraDevice: AVFoundation.AVCaptureDevice?
   public var cameraSessionQueue: Dispatch.DispatchQueue {
     get
-    set(value)
+    set
   }
   public var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput?
   weak public var delegate: BanubaSdkSimple.InputServiceDelegate?
@@ -349,7 +349,7 @@ public class BanubaSimpleCameraModule {
   @objc public var isLoaded: Swift.Bool
   @objc public var isCameraEnabled: Swift.Bool {
     @objc get
-    @objc set(value)
+    @objc set
   }
   @objc public var allowProcessing: Swift.Bool
   @objc public var inputDelegate: BanubaSDKServicing.SDKInputServicingDelegate?
@@ -381,7 +381,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.CameraMo
   }
   @objc dynamic public var autoStart: Swift.Bool {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc dynamic public var playerViewSize: CoreGraphics.CGSize {
     @objc get
@@ -453,7 +453,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffec
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeautyEffectManaging {
   @objc dynamic public var isBeautificationEnabled: Swift.Bool {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc dynamic public func toggleBeautification() -> Swift.Bool
 }
@@ -496,3 +496,21 @@ public protocol PixelBufferProvider {
   @objc public func clearRenderColor(r: OpenGLES.GLclampf, g: OpenGLES.GLclampf, b: OpenGLES.GLclampf, a: OpenGLES.GLclampf)
   @objc public func presentRenderbuffer(_ willPresentHandler: ((CoreVideo.CVPixelBuffer?) -> Swift.Void)?)
 }
+extension BanubaSdkSimple.EffectPlayerRenderMode : Swift.Equatable {}
+extension BanubaSdkSimple.EffectPlayerRenderMode : Swift.Hashable {}
+extension BanubaSdkSimple.EffectPlayerVideoSize : Swift.Equatable {}
+extension BanubaSdkSimple.EffectPlayerVideoSize : Swift.Hashable {}
+extension BanubaSdkSimple.WatermarkCornerPosition : Swift.Equatable {}
+extension BanubaSdkSimple.WatermarkCornerPosition : Swift.Hashable {}
+extension BanubaSdkSimple.WatermarkCornerPosition : Swift.RawRepresentable {}
+extension BanubaSdkSimple.RenderBehavior : Swift.Equatable {}
+extension BanubaSdkSimple.RenderBehavior : Swift.Hashable {}
+extension BanubaSdkSimple.VoiceChangerError : Swift.Equatable {}
+extension BanubaSdkSimple.VoiceChangerError : Swift.Hashable {}
+extension BanubaSdkSimple.CameraSessionType : Swift.Equatable {}
+extension BanubaSdkSimple.CameraSessionType : Swift.Hashable {}
+extension BanubaSdkSimple.InputService.InputServiceError : Swift.Equatable {}
+extension BanubaSdkSimple.InputService.InputServiceError : Swift.Hashable {}
+extension BanubaSdkSimple.RenderContentMode : Swift.Equatable {}
+extension BanubaSdkSimple.RenderContentMode : Swift.Hashable {}
+extension BanubaSdkSimple.RenderContentMode : Swift.RawRepresentable {}
