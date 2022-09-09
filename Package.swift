@@ -12,6 +12,6 @@ let package = Package(
   ],
   targets: [
     .binaryTarget(
-      name: "BanubaSDKSimple",
-      path: "BanubaSDKSimple.xcframework")
+      name: "BanubaSdkSimple",
+      path: "BanubaSdkSimple.xcframework")
   ])
