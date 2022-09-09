@@ -7,8 +7,8 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "BanubaSDKSimple",
-      targets: ["BanubaSDKSimple"])
+      name: "BanubaSdkSimple",
+      targets: ["BanubaSdkSimple"])
   ],
   targets: [
     .binaryTarget(
