@@ -6,6 +6,6 @@ framework module BanubaSdkSimple {
 }
 
 module BanubaSdkSimple.Swift {
-    header "BanubaSdkSimple-Swift.h"
-    requires objc
+  header "BanubaSdkSimple-Swift.h"
+  requires objc
 }

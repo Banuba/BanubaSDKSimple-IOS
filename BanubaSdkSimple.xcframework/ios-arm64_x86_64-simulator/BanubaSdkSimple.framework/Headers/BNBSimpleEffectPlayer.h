@@ -15,6 +15,7 @@
 #import <Foundation/Foundation.h>
 @class BNBSimpleEffectPlayer;
 @class BNBSimpleInputManager;
+@class BNBSimpleEffectManager;
 @protocol BNBSimpleAnalyticsListener;
 @protocol BNBSimpleCameraPoiListener;
 @protocol BNBSimpleEffectEventListener;
@@ -23,7 +24,7 @@
 @protocol BNBSimpleFrameDurationListener;
 @protocol BNBSimpleHintListener;
 @protocol BNBSimpleLowLightListener;
-
+@class BNBSimplePixelBuffer;
 
 /**
  * The EffectPlayer class provides ability to play AR effects on set of images or video.
@@ -60,6 +61,9 @@
  *   </br> - `EffectPlayer.surfaceDestroyed`
  */
 @interface BNBSimpleEffectPlayer : NSObject
+
+- (BNBSimpleEffectManager *_Nullable)effectManager;
+- (nonnull BNBSimplePixelBuffer *)readPixels;
 
 + (nullable BNBSimpleEffectPlayer *)create:(nonnull BNBSimpleEffectPlayerConfiguration *)configuration;
 

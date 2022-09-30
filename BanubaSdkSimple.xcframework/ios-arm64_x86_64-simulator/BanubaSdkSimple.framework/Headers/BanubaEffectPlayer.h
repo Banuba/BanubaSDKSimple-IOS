@@ -56,3 +56,5 @@ FOUNDATION_EXPORT const double BNBSimpleEffectPlayerVersionNumber;
 
 #import "BNBSimpleObjC.h"
 #import "BNBSimpleLowLightListener.h"
+#import "BNBSimpleEffectManager.h"
+#import "BNBSimplePixelBuffer.h"
