@@ -190,7 +190,7 @@ public enum VoiceChangerError : Swift.Error {
   @objc func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc func takeSnapshot(configuration: BanubaSdkSimple.OutputConfiguration, handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc func removeWatermark()
-  @objc func startVideoCapturing(fileURL: Foundation.URL?, isMicrophoneEnabled: Swift.Bool, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: ((CoreMedia.CMTime) -> Swift.Void)?, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, isFirstRun: Swift.Bool, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue]?, boundaryHandler: ((CoreMedia.CMTime) -> Swift.Void)?, totalDuration: Foundation.TimeInterval, configuration: BanubaSdkSimple.OutputConfiguration, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  @objc func startVideoCapturing(fileURL: Foundation.URL?, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: ((CoreMedia.CMTime) -> Swift.Void)?, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, isFirstRun: Swift.Bool, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue]?, boundaryHandler: ((CoreMedia.CMTime) -> Swift.Void)?, totalDuration: Foundation.TimeInterval, configuration: BanubaSdkSimple.OutputConfiguration, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc func stopVideoCapturing(cancel: Swift.Bool)
   @objc func startForwardingFrames(handler: @escaping (CoreVideo.CVPixelBuffer) -> Swift.Void)
   @objc func stopForwardingFrames()
@@ -234,8 +234,7 @@ public protocol CameraServicing : AnyObject {
   func toggleTorch() -> AVFoundation.AVCaptureDevice.TorchMode
   func setTorch(mode: AVFoundation.AVCaptureDevice.TorchMode) -> AVFoundation.AVCaptureDevice.TorchMode
   func setCameraSessionType(_ type: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?)
-  func configureExposureSettings(_ point: CoreFoundation.CGPoint?, useContinuousDetection: Swift.Bool)
-  func configureFocusSettings(_ point: CoreFoundation.CGPoint?, useContinuousDetection: Swift.Bool)
+  func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
   func initiatePhotoCapture(cameraSettings: BanubaSdkSimple.CameraPhotoSettings, completion: @escaping (CoreVideo.CVImageBuffer?) -> Swift.Void)
 }
 public protocol AudioCapturing : AnyObject {
@@ -265,9 +264,9 @@ public enum CameraSessionType {
   }
 }
 public struct CameraPhotoSettings {
-  public let useStabilization: Swift.Bool
+  public let photoQualityPrioritization: AVFoundation.AVCapturePhotoOutput.QualityPrioritization
   public let flashMode: AVFoundation.AVCaptureDevice.FlashMode
-  public init(useStabilization: Swift.Bool, flashMode: AVFoundation.AVCaptureDevice.FlashMode)
+  public init(photoQualityPrioritization: AVFoundation.AVCapturePhotoOutput.QualityPrioritization, flashMode: AVFoundation.AVCaptureDevice.FlashMode)
 }
 @objc public class InputService : ObjectiveC.NSObject {
   public enum InputServiceError : Swift.Error {
@@ -298,8 +297,7 @@ extension BanubaSdkSimple.InputService : BanubaSdkSimple.AVCaptureDataDelegate {
   @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photoSampleBuffer: CoreMedia.CMSampleBuffer?, previewPhoto previewPhotoSampleBuffer: CoreMedia.CMSampleBuffer?, resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings, bracketSettings: AVFoundation.AVCaptureBracketedStillImageSettings?, error: Swift.Error?)
 }
 extension BanubaSdkSimple.InputService : BanubaSdkSimple.InputServicing {
-  public func configureFocusSettings(_ point: CoreFoundation.CGPoint?, useContinuousDetection: Swift.Bool)
-  public func configureExposureSettings(_ point: CoreFoundation.CGPoint?, useContinuousDetection: Swift.Bool)
+  public func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
   public var exposurePointOfInterest: CoreFoundation.CGPoint {
     get
   }
@@ -407,6 +405,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.CameraMo
   @objc dynamic public func setRenderTarget(view: UIKit.UIView)
   @objc dynamic public func removeRenderTarget()
   @objc dynamic public func setup()
+  @objc dynamic public func addFPSListener(_ listener: ((_ fpsInfo: Foundation.NSAttributedString) -> Swift.Void)?)
   public func postprocessProcessVideoFrame(_ from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, time: CoreMedia.CMTime)
   public func postprocessSurfaceCreated(with size: CoreFoundation.CGSize)
   public func postprocessSetEffectSize(_ size: CoreFoundation.CGSize)
@@ -427,8 +426,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKInput
   @objc dynamic public var currentCameraSessionType: BanubaSDKServicing.CameraModuleSessionType {
     @objc get
   }
-  @objc dynamic public func configureExposureSettings(_ point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
-  @objc dynamic public func configureFocusSettings(_ point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
+  @objc dynamic public func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
   @objc dynamic public func setZoomFactor(_ zoomFactor: Swift.Float) -> Swift.Float
   @objc dynamic public func toggleCamera(completion: @escaping () -> ())
   @objc dynamic public func startCamera()
@@ -444,7 +442,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutpu
   @objc dynamic public var isEnoughDiskSpaceForRecording: Swift.Bool {
     @objc get
   }
-  @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, startTimeForVideoTexture: Swift.Double, isMicrophoneEnabled: Swift.Bool, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue], boundaryHandler: @escaping (CoreMedia.CMTime) -> Swift.Void, totalDuration: Foundation.TimeInterval, itemDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
+  @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, startTimeForVideoTexture: Swift.Double, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue], boundaryHandler: @escaping (CoreMedia.CMTime) -> Swift.Void, totalDuration: Foundation.TimeInterval, itemDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc dynamic public func stopVideoCapturing(cancel: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
@@ -454,6 +452,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffec
   @objc dynamic public func effectDidChangeState()
   @objc dynamic public func effectAddImageTexture(image: UIKit.UIImage)
   @objc dynamic public func setupDefaultImageTexture()
+  @objc dynamic public func stopVideoTextureIfNeeded()
   @objc dynamic public func effectAddVideoTexture(asset: AVFoundation.AVURLAsset)
   @objc dynamic public func unloadEffectTexture()
   @objc dynamic public func effectReloadTexturePreview(startTime: Foundation.TimeInterval, endTime: Foundation.TimeInterval, itemDuration: Foundation.TimeInterval)
