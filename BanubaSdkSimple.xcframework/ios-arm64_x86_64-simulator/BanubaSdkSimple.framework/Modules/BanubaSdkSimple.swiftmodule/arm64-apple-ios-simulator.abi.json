@@ -15791,6 +15791,90 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1054,
+      "length": 4,
+      "value": "2160"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1068,
+      "length": 4,
+      "value": "3840"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1125,
+      "length": 4,
+      "value": "1440"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1139,
+      "length": 4,
+      "value": "2560"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1195,
+      "length": 4,
+      "value": "1080"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1209,
+      "length": 4,
+      "value": "1920"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1264,
+      "length": 3,
+      "value": "720"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1277,
+      "length": 4,
+      "value": "1280"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1333,
+      "length": 3,
+      "value": "540"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 3,
+      "value": "960"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1404,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1417,
+      "length": 3,
+      "value": "854"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2230,
       "length": 4,
@@ -15809,6 +15893,13 @@
       "offset": 2303,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2888,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Configuration\/EffectPlayerConfiguration.swift",
@@ -15889,10 +15980,311 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1440,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1472,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1772,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1804,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2121,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2381,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2414,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 3825,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 3894,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 4003,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 4054,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 4252,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 4350,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 4649,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 4672,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 5018,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 5072,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 5106,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 13,
       "value": "\"BanubaSdkSimple.WatermarkInfo\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5531,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5562,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5606,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5676,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/WatermarkInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5746,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/BNBTouch+UITouch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/BNBTouch+UITouch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/BNBTouch+UITouch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/BNBTouch+UITouch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/BNBTouch+UITouch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/BNBTouch+UITouch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 697,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1302,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1678,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1762,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1784,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1991,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2114,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2424,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3474,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderBehaviour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3485,
+      "length": 2,
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
@@ -15903,6 +16295,104 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1595,
+      "length": 40,
+      "value": "\"Cannot initialize main shaders library\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1774,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1974,
+      "length": 37,
+      "value": "\"Could not create depthStencil state\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2262,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2487,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2882,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3028,
+      "length": 49,
+      "value": "\"Could not create metal texture for pixel buffer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4099,
+      "length": 56,
+      "value": "\"Could not create vertex function \""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4295,
+      "length": 58,
+      "value": "\"Could not create vertex function \""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4885,
+      "length": 51,
+      "value": "\"Could not compile render pipeline state: \""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4935,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 5066,
       "length": 5,
@@ -15910,10 +16400,318 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5214,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5249,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5259,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 5278,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5407,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5501,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 5981,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6213,
+      "length": 35,
+      "value": "\"Input array doesn't have elements\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6493,
+      "length": 25,
+      "value": "\"Cannot create MTLBuffer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
       "kind": "Array",
       "offset": 6668,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6815,
+      "length": 25,
+      "value": "\"Cannot create MTLBuffer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7795,
+      "length": 32,
+      "value": "\"Could not create texture cache\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8403,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8406,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8522,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9346,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9483,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9699,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9820,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 10725,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 10825,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 10845,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 10901,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 10999,
+      "length": 254,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11045,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11091,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11142,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11190,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11243,
+      "length": 53,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11300,
+      "length": 117,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11329,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11357,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11376,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11392,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11408,
+      "length": 1,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11683,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11710,
+      "length": 35,
+      "value": "\"Input array doesn't have elements\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11898,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
@@ -15927,7 +16725,7 @@
       "kind": "IntegerLiteral",
       "offset": 693,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
@@ -15952,6 +16750,41 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "Array",
+      "offset": 3150,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5043,
+      "length": 27,
+      "value": "\"com.banubaSdk.renderQueue\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5327,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5421,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5508,
       "length": 5,
@@ -15967,9 +16800,79 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
+      "offset": 7314,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7462,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9208,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9372,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9468,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9496,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "Array",
+      "offset": 12174,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
       "offset": 12384,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12651,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12690,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
@@ -16007,6 +16910,132 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15414,
+      "length": 44,
+      "value": "\"CVPixelBufferGetBaseAddress resturned zero\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15874,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15962,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15974,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15987,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16454,
+      "length": 14,
+      "value": "\"\/bnb-res-ios\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17021,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17891,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17944,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18342,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18388,
+      "length": 3,
+      "value": "-90"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18435,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18908,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 20711,
+      "length": 5,
+      "value": "-50.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 20746,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
@@ -16021,11 +17050,200 @@
       "value": "4"
     },
     {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "StringLiteral",
+      "offset": 2145,
+      "length": 39,
+      "value": "\"Cannot create grayscale bitmap contet\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2891,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2911,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2970,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3128,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3163,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3833,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "FloatLiteral",
+      "offset": 3862,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3911,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShape.swift",
+      "kind": "FloatLiteral",
+      "offset": 3941,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
       "kind": "Array",
       "offset": 260,
       "length": 126,
-      "value": "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]"
+      "value": "[-1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, -1.0, -1.0, 0.0, 1.0, 1.0, -1.0, 0.0, 1.0]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 486,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 500,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 513,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 518,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 536,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 549,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 562,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 567,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 585,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 599,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 613,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 618,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 636,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 649,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 663,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "FloatLiteral",
+      "offset": 668,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
@@ -16033,6 +17251,48 @@
       "offset": 753,
       "length": 78,
       "value": "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1579,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1921,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2177,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalVerticesAndUVData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2188,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
@@ -16064,10 +17324,73 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1533,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2846,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3054,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3330,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3399,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3459,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 14,
       "value": "\"BanubaSdkSimple.PIPShapeDrawer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPShapeDrawer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3610,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Audio\/VoiceChanger.swift",
@@ -16096,6 +17419,48 @@
       "offset": 1581,
       "length": 12,
       "value": "\"result.mp4\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Audio\/VoiceChanger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Audio\/VoiceChanger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Audio\/VoiceChanger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3034,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Audio\/VoiceChanger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5430,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Audio\/VoiceChanger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5532,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Audio\/VoiceChanger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5579,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
@@ -16141,6 +17506,118 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1021,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 38,
+      "value": "\"AVAsset doesn't contain video tracks\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1422,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1488,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1729,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 3026,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3794,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3839,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4411,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 4743,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6278,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6294,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9265,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10175,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10976,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 9,
@@ -16148,6 +17625,83 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11474,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11975,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11990,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12028,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12120,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12188,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12341,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12360,
+      "length": 10,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12380,
+      "length": 11,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12401,
+      "length": 11,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12422,
+      "length": 14,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
       "offset": 12341,
       "length": 9,
@@ -16219,37 +17773,142 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12341,
-      "length": 9,
+      "offset": 12507,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12511,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12514,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12517,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12558,
+      "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12360,
-      "length": 10,
-      "value": "2"
+      "offset": 12561,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12380,
-      "length": 11,
-      "value": "3"
+      "offset": 12564,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12401,
-      "length": 11,
-      "value": "4"
+      "offset": 12567,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12422,
-      "length": 14,
-      "value": "5"
+      "offset": 12605,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12608,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12612,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12615,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12655,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12658,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12661,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12665,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12704,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12708,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12711,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12714,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Handlers\/DisplayLinkRunLoop.swift",
@@ -16257,6 +17916,27 @@
       "offset": 263,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Handlers\/DisplayLinkRunLoop.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
+      "length": 111,
+      "value": "\"DisplayLinkRunLoop: Runloop is running, any tasks in renderQueue will not be executed till Runloop is stopped\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Handlers\/DisplayLinkRunLoop.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1416,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/RenderTarget\/EffectPlayerView.swift",
+      "kind": "Dictionary",
+      "offset": 1214,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
@@ -16285,6 +17965,90 @@
       "offset": 259,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1798,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1872,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2807,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2839,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "FloatLiteral",
+      "offset": 3135,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",
+      "kind": "FloatLiteral",
+      "offset": 3446,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2221,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2258,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2290,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2327,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
@@ -16357,6 +18121,132 @@
       "value": "\"BanubaSdkSimple.OutputService\""
     },
     {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4789,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7481,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7926,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10950,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 12631,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 12682,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 12749,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 12804,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 13638,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 14634,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15487,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15624,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 16601,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16984,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 17528,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 17863,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
+      "kind": "Array",
+      "offset": 18257,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/EffectsService.swift",
       "kind": "Array",
       "offset": 247,
@@ -16369,6 +18259,27 @@
       "offset": 527,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/EffectsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 677,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/EffectsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 843,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/EffectsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 929,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
@@ -16456,6 +18367,118 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7395,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7621,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "StringLiteral",
+      "offset": 7721,
+      "length": 51,
+      "value": "\"Could not lock device for configuration: \""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "StringLiteral",
+      "offset": 7771,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "FloatLiteral",
+      "offset": 9310,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9545,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "StringLiteral",
+      "offset": 10326,
+      "length": 35,
+      "value": "\"com.banuba.inputServiceAudioQueue\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10631,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "StringLiteral",
+      "offset": 10933,
+      "length": 35,
+      "value": "\"com.banuba.inputServiceVideoQueue\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12072,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "FloatLiteral",
+      "offset": 12923,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "FloatLiteral",
+      "offset": 12931,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12987,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13019,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
       "offset": 2332,
       "length": 12,
@@ -16463,31 +18486,115 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "StringLiteral",
+      "offset": 16519,
+      "length": 51,
+      "value": "\"Could not lock device for configuration: \""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "StringLiteral",
+      "offset": 16569,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "FloatLiteral",
+      "offset": 17201,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "FloatLiteral",
+      "offset": 17591,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21414,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22626,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23096,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "IntegerLiteral",
-      "offset": 23323,
+      "offset": 23225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 23399,
+      "offset": 23301,
       "length": 23,
       "value": "\"adjustingWhiteBalance\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 23462,
+      "offset": 23364,
       "length": 16,
       "value": "\"adjustingFocus\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 23521,
+      "offset": 23423,
       "length": 19,
       "value": "\"adjustingExposure\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25721,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/UIImage+RawDataCreation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2184,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/UIImage+RawDataCreation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2231,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/UIImage+RawDataCreation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2278,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Utils\/UIImage+RawDataCreation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2541,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
@@ -16574,6 +18681,258 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3223,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3260,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3292,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4463,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4992,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5077,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5154,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5606,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5738,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5870,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "FloatLiteral",
+      "offset": 6543,
+      "length": 4,
+      "value": "75.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "FloatLiteral",
+      "offset": 6572,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6650,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "FloatLiteral",
+      "offset": 7277,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "FloatLiteral",
+      "offset": 7294,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7783,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10063,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "FloatLiteral",
+      "offset": 10654,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "FloatLiteral",
+      "offset": 10671,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11635,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11955,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12095,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "StringLiteral",
+      "offset": 12777,
+      "length": 46,
+      "value": "\"Render target doesn't implement CAMetalLayer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14923,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15260,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18103,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18891,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20403,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "StringLiteral",
+      "offset": 22011,
+      "length": 80,
+      "value": "\"AVCaptureSession.Preset \""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "StringLiteral",
+      "offset": 22043,
+      "length": 2,
+      "value": "\" is not configured for BanubaSimpleCameraModule\""
+    },
+    {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
       "kind": "IntegerLiteral",
       "offset": 367,
@@ -16631,10 +18990,367 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "FloatLiteral",
+      "offset": 2812,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4078,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
       "kind": "BooleanLiteral",
       "offset": 4851,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6449,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6471,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6622,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6644,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Dictionary",
+      "offset": 6806,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6981,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7036,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 7615,
+      "length": 38,
+      "value": "\"Could not create metal texture cache\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 8064,
+      "length": 34,
+      "value": "\"Could not create EP pixel buffer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8603,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 8718,
+      "length": 46,
+      "value": "\"Could not create metal cv texture from cache\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 9357,
+      "length": 34,
+      "value": "\"Could not create EP pixel buffer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 10020,
+      "length": 46,
+      "value": "\"Could not create metal cv texture from cache\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Array",
+      "offset": 11362,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Array",
+      "offset": 11748,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Array",
+      "offset": 12623,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Array",
+      "offset": 13137,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Array",
+      "offset": 13200,
+      "length": 12,
+      "value": "[2, 1, 0, 3]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13709,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13738,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13939,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "FloatLiteral",
+      "offset": 14100,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "StringLiteral",
+      "offset": 16434,
+      "length": 16,
+      "value": "\"Undefined case\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17444,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17580,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17709,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Array",
+      "offset": 18448,
+      "length": 12,
+      "value": "[2, 1, 0, 3]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19959,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19994,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20004,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20013,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20023,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20332,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20418,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20577,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20593,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21054,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21070,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "FloatLiteral",
+      "offset": 21581,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "Dictionary",
+      "offset": 22394,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23877,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24171,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24229,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
