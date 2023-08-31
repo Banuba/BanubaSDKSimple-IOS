@@ -347,7 +347,7 @@ extension BanubaSdkSimple.CameraSessionType {
     get
   }
 }
-public class BanubaSimpleCameraModule {
+@objc public class BanubaSimpleCameraModule : ObjectiveC.NSObject {
   @objc public var isPIPSessionAlreadySetup: Swift.Bool
   @objc public var isPIPSession: Swift.Bool
   @objc public var pipVideoURL: Foundation.URL?
@@ -367,7 +367,7 @@ public class BanubaSimpleCameraModule {
   public static var videoSize: CoreFoundation.CGSize! {
     get
   }
-  public init(videoSize: CoreFoundation.CGSize, videoPreset: AVFoundation.AVCaptureSession.Preset, useHEVCCodecIfPossible: Swift.Bool)
+  @objc public init(videoSize: CoreFoundation.CGSize, videoPreset: AVFoundation.AVCaptureSession.Preset, useHEVCCodecIfPossible: Swift.Bool)
   @objc deinit
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule {
@@ -446,6 +446,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutpu
   @objc dynamic public func stopVideoCapturing(cancel: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
+  @objc dynamic public func enableBlur()
   @objc dynamic public func effectDidBeginApplying()
   @objc dynamic public func effectDidEndApplying()
   @objc dynamic public func effectDidResetApplying()

@@ -10340,7 +10340,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isPIPSessionAlreadySetup",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isPIPSessionAlreadySetup",
@@ -10366,7 +10366,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isPIPSessionAlreadySetup",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10394,7 +10394,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setIsPIPSessionAlreadySetup:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10437,7 +10437,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC12isPIPSessionSbvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isPIPSession",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC12isPIPSessionSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isPIPSession",
@@ -10462,7 +10462,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC12isPIPSessionSbvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isPIPSession",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC12isPIPSessionSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10490,7 +10490,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC12isPIPSessionSbvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setIsPIPSession:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC12isPIPSessionSbvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10541,7 +10541,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11pipVideoURL10Foundation0H0VSgvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)pipVideoURL",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11pipVideoURL10Foundation0H0VSgvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "pipVideoURL",
@@ -10574,7 +10574,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11pipVideoURL10Foundation0H0VSgvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)pipVideoURL",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11pipVideoURL10Foundation0H0VSgvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10610,7 +10610,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11pipVideoURL10Foundation0H0VSgvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setPipVideoURL:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11pipVideoURL10Foundation0H0VSgvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10661,7 +10661,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC16pipSwitchSetting0A12SDKServicing015PIPSwitchLayoutH0CSgvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)pipSwitchSetting",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC16pipSwitchSetting0A12SDKServicing015PIPSwitchLayoutH0CSgvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "pipSwitchSetting",
@@ -10695,7 +10695,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC16pipSwitchSetting0A12SDKServicing015PIPSwitchLayoutH0CSgvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)pipSwitchSetting",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC16pipSwitchSetting0A12SDKServicing015PIPSwitchLayoutH0CSgvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10731,7 +10731,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC16pipSwitchSetting0A12SDKServicing015PIPSwitchLayoutH0CSgvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setPipSwitchSetting:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC16pipSwitchSetting0A12SDKServicing015PIPSwitchLayoutH0CSgvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10782,7 +10782,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC16pipPlayerSetting0A12SDKServicing015PIPPlayerLayoutH0CSgvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)pipPlayerSetting",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC16pipPlayerSetting0A12SDKServicing015PIPPlayerLayoutH0CSgvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "pipPlayerSetting",
@@ -10815,7 +10815,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC16pipPlayerSetting0A12SDKServicing015PIPPlayerLayoutH0CSgvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)pipPlayerSetting",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC16pipPlayerSetting0A12SDKServicing015PIPPlayerLayoutH0CSgvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10851,7 +10851,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC16pipPlayerSetting0A12SDKServicing015PIPPlayerLayoutH0CSgvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setPipPlayerSetting:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC16pipPlayerSetting0A12SDKServicing015PIPPlayerLayoutH0CSgvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10902,7 +10902,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC03pipD7Setting0A12SDKServicing015PIPCameraLayoutG0CSgvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)pipCameraSetting",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC03pipD7Setting0A12SDKServicing015PIPCameraLayoutG0CSgvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "pipCameraSetting",
@@ -10935,7 +10935,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC03pipD7Setting0A12SDKServicing015PIPCameraLayoutG0CSgvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)pipCameraSetting",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC03pipD7Setting0A12SDKServicing015PIPCameraLayoutG0CSgvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -10971,7 +10971,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC03pipD7Setting0A12SDKServicing015PIPCameraLayoutG0CSgvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setPipCameraSetting:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC03pipD7Setting0A12SDKServicing015PIPCameraLayoutG0CSgvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11157,7 +11157,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC8isLoadedSbvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isLoaded",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC8isLoadedSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isLoaded",
@@ -11182,7 +11182,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC8isLoadedSbvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isLoaded",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC8isLoadedSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11210,7 +11210,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC8isLoadedSbvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setIsLoaded:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC8isLoadedSbvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11252,7 +11252,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isCameraEnabled",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isCameraEnabled",
@@ -11277,7 +11277,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isCameraEnabled",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11305,7 +11305,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setIsCameraEnabled:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11348,7 +11348,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)allowProcessing",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "allowProcessing",
@@ -11373,7 +11373,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)allowProcessing",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11401,7 +11401,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setAllowProcessing:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11452,7 +11452,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC13inputDelegate0A12SDKServicing017SDKInputServicingG0_pSgvp",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)inputDelegate",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13inputDelegate0A12SDKServicing017SDKInputServicingG0_pSgvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "inputDelegate",
@@ -11485,7 +11485,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC13inputDelegate0A12SDKServicing017SDKInputServicingG0_pSgvg",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)inputDelegate",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13inputDelegate0A12SDKServicing017SDKInputServicingG0_pSgvg",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11521,7 +11521,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC13inputDelegate0A12SDKServicing017SDKInputServicingG0_pSgvs",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setInputDelegate:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13inputDelegate0A12SDKServicing017SDKInputServicingG0_pSgvs",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
@@ -11723,7 +11723,7 @@
                 "kind": "TypeNominal",
                 "name": "BanubaSimpleCameraModule",
                 "printedName": "BanubaSdkSimple.BanubaSimpleCameraModule",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC"
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule"
               },
               {
                 "kind": "TypeNominal",
@@ -11745,11 +11745,39 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC9videoSize0F6Preset22useHEVCCodecIfPossibleACSo6CGSizeV_So016AVCaptureSessionH0aSbtcfc",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)initWithVideoSize:videoPreset:useHEVCCodecIfPossible:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC9videoSize0F6Preset22useHEVCCodecIfPossibleACSo6CGSizeV_So016AVCaptureSessionH0aSbtcfc",
             "moduleName": "BanubaSdkSimple",
+            "objc_name": "initWithVideoSize:videoPreset:useHEVCCodecIfPossible:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BanubaSimpleCameraModule",
+                "printedName": "BanubaSdkSimple.BanubaSimpleCameraModule",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)init",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleCACycfc",
+            "moduleName": "BanubaSdkSimple",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
             ],
             "init_kind": "Designated"
           },
@@ -11771,7 +11799,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC13seekPIPPlayer2toySd_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)seekPIPPlayerTo:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13seekPIPPlayer2toySd_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "seekPIPPlayerTo:",
@@ -11795,7 +11823,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC14startPIPPlayeryyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startPIPPlayer",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14startPIPPlayeryyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "startPIPPlayer",
@@ -11819,7 +11847,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC13stopPIPPlayeryyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopPIPPlayer",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13stopPIPPlayeryyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "stopPIPPlayer",
@@ -11849,7 +11877,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC18setPIPPlayerVolumeyySfF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setPIPPlayerVolume:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC18setPIPPlayerVolumeyySfF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setPIPPlayerVolume:",
@@ -11897,7 +11925,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15setupPIPSession12withVideoURL13playerSetting06cameraL006switchL0y10Foundation0J0V_0A12SDKServicing015PIPPlayerLayoutL0CAL09PIPCamerarL0CAL09PIPSwitchrL0CtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setupPIPSessionWithVideoURL:playerSetting:cameraSetting:switchSetting:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15setupPIPSession12withVideoURL13playerSetting06cameraL006switchL0y10Foundation0J0V_0A12SDKServicing015PIPPlayerLayoutL0CAL09PIPCamerarL0CAL09PIPSwitchrL0CtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setupPIPSessionWithVideoURL:playerSetting:cameraSetting:switchSetting:",
@@ -11952,7 +11980,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC23startPIPSessionIfNeeded11withSetting10completiony0A12SDKServicing015PIPPlayerLayoutK0C_yycSgtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startPIPSessionIfNeededWithSetting:completion:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC23startPIPSessionIfNeeded11withSetting10completiony0A12SDKServicing015PIPPlayerLayoutK0C_yycSgtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "startPIPSessionIfNeededWithSetting:completion:",
@@ -11988,7 +12016,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC29applyPIPCameraSettingIfNeeded_14restoreSessiony0A12SDKServicing0g6LayoutH0C_SbtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyPIPCameraSettingIfNeeded:restoreSession:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29applyPIPCameraSettingIfNeeded_14restoreSessiony0A12SDKServicing0g6LayoutH0C_SbtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "applyPIPCameraSettingIfNeeded:restoreSession:",
@@ -12025,7 +12053,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC29applyPIPPlayerSettingIfNeeded_14restoreSessiony0A12SDKServicing0g6LayoutH0C_SbtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyPIPPlayerSettingIfNeeded:restoreSession:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29applyPIPPlayerSettingIfNeeded_14restoreSessiony0A12SDKServicing0g6LayoutH0C_SbtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "applyPIPPlayerSettingIfNeeded:restoreSession:",
@@ -12062,7 +12090,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC29applyPIPSwitchSettingIfNeeded_14restoreSessiony0A12SDKServicing0g6LayoutH0C_SbtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyPIPSwitchSettingIfNeeded:restoreSession:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29applyPIPSwitchSettingIfNeeded_14restoreSessiony0A12SDKServicing0g6LayoutH0C_SbtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "applyPIPSwitchSettingIfNeeded:restoreSession:",
@@ -12096,7 +12124,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11renderQueueSo17OS_dispatch_queueCSgvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)renderQueue",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11renderQueueSo17OS_dispatch_queueCSgvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "renderQueue",
@@ -12128,7 +12156,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11renderQueueSo17OS_dispatch_queueCSgvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)renderQueue",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11renderQueueSo17OS_dispatch_queueCSgvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "renderQueue",
@@ -12196,7 +12224,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC9autoStartSbvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)autoStart",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC9autoStartSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "autoStart",
@@ -12220,7 +12248,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC9autoStartSbvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)autoStart",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC9autoStartSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "autoStart",
@@ -12249,7 +12277,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC9autoStartSbvs",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setAutoStart:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC9autoStartSbvs",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "setAutoStart:",
@@ -12275,7 +12303,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC14playerViewSizeSo6CGSizeVvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)playerViewSize",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14playerViewSizeSo6CGSizeVvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "playerViewSize",
@@ -12299,7 +12327,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC14playerViewSizeSo6CGSizeVvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)playerViewSize",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14playerViewSizeSo6CGSizeVvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "playerViewSize",
@@ -12325,7 +12353,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC29isPIPPlayerReadyToProvideDataSbvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isPIPPlayerReadyToProvideData",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29isPIPPlayerReadyToProvideDataSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isPIPPlayerReadyToProvideData",
@@ -12349,7 +12377,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC29isPIPPlayerReadyToProvideDataSbvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isPIPPlayerReadyToProvideData",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29isPIPPlayerReadyToProvideDataSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "isPIPPlayerReadyToProvideData",
@@ -12380,7 +12408,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11setMaxFaces10facesCountys5Int32V_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setMaxFacesWithFacesCount:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11setMaxFaces10facesCountys5Int32V_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setMaxFacesWithFacesCount:",
@@ -12404,7 +12432,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC7destroyyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)destroy",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC7destroyyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "destroy",
@@ -12445,7 +12473,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC5start10completionyyyc_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startWithCompletion:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC5start10completionyyyc_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "startWithCompletion:",
@@ -12494,7 +12522,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC4stop10completionyyycSg_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopWithCompletion:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC4stop10completionyyycSg_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "stopWithCompletion:",
@@ -12524,7 +12552,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15setRenderTarget4viewySo6UIViewC_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setRenderTargetWithView:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15setRenderTarget4viewySo6UIViewC_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setRenderTargetWithView:",
@@ -12548,7 +12576,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC18removeRenderTargetyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)removeRenderTarget",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC18removeRenderTargetyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "removeRenderTarget",
@@ -12572,7 +12600,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC5setupyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setup",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC5setupyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setup",
@@ -12622,7 +12650,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC14addFPSListeneryyySo18NSAttributedStringCcSgF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)addFPSListener:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14addFPSListeneryyySo18NSAttributedStringCcSgF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "addFPSListener:",
@@ -12792,7 +12820,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC12takeSnapshot7handleryySo7UIImageCSgc_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)takeSnapshotWithHandler:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC12takeSnapshot7handleryySo7UIImageCSgc_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "takeSnapshotWithHandler:",
@@ -12817,7 +12845,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15getRendererViewSo6UIViewCyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)getRendererView",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15getRendererViewSo6UIViewCyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "getRendererView",
@@ -12841,7 +12869,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15startRenderLoopyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startRenderLoop",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15startRenderLoopyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "startRenderLoop",
@@ -12865,7 +12893,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC14stopRenderLoopyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopRenderLoop",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14stopRenderLoopyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "stopRenderLoop",
@@ -12895,7 +12923,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC03setD11SessionTypeyy0A12SDKServicing0degH0OF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setCameraSessionType:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC03setD11SessionTypeyy0A12SDKServicing0degH0OF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setCameraSessionType:",
@@ -12920,7 +12948,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC10zoomFactorSfvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)zoomFactor",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC10zoomFactorSfvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "zoomFactor",
@@ -12944,7 +12972,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC10zoomFactorSfvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)zoomFactor",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC10zoomFactorSfvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "zoomFactor",
@@ -12970,7 +12998,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC07isFrontD0Sbvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isFrontCamera",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC07isFrontD0Sbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isFrontCamera",
@@ -12994,7 +13022,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC07isFrontD0Sbvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isFrontCamera",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC07isFrontD0Sbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "isFrontCamera",
@@ -13020,7 +13048,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC07currentD11SessionType0A12SDKServicing0degH0Ovp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)currentCameraSessionType",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC07currentD11SessionType0A12SDKServicing0degH0Ovp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "currentCameraSessionType",
@@ -13044,7 +13072,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC07currentD11SessionType0A12SDKServicing0degH0Ovg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)currentCameraSessionType",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC07currentD11SessionType0A12SDKServicing0degH0Ovg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "currentCameraSessionType",
@@ -13081,7 +13109,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC5focus2at22useContinuousDetectionySo7CGPointV_SbtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)focusAt:useContinuousDetection:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC5focus2at22useContinuousDetectionySo7CGPointV_SbtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "focusAt:useContinuousDetection:",
@@ -13112,7 +13140,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC13setZoomFactoryS2fF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setZoomFactor:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13setZoomFactoryS2fF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setZoomFactor:",
@@ -13153,7 +13181,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC06toggleD010completionyyyc_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)toggleCameraWithCompletion:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC06toggleD010completionyyyc_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "toggleCameraWithCompletion:",
@@ -13177,7 +13205,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC05startD0yyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startCamera",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC05startD0yyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "startCamera",
@@ -13201,7 +13229,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC19startAudioCapturingyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startAudioCapturing",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19startAudioCapturingyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "startAudioCapturing",
@@ -13225,7 +13253,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC18stopAudioCapturingyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopAudioCapturing",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC18stopAudioCapturingyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "stopAudioCapturing",
@@ -13256,7 +13284,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC8setTorch4modeSo09AVCaptureG4ModeVAG_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setTorchWithMode:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC8setTorch4modeSo09AVCaptureG4ModeVAG_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setTorchWithMode:",
@@ -13281,7 +13309,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11toggleTorchSo09AVCaptureG4ModeVyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)toggleTorch",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11toggleTorchSo09AVCaptureG4ModeVyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "toggleTorch",
@@ -13306,7 +13334,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11isRecordingSbvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isRecording",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11isRecordingSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isRecording",
@@ -13330,7 +13358,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11isRecordingSbvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isRecording",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11isRecordingSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "isRecording",
@@ -13356,7 +13384,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC29isEnoughDiskSpaceForRecordingSbvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isEnoughDiskSpaceForRecording",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29isEnoughDiskSpaceForRecordingSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isEnoughDiskSpaceForRecording",
@@ -13380,7 +13408,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC29isEnoughDiskSpaceForRecordingSbvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isEnoughDiskSpaceForRecording",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29isEnoughDiskSpaceForRecordingSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "isEnoughDiskSpaceForRecording",
@@ -13597,7 +13625,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC19startVideoCapturing7fileURL0f7TimeForG7Texture26externalAudioConfiguration8progress8didStart15shouldSkipFrame016periodicProgressK8Interval13boundaryTimes0Z7Handler13totalDuration12itemDuration10completiony10Foundation0J0VSg_Sd0A12SDKServicing08ExternaloP0CSgySo6CMTimeacyycSgSbycSgSdSaySo7NSValueCGyAZcS2dySb_s5Error_pSgtctF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startVideoCapturingWithFileURL:startTimeForVideoTexture:externalAudioConfiguration:progress:didStart:shouldSkipFrame:periodicProgressTimeInterval:boundaryTimes:boundaryHandler:totalDuration:itemDuration:completion:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19startVideoCapturing7fileURL0f7TimeForG7Texture26externalAudioConfiguration8progress8didStart15shouldSkipFrame016periodicProgressK8Interval13boundaryTimes0Z7Handler13totalDuration12itemDuration10completiony10Foundation0J0VSg_Sd0A12SDKServicing08ExternaloP0CSgySo6CMTimeacyycSgSbycSgSdSaySo7NSValueCGyAZcS2dySb_s5Error_pSgtctF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "startVideoCapturingWithFileURL:startTimeForVideoTexture:externalAudioConfiguration:progress:didStart:shouldSkipFrame:periodicProgressTimeInterval:boundaryTimes:boundaryHandler:totalDuration:itemDuration:completion:",
@@ -13627,10 +13655,34 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC18stopVideoCapturing6cancelySb_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopVideoCapturingWithCancel:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC18stopVideoCapturing6cancelySb_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "stopVideoCapturingWithCancel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableBlur",
+            "printedName": "enableBlur()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)enableBlur",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC10enableBluryyF",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "enableBlur",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -13651,7 +13703,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC22effectDidBeginApplyingyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectDidBeginApplying",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC22effectDidBeginApplyingyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectDidBeginApplying",
@@ -13675,7 +13727,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC20effectDidEndApplyingyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectDidEndApplying",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC20effectDidEndApplyingyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectDidEndApplying",
@@ -13699,7 +13751,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC22effectDidResetApplyingyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectDidResetApplying",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC22effectDidResetApplyingyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectDidResetApplying",
@@ -13723,7 +13775,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC20effectDidChangeStateyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectDidChangeState",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC20effectDidChangeStateyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectDidChangeState",
@@ -13753,7 +13805,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC21effectAddImageTexture5imageySo7UIImageC_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectAddImageTextureWithImage:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21effectAddImageTexture5imageySo7UIImageC_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectAddImageTextureWithImage:",
@@ -13777,7 +13829,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC24setupDefaultImageTextureyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setupDefaultImageTexture",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24setupDefaultImageTextureyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setupDefaultImageTexture",
@@ -13801,7 +13853,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC24stopVideoTextureIfNeededyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopVideoTextureIfNeeded",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24stopVideoTextureIfNeededyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "stopVideoTextureIfNeeded",
@@ -13831,7 +13883,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC21effectAddVideoTexture5assetySo10AVURLAssetC_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectAddVideoTextureWithAsset:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21effectAddVideoTexture5assetySo10AVURLAssetC_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectAddVideoTextureWithAsset:",
@@ -13855,7 +13907,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC19unloadEffectTextureyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)unloadEffectTexture",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19unloadEffectTextureyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "unloadEffectTexture",
@@ -13897,7 +13949,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC26effectReloadTexturePreview9startTime03endK012itemDurationySd_S2dtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectReloadTexturePreviewWithStartTime:endTime:itemDuration:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC26effectReloadTexturePreview9startTime03endK012itemDurationySd_S2dtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectReloadTexturePreviewWithStartTime:endTime:itemDuration:",
@@ -13936,7 +13988,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC12effectsPaths19includeBeautyEffectSaySSGSb_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectsPathsWithIncludeBeautyEffect:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC12effectsPaths19includeBeautyEffectSaySSGSb_tF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "effectsPathsWithIncludeBeautyEffect:",
@@ -13972,7 +14024,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC8loadMask4name11synchronousySS_SbtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)loadMaskWithName:synchronous:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC8loadMask4name11synchronousySS_SbtF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "loadMaskWithName:synchronous:",
@@ -13996,7 +14048,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)unloadMask",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "unloadMask",
@@ -14020,7 +14072,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC16removeAllFiltersyyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)removeAllFilters",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC16removeAllFiltersyyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "removeAllFilters",
@@ -14050,7 +14102,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC11applyFilteryy0A12SDKServicing12RenderEffect_pF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyFilter:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC11applyFilteryy0A12SDKServicing12RenderEffect_pF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "applyFilter:",
@@ -14080,7 +14132,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC12removeFilteryy0A12SDKServicing12RenderEffect_pF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)removeFilter:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC12removeFilteryy0A12SDKServicing12RenderEffect_pF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "removeFilter:",
@@ -14110,7 +14162,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC42setEffectSubtypeModificationsEventListeneryy0A12SDKServicing0ghijK0_pF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setEffectSubtypeModificationsEventListener:",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC42setEffectSubtypeModificationsEventListeneryy0A12SDKServicing0ghijK0_pF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "setEffectSubtypeModificationsEventListener:",
@@ -14135,7 +14187,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvp",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isBeautificationEnabled",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvp",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "isBeautificationEnabled",
@@ -14159,7 +14211,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvg",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isBeautificationEnabled",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "isBeautificationEnabled",
@@ -14188,7 +14240,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvs",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setIsBeautificationEnabled:",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvs",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "setIsBeautificationEnabled:",
@@ -14214,7 +14266,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC20toggleBeautificationSbyF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)toggleBeautification",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC20toggleBeautificationSbyF",
             "moduleName": "BanubaSdkSimple",
             "objc_name": "toggleBeautification",
@@ -14255,11 +14307,16 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:15BanubaSdkSimple0aC12CameraModuleC",
+        "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule",
         "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC",
         "moduleName": "BanubaSdkSimple",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
         ],
         "conformances": [
           {
@@ -14310,6 +14367,55 @@
             "printedName": "SDKBeautyEffectManaging",
             "usr": "c:@M@BanubaSDKServicing@objc(pl)SDKBeautyEffectManaging",
             "mangledName": "$s18BanubaSDKServicing23SDKBeautyEffectManagingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -18620,322 +18726,329 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 1778,
+      "offset": 1794,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 1818,
+      "offset": 1834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2351,
+      "offset": 2367,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2457,
+      "offset": 2473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2578,
+      "offset": 2594,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2878,
+      "offset": 2894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2915,
+      "offset": 2931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2947,
+      "offset": 2963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 2984,
+      "offset": 3000,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 3223,
+      "offset": 3245,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 3260,
+      "offset": 3282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 3292,
+      "offset": 3314,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 24,
+      "value": "\"BanubaSdkSimple.BanubaSimpleCameraModule\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 4461,
+      "offset": 4510,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 4678,
+      "offset": 4727,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 4990,
+      "offset": 5039,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 5075,
+      "offset": 5124,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 5152,
+      "offset": 5201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 5237,
+      "offset": 5286,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 5604,
+      "offset": 5653,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 5736,
+      "offset": 5785,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 5868,
+      "offset": 5917,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "FloatLiteral",
-      "offset": 6541,
+      "offset": 6590,
       "length": 4,
       "value": "75.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "FloatLiteral",
-      "offset": 6570,
+      "offset": 6619,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 6648,
+      "offset": 6697,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 6737,
+      "offset": 6786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "FloatLiteral",
-      "offset": 7275,
+      "offset": 7324,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "FloatLiteral",
-      "offset": 7292,
+      "offset": 7341,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 7781,
+      "offset": 7830,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 9716,
+      "offset": 9765,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 10061,
+      "offset": 10110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "FloatLiteral",
-      "offset": 10652,
+      "offset": 10701,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "FloatLiteral",
-      "offset": 10669,
+      "offset": 10718,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 11633,
+      "offset": 11682,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 11953,
+      "offset": 12002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 12093,
+      "offset": 12142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 12506,
+      "offset": 12555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 12809,
+      "offset": 12858,
       "length": 46,
       "value": "\"Render target doesn't implement CAMetalLayer\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 14955,
+      "offset": 15004,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 15171,
+      "offset": 15220,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 15292,
+      "offset": 15341,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 18008,
+      "offset": 18057,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 18135,
+      "offset": 18184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "IntegerLiteral",
-      "offset": 18923,
+      "offset": 18972,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20435,
+      "offset": 20514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 22043,
+      "offset": 22122,
       "length": 80,
       "value": "\"AVCaptureSession.Preset \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 22075,
+      "offset": 22154,
       "length": 2,
       "value": "\" is not configured for BanubaSimpleCameraModule\""
     },
