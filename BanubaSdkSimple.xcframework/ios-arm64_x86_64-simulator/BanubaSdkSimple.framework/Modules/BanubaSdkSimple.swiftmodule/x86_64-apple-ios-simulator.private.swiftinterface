@@ -446,6 +446,9 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutpu
   @objc dynamic public func stopVideoCapturing(cancel: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
+  @objc dynamic public var isMaskLoaded: Swift.Bool {
+    @objc get
+  }
   @objc dynamic public func enableBlur()
   @objc dynamic public func effectDidBeginApplying()
   @objc dynamic public func effectDidEndApplying()

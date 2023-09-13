@@ -369,6 +369,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @protocol EffectSubtypeModificationsEventListener;
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKEffectsServicing>
+@property (nonatomic, readonly) BOOL isMaskLoaded;
 - (void)enableBlur;
 - (void)effectDidBeginApplying;
 - (void)effectDidEndApplying;
