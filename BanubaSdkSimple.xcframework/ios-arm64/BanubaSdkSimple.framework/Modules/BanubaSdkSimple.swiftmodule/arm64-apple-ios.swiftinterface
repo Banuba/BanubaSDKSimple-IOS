@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaSdkSimple
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaSdkSimple
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
 import Accelerate
@@ -219,125 +219,62 @@ public protocol EffectsServicing {
   func remove(effect: any BanubaSDKServicing.RenderEffect)
   func removeAll()
 }
-public typealias InputServicing = BanubaSdkSimple.AudioCapturing & BanubaSdkSimple.CameraServicing & BanubaSdkSimple.CameraZoomable
-public typealias AVCaptureDataDelegate = AVFoundation.AVCaptureAudioDataOutputSampleBufferDelegate & AVFoundation.AVCapturePhotoCaptureDelegate & AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate
-public protocol CameraServicing : AnyObject {
-  var delegate: (any BanubaSdkSimple.InputServiceDelegate)? { get set }
-  var isFrontCamera: Swift.Bool { get }
-  var isPhotoCameraSession: Swift.Bool { get }
-  var isCameraCapturing: Swift.Bool { get }
-  var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput? { get }
-  var currentCameraSessionType: BanubaSdkSimple.CameraSessionType { get }
-  var exposurePointOfInterest: CoreFoundation.CGPoint { get }
-  func startCamera()
-  func stopCamera(completion: (() -> Swift.Void)?)
-  func toggleTorch() -> AVFoundation.AVCaptureDevice.TorchMode
-  func setTorch(mode: AVFoundation.AVCaptureDevice.TorchMode) -> AVFoundation.AVCaptureDevice.TorchMode
-  func setCameraSessionType(_ type: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?)
-  func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
-  func initiatePhotoCapture(cameraSettings: BanubaSdkSimple.CameraPhotoSettings, completion: @escaping (CoreVideo.CVImageBuffer?) -> Swift.Void)
+@objc public protocol InputServicing : BanubaSdkSimple.AudioCapturing, BanubaSdkSimple.CameraServicing, BanubaSdkSimple.CameraZoomable {
 }
-public protocol AudioCapturing : AnyObject {
-  func startAudioCapturing()
-  func stopAudioCapturing()
+public typealias RotateCameraCallBack = () -> ()
+@objc public protocol CameraServicing {
+  @objc var delegate: (any BanubaSdkSimple.InputServiceDelegate)? { get set }
+  @objc var isFrontCamera: Swift.Bool { get }
+  @objc var isPhotoCameraSession: Swift.Bool { get }
+  @objc var currentCameraSessionType: BanubaSdkSimple.CameraSessionType { get }
+  @objc var exposurePointOfInterest: CoreFoundation.CGPoint { get }
+  @objc var flipCamera: Swift.Bool { get set }
+  @objc var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput? { get }
+  @objc func setupCamera()
+  @objc func startCamera()
+  @objc func stopCamera()
+  @objc func releaseAudioCaptureSession()
+  @objc func setCameraSessionType(_ type: BanubaSdkSimple.CameraSessionType)
+  @objc func setCameraSessionType(_ type: BanubaSdkSimple.CameraSessionType, completion: @escaping BanubaSdkSimple.RotateCameraCallBack)
+  @objc func setCameraSessionType(_ type: BanubaSdkSimple.CameraSessionType, zoomFactor: Swift.Float, completion: @escaping BanubaSdkSimple.RotateCameraCallBack)
+  @objc func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
+  @objc func setTorch(mode: AVFoundation.AVCaptureDevice.TorchMode) -> AVFoundation.AVCaptureDevice.TorchMode
+  @objc func toggleTorch() -> AVFoundation.AVCaptureDevice.TorchMode
+  @objc func initiatePhotoCapture(cameraSettings: BanubaSdkSimple.CameraPhotoSettings, completion: @escaping (CoreVideo.CVImageBuffer?) -> Swift.Void)
+  @objc func switchCamera(to type: BanubaSdkSimple.CameraSessionType, completion: @escaping BanubaSdkSimple.RotateCameraCallBack)
 }
-public protocol CameraZoomable : AnyObject {
-  var isZoomFactorAdjustable: Swift.Bool { get }
-  var minZoomFactor: Swift.Float { get }
-  var maxZoomFactor: Swift.Float { get }
-  var zoomFactor: Swift.Float { get }
-  func setZoomFactor(_ zoomFactor: Swift.Float) -> Swift.Float
+@objc public protocol AudioCapturing {
+  @objc func startAudioCapturing()
+  @objc func stopAudioCapturing()
 }
-public protocol InputServiceDelegate : AnyObject {
-  func push(buffer: CoreVideo.CVPixelBuffer)
-  func push(buffer: CoreMedia.CMSampleBuffer)
+@objc public protocol CameraZoomable {
+  @objc var currentFieldOfView: Swift.Float { get }
+  @objc var isZoomFactorAdjustable: Swift.Bool { get }
+  @objc var minZoomFactor: Swift.Float { get }
+  @objc var maxZoomFactor: Swift.Float { get }
+  @objc var zoomFactor: Swift.Float { get }
+  @objc func setZoomFactor(_ zoomFactor: Swift.Float) -> Swift.Float
 }
-public enum CameraSessionType {
-  case FrontCameraVideoSession
-  case BackCameraVideoSession
-  case FrontCameraPhotoSession
-  case BackCameraPhotoSession
-  public static func == (a: BanubaSdkSimple.CameraSessionType, b: BanubaSdkSimple.CameraSessionType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+@objc public protocol InputServiceDelegate {
+  @objc func push(cvBuffer: CoreVideo.CVPixelBuffer)
+  @objc func push(cmBuffer: CoreMedia.CMSampleBuffer)
+}
+@objc public enum CameraSessionType : Swift.Int {
+  case FrontCameraVideoSession = 0
+  case BackCameraVideoSession = 1
+  case FrontCameraPhotoSession = 2
+  case BackCameraPhotoSession = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
-public struct CameraPhotoSettings {
-  public let photoQualityPrioritization: AVFoundation.AVCapturePhotoOutput.QualityPrioritization
-  public let flashMode: AVFoundation.AVCaptureDevice.FlashMode
-  public init(photoQualityPrioritization: AVFoundation.AVCapturePhotoOutput.QualityPrioritization, flashMode: AVFoundation.AVCaptureDevice.FlashMode)
-}
-@objc public class InputService : ObjectiveC.NSObject {
-  public enum InputServiceError : Swift.Error {
-    case CameraDeviceInitializationFailed
-    case CameraInputInitializationFailed
-    case AudioDeviceInitializationFailed
-    case AudioInputInitializationFailed
-    public static func == (a: BanubaSdkSimple.InputService.InputServiceError, b: BanubaSdkSimple.InputService.InputServiceError) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public var cameraDevice: AVFoundation.AVCaptureDevice?
-  public var cameraSessionQueue: Dispatch.DispatchQueue {
-    get
-    set
-  }
-  public var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput?
-  weak public var delegate: (any BanubaSdkSimple.InputServiceDelegate)?
-  public init(cameraMode: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?, isCameraEnabled: Swift.Bool)
+@objc public class CameraPhotoSettings : ObjectiveC.NSObject {
+  @objc final public let photoQualityPrioritization: AVFoundation.AVCapturePhotoOutput.QualityPrioritization
+  @objc final public let flashMode: AVFoundation.AVCaptureDevice.FlashMode
+  @objc public init(photoQualityPrioritization: AVFoundation.AVCapturePhotoOutput.QualityPrioritization, flashMode: AVFoundation.AVCaptureDevice.FlashMode)
   @objc deinit
-}
-extension BanubaSdkSimple.InputService : BanubaSdkSimple.AVCaptureDataDelegate {
-  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
-  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didDrop sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
-  @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingRawPhoto rawSampleBuffer: CoreMedia.CMSampleBuffer?, previewPhoto previewPhotoSampleBuffer: CoreMedia.CMSampleBuffer?, resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings, bracketSettings: AVFoundation.AVCaptureBracketedStillImageSettings?, error: (any Swift.Error)?)
-  @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photoSampleBuffer: CoreMedia.CMSampleBuffer?, previewPhoto previewPhotoSampleBuffer: CoreMedia.CMSampleBuffer?, resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings, bracketSettings: AVFoundation.AVCaptureBracketedStillImageSettings?, error: (any Swift.Error)?)
-}
-extension BanubaSdkSimple.InputService : BanubaSdkSimple.InputServicing {
-  public func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
-  public var exposurePointOfInterest: CoreFoundation.CGPoint {
-    get
-  }
-  public var isZoomFactorAdjustable: Swift.Bool {
-    get
-  }
-  public var minZoomFactor: Swift.Float {
-    get
-  }
-  public var maxZoomFactor: Swift.Float {
-    get
-  }
-  public var zoomFactor: Swift.Float {
-    get
-  }
-  @discardableResult
-  public func setZoomFactor(_ zoomFactor: Swift.Float) -> Swift.Float
-  public func setTorch(mode: AVFoundation.AVCaptureDevice.TorchMode) -> AVFoundation.AVCaptureDevice.TorchMode
-  public func toggleTorch() -> AVFoundation.AVCaptureDevice.TorchMode
-  public func startCamera()
-  public func stopCamera(completion: (() -> Swift.Void)?)
-  public func initiatePhotoCapture(cameraSettings: BanubaSdkSimple.CameraPhotoSettings, completion: @escaping (CoreVideo.CVImageBuffer?) -> Swift.Void)
-  public var isPhotoCameraSession: Swift.Bool {
-    get
-  }
-  public var isFrontCamera: Swift.Bool {
-    get
-  }
-  public var isCameraCapturing: Swift.Bool {
-    get
-  }
-  public var currentCameraSessionType: BanubaSdkSimple.CameraSessionType {
-    get
-  }
-  public func setCameraSessionType(_ type: BanubaSdkSimple.CameraSessionType, videoCapturePreset: AVFoundation.AVCaptureSession.Preset?)
-  public func startAudioCapturing()
-  public func stopAudioCapturing()
-}
-extension BanubaSdkSimple.InputService {
-  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
 extension BanubaSdkSimple.CameraSessionType {
   public var isFrontCamera: Swift.Bool {
@@ -346,6 +283,9 @@ extension BanubaSdkSimple.CameraSessionType {
   public var isPhotoMode: Swift.Bool {
     get
   }
+}
+extension BanubaSdkSimple.CameraServicing {
+  public func toggleCamera(completion: @escaping BanubaSdkSimple.RotateCameraCallBack)
 }
 @objc public class BanubaSimpleCameraModule : ObjectiveC.NSObject {
   @objc public var isPIPSessionAlreadySetup: Swift.Bool
@@ -526,8 +466,7 @@ extension BanubaSdkSimple.VoiceChangerError : Swift.Equatable {}
 extension BanubaSdkSimple.VoiceChangerError : Swift.Hashable {}
 extension BanubaSdkSimple.CameraSessionType : Swift.Equatable {}
 extension BanubaSdkSimple.CameraSessionType : Swift.Hashable {}
-extension BanubaSdkSimple.InputService.InputServiceError : Swift.Equatable {}
-extension BanubaSdkSimple.InputService.InputServiceError : Swift.Hashable {}
+extension BanubaSdkSimple.CameraSessionType : Swift.RawRepresentable {}
 extension BanubaSdkSimple.RenderContentMode : Swift.Equatable {}
 extension BanubaSdkSimple.RenderContentMode : Swift.Hashable {}
 extension BanubaSdkSimple.RenderContentMode : Swift.RawRepresentable {}

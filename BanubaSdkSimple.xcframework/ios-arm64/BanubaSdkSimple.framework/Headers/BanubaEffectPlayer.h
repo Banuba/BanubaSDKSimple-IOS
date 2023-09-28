@@ -12,49 +12,49 @@ FOUNDATION_EXPORT const unsigned char BNBSimpleEffectPlayerVersionString[];
 FOUNDATION_EXPORT const double BNBSimpleEffectPlayerVersionNumber;
 
 
-#import "BNBSimpleFullImageData.h"
-#import "BNBSimplePixelRect.h"
-#import "BNBSimpleLogRecordCallback.h"
-#import "BNBSimpleFrameDurationListener.h"
-#import "BNBSimpleEffectEventListener.h"
-#import "BNBSimpleFaceNumberListener.h"
-#import "BNBSimpleErrorListener.h"
-#import "BNBSimpleEffectStatus.h"
-#import "BNBSimpleHintListener.h"
-#import "BNBSimpleCameraPoiListener.h"
-#import "BNBSimpleConsistencyMode.h"
-#import "BNBSimpleEffectPlayer.h"
-#import "BNBSimpleCameraOrientation.h"
-#import "BNBSimplePixelFormat.h"
-#import "BNBSimpleInputManager.h"
-#import "BNBSimpleTouch.h"
-#import "BNBSimpleAnalyticsConfig.h"
-#import "BNBSimpleAnalyticsListener.h"
-#import "BNBSimplePostProcessStage.h"
-#import "BNBSimpleFramesProvider.h"
+#import <BanubaSdkSimple/BNBSimpleFullImageData.h>
+#import <BanubaSdkSimple/BNBSimplePixelRect.h>
+#import <BanubaSdkSimple/BNBSimpleLogRecordCallback.h>
+#import <BanubaSdkSimple/BNBSimpleFrameDurationListener.h>
+#import <BanubaSdkSimple/BNBSimpleEffectEventListener.h>
+#import <BanubaSdkSimple/BNBSimpleFaceNumberListener.h>
+#import <BanubaSdkSimple/BNBSimpleErrorListener.h>
+#import <BanubaSdkSimple/BNBSimpleEffectStatus.h>
+#import <BanubaSdkSimple/BNBSimpleHintListener.h>
+#import <BanubaSdkSimple/BNBSimpleCameraPoiListener.h>
+#import <BanubaSdkSimple/BNBSimpleConsistencyMode.h>
+#import <BanubaSdkSimple/BNBSimpleEffectPlayer.h>
+#import <BanubaSdkSimple/BNBSimpleCameraOrientation.h>
+#import <BanubaSdkSimple/BNBSimplePixelFormat.h>
+#import <BanubaSdkSimple/BNBSimpleInputManager.h>
+#import <BanubaSdkSimple/BNBSimpleTouch.h>
+#import <BanubaSdkSimple/BNBSimpleAnalyticsConfig.h>
+#import <BanubaSdkSimple/BNBSimpleAnalyticsListener.h>
+#import <BanubaSdkSimple/BNBSimplePostProcessStage.h>
+#import <BanubaSdkSimple/BNBSimpleFramesProvider.h>
 
-#import "BNBSimplePushFrameMocker.h"
-#import "BNBSimplePostprocessStageTextureApplier.h"
+#import <BanubaSdkSimple/BNBSimplePushFrameMocker.h>
+#import <BanubaSdkSimple/BNBSimplePostprocessStageTextureApplier.h>
 
-#import "BNBSimplePostprocessStageFramebufferApplier.h"
-#import "BNBSimplePostprocessHelper.h"
-#import "BNBSimplePostprocessLutTexture.h"
+#import <BanubaSdkSimple/BNBSimplePostprocessStageFramebufferApplier.h>
+#import <BanubaSdkSimple/BNBSimplePostprocessHelper.h>
+#import <BanubaSdkSimple/BNBSimplePostprocessLutTexture.h>
 
-#import "BNBSimpleRecognizer.h"
-#import "BNBSimpleFeaturesFlags.h"
-#import "BNBSimpleActiveRecognizer.h"
+#import <BanubaSdkSimple/BNBSimpleRecognizer.h>
+#import <BanubaSdkSimple/BNBSimpleFeaturesFlags.h>
+#import <BanubaSdkSimple/BNBSimpleActiveRecognizer.h>
 
-#import "BNBSimpleDebugRenderer.h"
+#import <BanubaSdkSimple/BNBSimpleDebugRenderer.h>
 
-#import "BNBSimpleFaceData.h"
-#import "BNBSimpleFrameData.h"
-#import "BNBSimpleFrxRecognitionResult.h"
+#import <BanubaSdkSimple/BNBSimpleFaceData.h>
+#import <BanubaSdkSimple/BNBSimpleFrameData.h>
+#import <BanubaSdkSimple/BNBSimpleFrxRecognitionResult.h>
 
-#import "BNBSimpleUtilityManager.h"
-#import "BNBSimpleLogRecordCallback.h"
-#import "BNBSimpleSeverityLevel.h"
+#import <BanubaSdkSimple/BNBSimpleUtilityManager.h>
+#import <BanubaSdkSimple/BNBSimpleLogRecordCallback.h>
+#import <BanubaSdkSimple/BNBSimpleSeverityLevel.h>
 
-#import "BNBSimpleObjC.h"
-#import "BNBSimpleLowLightListener.h"
-#import "BNBSimpleEffectManager.h"
-#import "BNBSimplePixelBuffer.h"
+#import <BanubaSdkSimple/BNBSimpleObjC.h>
+#import <BanubaSdkSimple/BNBSimpleLowLightListener.h>
+#import <BanubaSdkSimple/BNBSimpleEffectManager.h>
+#import <BanubaSdkSimple/BNBSimplePixelBuffer.h>

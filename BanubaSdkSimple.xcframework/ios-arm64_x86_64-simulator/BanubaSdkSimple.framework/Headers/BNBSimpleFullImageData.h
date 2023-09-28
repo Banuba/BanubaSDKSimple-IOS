@@ -4,7 +4,7 @@
 #if __has_include(<BNBSimpleCameraOrientation.h>)
 #import <BNBSimpleCameraOrientation.h>
 #else
-#import "BNBSimpleCameraOrientation.h"
+#import <BanubaSdkSimple/BNBSimpleCameraOrientation.h>
 #endif
 
 NS_ASSUME_NONNULL_BEGIN

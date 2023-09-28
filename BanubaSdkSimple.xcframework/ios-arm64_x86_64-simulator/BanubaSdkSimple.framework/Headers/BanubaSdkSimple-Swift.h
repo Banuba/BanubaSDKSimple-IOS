@@ -293,6 +293,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14AudioCapturing_")
+@protocol AudioCapturing
+- (void)startAudioCapturing;
+- (void)stopAudioCapturing;
+@end
+
+
 @class NSURL;
 @class PIPSwitchLayoutSetting;
 @class PIPPlayerLayoutSetting;
@@ -413,31 +420,77 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @end
 
 
-
-SWIFT_CLASS("_TtC15BanubaSdkSimple12InputService")
-@interface InputService : NSObject
+SWIFT_CLASS("_TtC15BanubaSdkSimple19CameraPhotoSettings")
+@interface CameraPhotoSettings : NSObject
+@property (nonatomic, readonly) AVCapturePhotoQualityPrioritization photoQualityPrioritization;
+@property (nonatomic, readonly) AVCaptureFlashMode flashMode;
+/// CameraPhotoSettings constructor
+/// \param photoQualityPrioritization setup photo quality
+///
+/// \param flashMode setup  flash mode
+///
+- (nonnull instancetype)initWithPhotoQualityPrioritization:(AVCapturePhotoQualityPrioritization)photoQualityPrioritization flashMode:(AVCaptureFlashMode)flashMode OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class AVCaptureOutput;
-@class AVCaptureConnection;
-@class AVCapturePhotoOutput;
-@class AVCaptureResolvedPhotoSettings;
-@class AVCaptureBracketedStillImageSettings;
+@protocol InputServiceDelegate;
+enum CameraSessionType : NSInteger;
+@class AVCaptureVideoDataOutput;
 
-@interface InputService (SWIFT_EXTENSION(BanubaSdkSimple)) <AVCaptureAudioDataOutputSampleBufferDelegate, AVCapturePhotoCaptureDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
-- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
-- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didDropSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
-- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingRawPhotoSampleBuffer:(CMSampleBufferRef _Nullable)rawSampleBuffer previewPhotoSampleBuffer:(CMSampleBufferRef _Nullable)previewPhotoSampleBuffer resolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings bracketSettings:(AVCaptureBracketedStillImageSettings * _Nullable)bracketSettings error:(NSError * _Nullable)error;
-- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhotoSampleBuffer:(CMSampleBufferRef _Nullable)photoSampleBuffer previewPhotoSampleBuffer:(CMSampleBufferRef _Nullable)previewPhotoSampleBuffer resolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings bracketSettings:(AVCaptureBracketedStillImageSettings * _Nullable)bracketSettings error:(NSError * _Nullable)error;
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple15CameraServicing_")
+@protocol CameraServicing
+@property (nonatomic, strong) id <InputServiceDelegate> _Nullable delegate;
+@property (nonatomic, readonly) BOOL isFrontCamera;
+@property (nonatomic, readonly) BOOL isPhotoCameraSession;
+@property (nonatomic, readonly) enum CameraSessionType currentCameraSessionType;
+@property (nonatomic, readonly) CGPoint exposurePointOfInterest;
+@property (nonatomic) BOOL flipCamera;
+@property (nonatomic, readonly, strong) AVCaptureVideoDataOutput * _Nullable cameraVideoOutput;
+- (void)setupCamera;
+- (void)startCamera;
+- (void)stopCamera;
+- (void)releaseAudioCaptureSession;
+- (void)setCameraSessionType:(enum CameraSessionType)type;
+- (void)setCameraSessionType:(enum CameraSessionType)type completion:(void (^ _Nonnull)(void))completion;
+- (void)setCameraSessionType:(enum CameraSessionType)type zoomFactor:(float)zoomFactor completion:(void (^ _Nonnull)(void))completion;
+- (void)focusAt:(CGPoint)point useContinuousDetection:(BOOL)useContinuousDetection;
+- (AVCaptureTorchMode)setTorchWithMode:(AVCaptureTorchMode)mode SWIFT_WARN_UNUSED_RESULT;
+- (AVCaptureTorchMode)toggleTorch SWIFT_WARN_UNUSED_RESULT;
+- (void)initiatePhotoCaptureWithCameraSettings:(CameraPhotoSettings * _Nonnull)cameraSettings completion:(void (^ _Nonnull)(CVImageBufferRef _Nullable))completion;
+- (void)switchCameraTo:(enum CameraSessionType)type completion:(void (^ _Nonnull)(void))completion;
+@end
+
+typedef SWIFT_ENUM(NSInteger, CameraSessionType, open) {
+  CameraSessionTypeFrontCameraVideoSession = 0,
+  CameraSessionTypeBackCameraVideoSession = 1,
+  CameraSessionTypeFrontCameraPhotoSession = 2,
+  CameraSessionTypeBackCameraPhotoSession = 3,
+};
+
+
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14CameraZoomable_")
+@protocol CameraZoomable
+@property (nonatomic, readonly) float currentFieldOfView;
+@property (nonatomic, readonly) BOOL isZoomFactorAdjustable;
+@property (nonatomic, readonly) float minZoomFactor;
+@property (nonatomic, readonly) float maxZoomFactor;
+@property (nonatomic, readonly) float zoomFactor;
+- (float)setZoomFactor:(float)zoomFactor SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
-@interface InputService (SWIFT_EXTENSION(BanubaSdkSimple))
-- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple20InputServiceDelegate_")
+@protocol InputServiceDelegate
+- (void)pushWithCvBuffer:(CVPixelBufferRef _Nonnull)cvBuffer;
+- (void)pushWithCmBuffer:(CMSampleBufferRef _Nonnull)cmBuffer;
 @end
 
+
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14InputServicing_")
+@protocol InputServicing <AudioCapturing, CameraServicing, CameraZoomable>
+@end
 
 
 SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
@@ -853,6 +906,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14AudioCapturing_")
+@protocol AudioCapturing
+- (void)startAudioCapturing;
+- (void)stopAudioCapturing;
+@end
+
+
 @class NSURL;
 @class PIPSwitchLayoutSetting;
 @class PIPPlayerLayoutSetting;
@@ -973,31 +1033,77 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @end
 
 
-
-SWIFT_CLASS("_TtC15BanubaSdkSimple12InputService")
-@interface InputService : NSObject
+SWIFT_CLASS("_TtC15BanubaSdkSimple19CameraPhotoSettings")
+@interface CameraPhotoSettings : NSObject
+@property (nonatomic, readonly) AVCapturePhotoQualityPrioritization photoQualityPrioritization;
+@property (nonatomic, readonly) AVCaptureFlashMode flashMode;
+/// CameraPhotoSettings constructor
+/// \param photoQualityPrioritization setup photo quality
+///
+/// \param flashMode setup  flash mode
+///
+- (nonnull instancetype)initWithPhotoQualityPrioritization:(AVCapturePhotoQualityPrioritization)photoQualityPrioritization flashMode:(AVCaptureFlashMode)flashMode OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class AVCaptureOutput;
-@class AVCaptureConnection;
-@class AVCapturePhotoOutput;
-@class AVCaptureResolvedPhotoSettings;
-@class AVCaptureBracketedStillImageSettings;
+@protocol InputServiceDelegate;
+enum CameraSessionType : NSInteger;
+@class AVCaptureVideoDataOutput;
 
-@interface InputService (SWIFT_EXTENSION(BanubaSdkSimple)) <AVCaptureAudioDataOutputSampleBufferDelegate, AVCapturePhotoCaptureDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
-- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
-- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didDropSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
-- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingRawPhotoSampleBuffer:(CMSampleBufferRef _Nullable)rawSampleBuffer previewPhotoSampleBuffer:(CMSampleBufferRef _Nullable)previewPhotoSampleBuffer resolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings bracketSettings:(AVCaptureBracketedStillImageSettings * _Nullable)bracketSettings error:(NSError * _Nullable)error;
-- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhotoSampleBuffer:(CMSampleBufferRef _Nullable)photoSampleBuffer previewPhotoSampleBuffer:(CMSampleBufferRef _Nullable)previewPhotoSampleBuffer resolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings bracketSettings:(AVCaptureBracketedStillImageSettings * _Nullable)bracketSettings error:(NSError * _Nullable)error;
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple15CameraServicing_")
+@protocol CameraServicing
+@property (nonatomic, strong) id <InputServiceDelegate> _Nullable delegate;
+@property (nonatomic, readonly) BOOL isFrontCamera;
+@property (nonatomic, readonly) BOOL isPhotoCameraSession;
+@property (nonatomic, readonly) enum CameraSessionType currentCameraSessionType;
+@property (nonatomic, readonly) CGPoint exposurePointOfInterest;
+@property (nonatomic) BOOL flipCamera;
+@property (nonatomic, readonly, strong) AVCaptureVideoDataOutput * _Nullable cameraVideoOutput;
+- (void)setupCamera;
+- (void)startCamera;
+- (void)stopCamera;
+- (void)releaseAudioCaptureSession;
+- (void)setCameraSessionType:(enum CameraSessionType)type;
+- (void)setCameraSessionType:(enum CameraSessionType)type completion:(void (^ _Nonnull)(void))completion;
+- (void)setCameraSessionType:(enum CameraSessionType)type zoomFactor:(float)zoomFactor completion:(void (^ _Nonnull)(void))completion;
+- (void)focusAt:(CGPoint)point useContinuousDetection:(BOOL)useContinuousDetection;
+- (AVCaptureTorchMode)setTorchWithMode:(AVCaptureTorchMode)mode SWIFT_WARN_UNUSED_RESULT;
+- (AVCaptureTorchMode)toggleTorch SWIFT_WARN_UNUSED_RESULT;
+- (void)initiatePhotoCaptureWithCameraSettings:(CameraPhotoSettings * _Nonnull)cameraSettings completion:(void (^ _Nonnull)(CVImageBufferRef _Nullable))completion;
+- (void)switchCameraTo:(enum CameraSessionType)type completion:(void (^ _Nonnull)(void))completion;
+@end
+
+typedef SWIFT_ENUM(NSInteger, CameraSessionType, open) {
+  CameraSessionTypeFrontCameraVideoSession = 0,
+  CameraSessionTypeBackCameraVideoSession = 1,
+  CameraSessionTypeFrontCameraPhotoSession = 2,
+  CameraSessionTypeBackCameraPhotoSession = 3,
+};
+
+
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14CameraZoomable_")
+@protocol CameraZoomable
+@property (nonatomic, readonly) float currentFieldOfView;
+@property (nonatomic, readonly) BOOL isZoomFactorAdjustable;
+@property (nonatomic, readonly) float minZoomFactor;
+@property (nonatomic, readonly) float maxZoomFactor;
+@property (nonatomic, readonly) float zoomFactor;
+- (float)setZoomFactor:(float)zoomFactor SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
-@interface InputService (SWIFT_EXTENSION(BanubaSdkSimple))
-- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple20InputServiceDelegate_")
+@protocol InputServiceDelegate
+- (void)pushWithCvBuffer:(CVPixelBufferRef _Nonnull)cvBuffer;
+- (void)pushWithCmBuffer:(CMSampleBufferRef _Nonnull)cmBuffer;
 @end
 
+
+SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14InputServicing_")
+@protocol InputServicing <AudioCapturing, CameraServicing, CameraZoomable>
+@end
 
 
 SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")

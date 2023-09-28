@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BNBSimpleActiveRecognizer.h</key>
 		<data>
-		uD6EjoEi0HkSgOoRPM+7IyJAoAo=
+		PKJz9VmsEDeK5AprAJwTWSpNHdU=
 		</data>
 		<key>Headers/BNBSimpleAnalyticsConfig.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/BNBSimpleDebugRenderer.h</key>
 		<data>
-		d/LH6xOn7ptdJiG6E9jigqlOQpw=
+		priTQQEfaGjhdqsOY+ILK+s6oWg=
 		</data>
 		<key>Headers/BNBSimpleEffectEventListener.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/BNBSimpleEffectPlayer.h</key>
 		<data>
-		DHcp6f8ETwDPFIzpigJKu+EHI8k=
+		+V3O6F8rOTx9QBdnIyYLBQNvRZ8=
 		</data>
 		<key>Headers/BNBSimpleEffectPlayerConfiguration.h</key>
 		<data>
-		4SHgxDQ3xm5I6yrLIReCBQDk+ks=
+		mGUElP2rE3VH21ddrSKKRTFweO0=
 		</data>
 		<key>Headers/BNBSimpleEffectPlayerPlaybackState.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/BNBSimpleFaceData.h</key>
 		<data>
-		hEzEcQPAa72F4UoqVzHVeP7n2ok=
+		y2CWnM8jJzF4moSOKujHFYaTgBw=
 		</data>
 		<key>Headers/BNBSimpleFaceNumberListener.h</key>
 		<data>
@@ -82,15 +82,15 @@
 		</data>
 		<key>Headers/BNBSimpleFramesProvider.h</key>
 		<data>
-		w5aQgyZOEcko6bXuhLMzGXZ5TMY=
+		qKa+vJxYxJ6tT75kA+4cuS5P2Y0=
 		</data>
 		<key>Headers/BNBSimpleFrxRecognitionResult.h</key>
 		<data>
-		kyAD8W3601/9L6SFrHbahBZWQCQ=
+		ASnbYOnCz1zOahrNLpVQiVEcxx4=
 		</data>
 		<key>Headers/BNBSimpleFullImageData.h</key>
 		<data>
-		h8hG2qyi3yzjAv42Z4KmeUCazR8=
+		GxJpIKNq5CwA8CbC7dyKm2parW0=
 		</data>
 		<key>Headers/BNBSimpleHintListener.h</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>Headers/BNBSimpleInputManager.h</key>
 		<data>
-		dYVOm0Uil2vLOmMQJQ63PTbWDis=
+		+6E7V4E+fHtGWF2xCb5b9l2Pk4w=
 		</data>
 		<key>Headers/BNBSimpleLogRecordCallback.h</key>
 		<data>
-		I6zeCABE/MiuzkcE0dwySw/2NQ4=
+		UeWXo8gbjFXRmKSfKJt8VTWelgA=
 		</data>
 		<key>Headers/BNBSimpleLowLightListener.h</key>
 		<data>
@@ -150,15 +150,15 @@
 		</data>
 		<key>Headers/BNBSimpleProcessImageParams.h</key>
 		<data>
-		FbNibSLKHGWS4Mo4MUKAzK1wIaM=
+		fJpoiwdW9BpmPrqv/e26QmCszX0=
 		</data>
 		<key>Headers/BNBSimplePushFrameMocker.h</key>
 		<data>
-		Im0Fuqt2IJ+DCbwW6We0zfeaWIs=
+		TWYa3ehdeasBisVULB5ADDA93KY=
 		</data>
 		<key>Headers/BNBSimpleRecognizer.h</key>
 		<data>
-		PM0rKJXMn/leQop0PVzzKEtFXy8=
+		E6hC+88l8q6tUzd0CA9YIrh3CH8=
 		</data>
 		<key>Headers/BNBSimpleSeverityLevel.h</key>
 		<data>
@@ -170,19 +170,19 @@
 		</data>
 		<key>Headers/BNBSimpleUtilityManager.h</key>
 		<data>
-		r3WIdKDT/bVkFQYkI4UXJA+k+Aw=
+		02e/AFZWU2be7NHiYh4INOZpvfU=
 		</data>
 		<key>Headers/BanubaEffectPlayer.h</key>
 		<data>
-		dLa0MKoO/3qxsowPk0j229FSnoE=
+		S3onPIgnWnwMrFLEn0GzY2jYT3A=
 		</data>
 		<key>Headers/BanubaSdkSimple-Swift.h</key>
 		<data>
-		fQfKm7JEvEVXn/b91WaVZTRfuNk=
+		ZnpJ9kYVUplOPKzQEMNPYd+fXOo=
 		</data>
 		<key>Headers/BanubaSdkSimple.h</key>
 		<data>
-		Qfz4/QN3hp5xe2tBXEuW3XYBc7g=
+		aJpAyBH1j3Xo9Qu5zILnltx9XLw=
 		</data>
 		<key>Headers/SBSimpleVideoWriter.h</key>
 		<data>
@@ -190,47 +190,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		t0n9s7yriY9S+0EcnLnJ/wnYv5A=
+		e+RtXGfAfjPw0b+7mVoxQ3zNJls=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		h8i9Ti788SIHK2NBl8JzbuYAv28=
+		RefMVXQa1PsBAQGObPIvm17ntc4=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		a8UQve4Lr3wZF86dvMQDhYwePn8=
+		DGefktMwnSZalHs9oQPfCCVGQk0=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		scODMDg3aAgmzSRu1cU/O1APGS8=
+		3f89hR8TyI519fcY2H4OCRHTWaY=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		a8UQve4Lr3wZF86dvMQDhYwePn8=
+		DGefktMwnSZalHs9oQPfCCVGQk0=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BOaA57+Ng62Q3rni7i9vOmZkmJk=
+		EuJ1Y+R0l/gP0eeblUqfMg2bHdw=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		h8i9Ti788SIHK2NBl8JzbuYAv28=
+		RefMVXQa1PsBAQGObPIvm17ntc4=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yp7sheQNpG1MbcR5ejsHh0mxul0=
+		2l3vfwodI/b8KePXvCB09Bj2xWg=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Nr2fAvQBypEseb3V7hmfYNqnoqk=
+		7tHN31yUFEMqCX2LScoirgT6MKI=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yp7sheQNpG1MbcR5ejsHh0mxul0=
+		2l3vfwodI/b8KePXvCB09Bj2xWg=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lr93YfLrMbt7CvasaaGVJbEcjpo=
+		BS4H8K+7AXPxABk+a72jctTYLl4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		5D7EQxgrt4v8MzYB4XApMWfKzTc=
+		RG8LRRfB5jqPIkJZD7GL9g2u8RI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			usAEw3UXcbRS5d6rDXZJ37jJQ7hT1veWk4KyyuNKbis=
+			Kz46K3xS7BdBd1/wh5gREsS2N4YLZb42XT6ji/nImlU=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleAnalyticsConfig.h</key>
@@ -289,7 +289,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zscxXpfgFiZ4Uv0qOG/a/fx38yyIoA1ER8nOrW3bvOk=
+			Ki3s0mUmoF9izqyp/56znlxqHzLCSzr98t6sgQ3jiFY=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleEffectEventListener.h</key>
@@ -310,14 +310,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OvZvv7OZ2fV7852dhO5IzqyHCbmcVWLPi+Kkv7myfQY=
+			CoL7XMo6K025LpJ8Vxyb3ewsn83vDKLXo9xbFJXGkd0=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleEffectPlayerConfiguration.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ofqVq3LvUUr2PhY3PtY0S6yB2sFAXdtTHkVNj2s2qw=
+			FgYyonnQ1b/1BZU86Dp3YoxkSp6aK12HbQmEYp8Y0KI=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleEffectPlayerPlaybackState.h</key>
@@ -345,7 +345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnAFpFJF4L0zy8Oht+sTHE2pQdbvoqGbbu8PWoi1CR0=
+			rXiNh1jl01iUh0/nRwJBQmqtam+N6a0bKGo1HHXfpWw=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleFaceNumberListener.h</key>
@@ -380,21 +380,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ez8VsumQZSN/zOTVK+zO7iUfKNU+/UyqH2CrTTZtD7M=
+			lyDTEriQydlP57U82dm/yl9Vbfoe4BKLlOjMxoXZ2ek=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleFrxRecognitionResult.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WbBf4+amL/JJ1sjdKoNPm3tfsItEkVbwBq7YHIJ9cTQ=
+			gdYgkkdnGr0dwjioEiE/9/qkZ18JLMi+oecqDH6YqZ8=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleFullImageData.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vc+kU910L2g/sFAetokS2yU7OHNTBNKHR2hurIuvm5Q=
+			OX1LC0vHo+N9YDhAoMXGZrVLaiy550pONF4CaO8X/hA=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleHintListener.h</key>
@@ -408,14 +408,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ElSEq8U/cXFEAdJf14RQCN3fVsmKnQQiwtYprrV9OE=
+			RlncAbtTEv1nr+jG2m/So1NKuHjFcnx4QyXurGD5LUs=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleLogRecordCallback.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J++5ZsCSJxGD0Xlv2oClhG6h/ZLiF8mEp4myjBJhu6I=
+			VHWoMRxDUW9m3JO6NpcYHx8+Xi3b7sSutjfnLeFvxJs=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleLowLightListener.h</key>
@@ -499,21 +499,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6e2h2mgYhbZw/wbCuW9BbD5QlDaR/STzv/Bg/JX00BE=
+			KLrhS6Xkm4pL0Iz6HBiSmNnM3B2CH3jItgl6okWor4Q=
 			</data>
 		</dict>
 		<key>Headers/BNBSimplePushFrameMocker.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CWfJaHzvXDug4UCbX+fyo+BRI5nu2WQSMqcS7O+FGVo=
+			1ccD2bjoc1cvOgb8v0MGqZ5Mxw5ZiwNXTzxpGvd678I=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleRecognizer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MyMjFGKWukB4ELW4jaEU+Hw6gi0jeg++XLFAzFjisPU=
+			HnUAZCjKhyXA3xKhsO8k8EmTiF/rj0f+7uXS3OfsRd0=
 			</data>
 		</dict>
 		<key>Headers/BNBSimpleSeverityLevel.h</key>
@@ -534,28 +534,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+hAM2O2HGIvdB126pSzhOp2AAB2cTwCDa6sOJ/qEKA=
+			zrN2sXhJ2cfsY7qnADebFZQaimiShqxMKfwXkiJu6Uk=
 			</data>
 		</dict>
 		<key>Headers/BanubaEffectPlayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R5qaqWZKV9/eYVoE0i4fXsewuG8G1oc832zsPGvybf8=
+			1oRUpx4pDRU25KGCk1tb73wI6F5sgNCs4kvfkyxInz8=
 			</data>
 		</dict>
 		<key>Headers/BanubaSdkSimple-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XN/QWxn93+R4/1ZxA8sGmfT6i+TX9PiN2cqe9lAFVLQ=
+			XkEkpmraQZg93VX5kUPQMscGpGbrIB553hhn8BtfQcs=
 			</data>
 		</dict>
 		<key>Headers/BanubaSdkSimple.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mXlQSxx2mn/7VGvhHqY5uS2PBuffz+WxzQiqcXWgiYs=
+			NsHVR4bH7YmSlW48RAih15MLoXiKL/yrqbcbTymDYaM=
 			</data>
 		</dict>
 		<key>Headers/SBSimpleVideoWriter.h</key>
@@ -569,70 +569,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3VK3vZ+4uJdTRAHKad6fg9sVSR9TnxQrXJKM44diZl4=
+			rOSCg327o1ghQ/3dinL+YbK1fB4vaU11HAYYBXZTuco=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tq3Ad6qcUnM+wMddjyHn7AJjvF78eh53RhQ0lE0KRL4=
+			6NOLPoNiyv7D0oim3Q8pPqyMrOXnOS8EryOeoKXojXU=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5lFav4mxRlcyhKXmP8q4ibvBGloRUQCU97gn3SF3Bd8=
+			MeuywHZwpYfq1b5FOcbIqeLJd59JVYetEG7s+jAQDsE=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tq3Ad6qcUnM+wMddjyHn7AJjvF78eh53RhQ0lE0KRL4=
+			6NOLPoNiyv7D0oim3Q8pPqyMrOXnOS8EryOeoKXojXU=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2npiDgFL6OMbQs2NnJOa+ZsR8jaFIpPx1t1GBDn7a/8=
+			zJgpsOh8zR1BeGGkybzlZHbEkAU6L55KnFTm22ta8PM=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3VK3vZ+4uJdTRAHKad6fg9sVSR9TnxQrXJKM44diZl4=
+			rOSCg327o1ghQ/3dinL+YbK1fB4vaU11HAYYBXZTuco=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8xSw6JYCafeuhRNwIiS6oGFcHwEfhmE+0ubAVACQlis=
+			AyinL4K32mHSDw3300N7AnEwqadjsY3GN49oWLoEThc=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LB1+vPIqi5oI6NIcmWzdxMB63hIcYaXz4I9I4CE1Las=
+			4LX+wnhV6KTbA93SJATfCjaEI71UAyNLXZUyX5jBWas=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8xSw6JYCafeuhRNwIiS6oGFcHwEfhmE+0ubAVACQlis=
+			AyinL4K32mHSDw3300N7AnEwqadjsY3GN49oWLoEThc=
 			</data>
 		</dict>
 		<key>Modules/BanubaSdkSimple.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JEpM8ZEVek7SO65WfuIWUd1zBI64Ux9CFVog4sYK9tY=
+			BXFxBdknktclnMxE9oOydVIOSBycA0L/5CkymihYUPc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -646,7 +646,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gABm4DvDRAZkVp1O2RWhfSfMUVtKLuBYEjOwE1Mv4H0=
+			9IyFqnhfPbVUcizbs6zckHPG8Om5e1/b8//dIYZf7k4=
 			</data>
 		</dict>
 	</dict>
