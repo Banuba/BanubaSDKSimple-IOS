@@ -1,7 +1,7 @@
 framework module BanubaSdkSimple {
   umbrella header "BanubaSdkSimple.h"
-
   export *
+
   module * { export * }
 }
 
