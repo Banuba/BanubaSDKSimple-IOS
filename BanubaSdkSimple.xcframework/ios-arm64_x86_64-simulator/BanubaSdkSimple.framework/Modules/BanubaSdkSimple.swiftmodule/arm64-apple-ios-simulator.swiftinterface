@@ -91,7 +91,7 @@ public struct EffectPlayerConfinguration {
   @objc public init(image: UIKit.UIImage, corner: BanubaSdkSimple.WatermarkCornerPosition, offset: CoreFoundation.CGPoint, targetNormalizedWidth: CoreFoundation.CGFloat)
   @objc public init(image: UIKit.UIImage, normalizedPosition: CoreFoundation.CGPoint, targetWidth: CoreFoundation.CGFloat)
   @objc public init(image: UIKit.UIImage, normalizedPosition: CoreFoundation.CGPoint, targetNormalizedWidth: CoreFoundation.CGFloat)
-  @objc public func drawSettingsWithBoundsSize(_ boundsSize: CoreFoundation.CGSize, outputSettings: BanubaSDKServicing.VEOutputSettings) -> BanubaSdkSimple.WatermarkDrawSettings
+  @objc public func drawSettingsWithBoundsSize(_ boundsSize: CoreFoundation.CGSize, outputSettings: BanubaSDKServicing.OutputSettings) -> BanubaSdkSimple.WatermarkDrawSettings
   @objc deinit
 }
 extension BanubaSdkSimple.BNBSimpleTouch {
@@ -414,15 +414,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeaut
     @objc get
     @objc set
   }
-  @objc dynamic public var supportsIntensity: Swift.Bool {
-    @objc get
-  }
-  @objc dynamic public var intensity: Swift.Double {
-    @objc get
-    @objc set
-  }
   @objc dynamic public func toggleBeautification() -> Swift.Bool
-  @objc dynamic public func resetIntensity()
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule {
   public func willOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
@@ -438,7 +430,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule {
   }
 }
 public protocol SnapshotProvider {
-  func makeSnapshotWithSettings(_ settings: BanubaSDKServicing.VEOutputSettings, watermarkPixelBuffer: CoreVideo.CVPixelBuffer?) -> UIKit.UIImage?
+  func makeSnapshotWithSettings(_ settings: BanubaSDKServicing.OutputSettings, watermarkPixelBuffer: CoreVideo.CVPixelBuffer?) -> UIKit.UIImage?
 }
 public protocol PixelBufferProvider {
   func makeVideoPixelBuffer() -> CoreVideo.CVPixelBuffer?
@@ -457,7 +449,7 @@ public protocol PixelBufferProvider {
   public var shouldZoomPipImage: Swift.Bool
   public func setSplitRender(rect: CoreFoundation.CGRect, offset: CoreFoundation.CGPoint)
   @objc public func makeVideoPixelBuffer() -> CoreVideo.CVPixelBuffer?
-  @objc public func makeSnapshotWithSettings(_ settings: BanubaSDKServicing.VEOutputSettings, watermarkPixelBuffer: CoreVideo.CVPixelBuffer?) -> UIKit.UIImage?
+  @objc public func makeSnapshotWithSettings(_ settings: BanubaSDKServicing.OutputSettings, watermarkPixelBuffer: CoreVideo.CVPixelBuffer?) -> UIKit.UIImage?
   @objc public func activate()
   @objc public func present(_ willPresentHandler: ((CoreVideo.CVPixelBuffer?) -> Swift.Void)?)
   @objc deinit

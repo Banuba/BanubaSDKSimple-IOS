@@ -341,6 +341,12 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @end
 
 
+
+@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBeautyEffectManaging>
+@property (nonatomic) BOOL isBeautificationEnabled;
+- (BOOL)toggleBeautification SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class ExternalAudioConfiguration;
 @class NSValue;
 
@@ -349,15 +355,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @property (nonatomic, readonly) BOOL isEnoughDiskSpaceForRecording;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL startTimeForVideoTexture:(double)startTimeForVideoTexture externalAudioConfiguration:(ExternalAudioConfiguration * _Nullable)externalAudioConfiguration progress:(void (^ _Nonnull)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart shouldSkipFrame:(BOOL (^ _Nullable)(void))shouldSkipFrame periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nonnull)boundaryTimes boundaryHandler:(void (^ _Nonnull)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration itemDuration:(NSTimeInterval)itemDuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)stopVideoCapturingWithCancel:(BOOL)cancel;
-@end
-
-
-@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBeautyEffectManaging>
-@property (nonatomic) BOOL isBeautificationEnabled;
-@property (nonatomic, readonly) BOOL supportsIntensity;
-@property (nonatomic) double intensity;
-- (BOOL)toggleBeautification SWIFT_WARN_UNUSED_RESULT;
-- (void)resetIntensity;
 @end
 
 
@@ -581,12 +578,12 @@ typedef SWIFT_ENUM(NSInteger, RenderContentMode, open) {
   RenderContentModeResize = 2,
 };
 
-@class VEOutputSettings;
+@class OutputSettings;
 
 SWIFT_CLASS("_TtC15BanubaSdkSimple12RenderTarget")
 @interface RenderTarget : PIPShapeDrawer
 - (CVPixelBufferRef _Nullable)makeVideoPixelBuffer SWIFT_WARN_UNUSED_RESULT;
-- (UIImage * _Nullable)makeSnapshotWithSettings:(VEOutputSettings * _Nonnull)settings watermarkPixelBuffer:(CVPixelBufferRef _Nullable)watermarkPixelBuffer SWIFT_WARN_UNUSED_RESULT;
+- (UIImage * _Nullable)makeSnapshotWithSettings:(OutputSettings * _Nonnull)settings watermarkPixelBuffer:(CVPixelBufferRef _Nullable)watermarkPixelBuffer SWIFT_WARN_UNUSED_RESULT;
 - (void)activate;
 - (void)present:(void (^ _Nullable)(CVPixelBufferRef _Nullable))willPresentHandler;
 @end
@@ -618,7 +615,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple13WatermarkInfo")
 - (nonnull instancetype)initWithImage:(UIImage * _Nonnull)image corner:(enum WatermarkCornerPosition)corner offset:(CGPoint)offset targetNormalizedWidth:(CGFloat)targetNormalizedWidth OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithImage:(UIImage * _Nonnull)image normalizedPosition:(CGPoint)normalizedPosition targetWidth:(CGFloat)targetWidth OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithImage:(UIImage * _Nonnull)image normalizedPosition:(CGPoint)normalizedPosition targetNormalizedWidth:(CGFloat)targetNormalizedWidth OBJC_DESIGNATED_INITIALIZER;
-- (WatermarkDrawSettings * _Nonnull)drawSettingsWithBoundsSize:(CGSize)boundsSize outputSettings:(VEOutputSettings * _Nonnull)outputSettings SWIFT_WARN_UNUSED_RESULT;
+- (WatermarkDrawSettings * _Nonnull)drawSettingsWithBoundsSize:(CGSize)boundsSize outputSettings:(OutputSettings * _Nonnull)outputSettings SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -974,6 +971,12 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @end
 
 
+
+@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBeautyEffectManaging>
+@property (nonatomic) BOOL isBeautificationEnabled;
+- (BOOL)toggleBeautification SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class ExternalAudioConfiguration;
 @class NSValue;
 
@@ -982,15 +985,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @property (nonatomic, readonly) BOOL isEnoughDiskSpaceForRecording;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL startTimeForVideoTexture:(double)startTimeForVideoTexture externalAudioConfiguration:(ExternalAudioConfiguration * _Nullable)externalAudioConfiguration progress:(void (^ _Nonnull)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart shouldSkipFrame:(BOOL (^ _Nullable)(void))shouldSkipFrame periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval boundaryTimes:(NSArray<NSValue *> * _Nonnull)boundaryTimes boundaryHandler:(void (^ _Nonnull)(CMTime))boundaryHandler totalDuration:(NSTimeInterval)totalDuration itemDuration:(NSTimeInterval)itemDuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)stopVideoCapturingWithCancel:(BOOL)cancel;
-@end
-
-
-@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBeautyEffectManaging>
-@property (nonatomic) BOOL isBeautificationEnabled;
-@property (nonatomic, readonly) BOOL supportsIntensity;
-@property (nonatomic) double intensity;
-- (BOOL)toggleBeautification SWIFT_WARN_UNUSED_RESULT;
-- (void)resetIntensity;
 @end
 
 
@@ -1214,12 +1208,12 @@ typedef SWIFT_ENUM(NSInteger, RenderContentMode, open) {
   RenderContentModeResize = 2,
 };
 
-@class VEOutputSettings;
+@class OutputSettings;
 
 SWIFT_CLASS("_TtC15BanubaSdkSimple12RenderTarget")
 @interface RenderTarget : PIPShapeDrawer
 - (CVPixelBufferRef _Nullable)makeVideoPixelBuffer SWIFT_WARN_UNUSED_RESULT;
-- (UIImage * _Nullable)makeSnapshotWithSettings:(VEOutputSettings * _Nonnull)settings watermarkPixelBuffer:(CVPixelBufferRef _Nullable)watermarkPixelBuffer SWIFT_WARN_UNUSED_RESULT;
+- (UIImage * _Nullable)makeSnapshotWithSettings:(OutputSettings * _Nonnull)settings watermarkPixelBuffer:(CVPixelBufferRef _Nullable)watermarkPixelBuffer SWIFT_WARN_UNUSED_RESULT;
 - (void)activate;
 - (void)present:(void (^ _Nullable)(CVPixelBufferRef _Nullable))willPresentHandler;
 @end
@@ -1251,7 +1245,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple13WatermarkInfo")
 - (nonnull instancetype)initWithImage:(UIImage * _Nonnull)image corner:(enum WatermarkCornerPosition)corner offset:(CGPoint)offset targetNormalizedWidth:(CGFloat)targetNormalizedWidth OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithImage:(UIImage * _Nonnull)image normalizedPosition:(CGPoint)normalizedPosition targetWidth:(CGFloat)targetWidth OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithImage:(UIImage * _Nonnull)image normalizedPosition:(CGPoint)normalizedPosition targetNormalizedWidth:(CGFloat)targetNormalizedWidth OBJC_DESIGNATED_INITIALIZER;
-- (WatermarkDrawSettings * _Nonnull)drawSettingsWithBoundsSize:(CGSize)boundsSize outputSettings:(VEOutputSettings * _Nonnull)outputSettings SWIFT_WARN_UNUSED_RESULT;
+- (WatermarkDrawSettings * _Nonnull)drawSettingsWithBoundsSize:(CGSize)boundsSize outputSettings:(OutputSettings * _Nonnull)outputSettings SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
