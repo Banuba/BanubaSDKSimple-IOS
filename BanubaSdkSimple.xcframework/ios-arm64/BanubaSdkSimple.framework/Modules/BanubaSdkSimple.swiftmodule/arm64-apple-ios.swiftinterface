@@ -9,11 +9,9 @@ import BanubaSDKServicing
 import BanubaUtilities
 import CoreMotion
 import Foundation
-import GLKit
 import MediaPlayer
 import Metal
 import MetalKit
-import OpenGLES
 import Swift
 import UIKit
 import _Concurrency
