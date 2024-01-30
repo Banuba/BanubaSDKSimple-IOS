@@ -190,7 +190,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JPeN/Ur3g1sL8EXInXT1pdK87lk=
+		M+9V5v9xGj2tCe4Rpis6QWAGh8A=
 		</data>
 		<key>Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -235,6 +235,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		uOP1vIMTa8sBFZ/xkF0Rs6/OaiY=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		sJIvzooo4/ncRGhaxDfXYusWBjU=
 		</data>
 		<key>default.metallib</key>
 		<data>
@@ -640,6 +644,13 @@
 			<key>hash2</key>
 			<data>
 			vyaKcCouJNMh+gCHfmonTvrfx3XUJiRRwcr+nUVN2Rc=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tSNX3Chr64u1c6vGW4JHZTL3u9qKHXWtbI2Pitf7pYw=
 			</data>
 		</dict>
 		<key>default.metallib</key>
