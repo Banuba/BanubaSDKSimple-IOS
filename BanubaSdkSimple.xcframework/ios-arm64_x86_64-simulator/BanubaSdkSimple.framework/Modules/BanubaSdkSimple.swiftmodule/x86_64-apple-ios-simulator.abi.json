@@ -10892,56 +10892,6 @@
           },
           {
             "kind": "Var",
-            "name": "playerViewSize",
-            "printedName": "playerViewSize",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)playerViewSize",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14playerViewSizeSo6CGSizeVvp",
-            "moduleName": "BanubaSdkSimple",
-            "objc_name": "playerViewSize",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGSize",
-                    "printedName": "CoreFoundation.CGSize",
-                    "usr": "c:@S@CGSize"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)playerViewSize",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14playerViewSizeSo6CGSizeVvg",
-                "moduleName": "BanubaSdkSimple",
-                "objc_name": "playerViewSize",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "isPIPPlayerReadyToProvideData",
             "printedName": "isPIPPlayerReadyToProvideData",
             "children": [
@@ -17067,98 +17017,98 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 11148,
+      "offset": 11149,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 12831,
+      "offset": 12832,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 12882,
+      "offset": 12883,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 12949,
+      "offset": 12950,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 13004,
+      "offset": 13005,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 13838,
+      "offset": 13839,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 14834,
+      "offset": 14835,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 15687,
+      "offset": 15688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 15824,
+      "offset": 15825,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 16803,
+      "offset": 16804,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "IntegerLiteral",
-      "offset": 17186,
+      "offset": 17187,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 17730,
+      "offset": 17731,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 18065,
+      "offset": 18066,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 18459,
+      "offset": 18460,
       "length": 2,
       "value": "[]"
     },
@@ -17942,112 +17892,112 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 11385,
+      "offset": 11297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 11705,
+      "offset": 11617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 11845,
+      "offset": 11757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 12523,
+      "offset": 12435,
       "length": 46,
       "value": "\"Render target doesn't implement CAMetalLayer\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 14669,
+      "offset": 14581,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 14885,
+      "offset": 14797,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 15006,
+      "offset": 14918,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 17068,
+      "offset": 16980,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 17195,
+      "offset": 17107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "IntegerLiteral",
-      "offset": 17983,
+      "offset": 17895,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 18813,
+      "offset": 18725,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20195,
+      "offset": 20107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20261,
+      "offset": 20173,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20388,
+      "offset": 20300,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 21144,
+      "offset": 21056,
       "length": 80,
       "value": "\"AVCaptureSession.Preset \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 21176,
+      "offset": 21088,
       "length": 2,
       "value": "\" is not configured for BanubaSimpleCameraModule\""
     },
