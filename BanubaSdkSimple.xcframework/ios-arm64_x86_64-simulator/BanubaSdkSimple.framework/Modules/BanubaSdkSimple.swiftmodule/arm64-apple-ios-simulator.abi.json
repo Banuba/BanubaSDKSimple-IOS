@@ -12390,7 +12390,7 @@
           {
             "kind": "Function",
             "name": "effectAddImageTexture",
-            "printedName": "effectAddImageTexture(image:)",
+            "printedName": "effectAddImageTexture(image:backgroundColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12402,13 +12402,19 @@
                 "name": "UIImage",
                 "printedName": "UIKit.UIImage",
                 "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectAddImageTextureWithImage:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21effectAddImageTexture5imageySo7UIImageC_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectAddImageTextureWithImage:backgroundColor:",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21effectAddImageTexture5image15backgroundColorySo7UIImageC_So7UIColorCtF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "effectAddImageTextureWithImage:",
+            "objc_name": "effectAddImageTextureWithImage:backgroundColor:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -12468,7 +12474,7 @@
           {
             "kind": "Function",
             "name": "effectAddVideoTexture",
-            "printedName": "effectAddVideoTexture(asset:)",
+            "printedName": "effectAddVideoTexture(asset:backgroundColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12480,13 +12486,19 @@
                 "name": "AVURLAsset",
                 "printedName": "AVFoundation.AVURLAsset",
                 "usr": "c:objc(cs)AVURLAsset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectAddVideoTextureWithAsset:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21effectAddVideoTexture5assetySo10AVURLAssetC_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)effectAddVideoTextureWithAsset:backgroundColor:",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21effectAddVideoTexture5asset15backgroundColorySo10AVURLAssetC_So7UIColorCtF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "effectAddVideoTextureWithAsset:",
+            "objc_name": "effectAddVideoTextureWithAsset:backgroundColor:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -17969,35 +17981,35 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20107,
+      "offset": 20159,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20173,
+      "offset": 20225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20300,
+      "offset": 20352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 21056,
+      "offset": 21108,
       "length": 80,
       "value": "\"AVCaptureSession.Preset \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "StringLiteral",
-      "offset": 21088,
+      "offset": 21140,
       "length": 2,
       "value": "\" is not configured for BanubaSimpleCameraModule\""
     },
