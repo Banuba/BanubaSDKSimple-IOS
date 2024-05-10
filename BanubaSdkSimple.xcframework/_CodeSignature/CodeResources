@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/BanubaSdkSimple.framework/BanubaSdkSimple</key>
 		<data>
-		MwiFbvVnTC6o6XnkIYFMCcxeBUA=
+		lA0BpHRu9hhz3ItkEC53NpKiGj8=
 		</data>
 		<key>ios-arm64/BanubaSdkSimple.framework/Headers/BNBSimpleActiveRecognizer.h</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>ios-arm64/BanubaSdkSimple.framework/Info.plist</key>
 		<data>
-		Uy1niHHkttrLtvXTqQpU1SbXNZc=
+		nroRE1o54jA84ArMZIHQa73ZH4k=
 		</data>
 		<key>ios-arm64/BanubaSdkSimple.framework/Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>ios-arm64/BanubaSdkSimple.framework/_CodeSignature/CodeResources</key>
 		<data>
-		/nqjqCPmsQyRkdVSxbV+A+5l56g=
+		cVBnxt4frnM56EgCwHYomz4+GGA=
 		</data>
 		<key>ios-arm64/BanubaSdkSimple.framework/default.metallib</key>
 		<data>
@@ -230,11 +230,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		yi8mdAYtphji4N4vNS/ny8aF9os=
+		MpZJOTf3YAhL1GA9sd7fAYoYEsk=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/DWARF/BanubaSdkSimple</key>
 		<data>
-		OuZ411tMGcIX/UKOAIaP+L270mM=
+		paPuixsGSZ82Z1XOXNUGjjESLOo=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaSdkSimple.yml</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/BanubaSdkSimple</key>
 		<data>
-		aHsVFmFTpGorkuHAOSZ7oQqMG2E=
+		nghnZYVyrr0drgZ95ZW4mLp3YCs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/Headers/BNBSimpleActiveRecognizer.h</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/Info.plist</key>
 		<data>
-		jeFuvNcpTpjivQ+1MfvR2HI1luc=
+		k1YtzaGXwiZVpYDZDlPYGvFmyK0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -474,7 +474,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/_CodeSignature/CodeResources</key>
 		<data>
-		0LlGCuhHu8qJV0CNNSD9nTbrt4Q=
+		PMaGXkHAWMWPt7rCkFi41j4mff4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/default.metallib</key>
 		<data>
@@ -482,11 +482,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		yi8mdAYtphji4N4vNS/ny8aF9os=
+		MpZJOTf3YAhL1GA9sd7fAYoYEsk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/DWARF/BanubaSdkSimple</key>
 		<data>
-		N2d8zJ6OhVW/fCuxFj4J4XORtSY=
+		hzA6nHbTUroETy4m6rHXl7e+hs8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaSdkSimple.yml</key>
 		<data>
@@ -503,11 +503,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MwiFbvVnTC6o6XnkIYFMCcxeBUA=
+			lA0BpHRu9hhz3ItkEC53NpKiGj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			5J2SN2wT7xK/XbX9J4bpZX1uQwretosv9i+gHpTlLjg=
+			3mCj+Go5+FkjteGCcEMzCupI24Oqcrt/4/IuwiA7hwA=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaSdkSimple.framework/Headers/BNBSimpleActiveRecognizer.h</key>
@@ -1020,11 +1020,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Uy1niHHkttrLtvXTqQpU1SbXNZc=
+			nroRE1o54jA84ArMZIHQa73ZH4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			JK8OIrIM91jD+qQGU1Y5Cdb7Hhhste4mBrKhrVLayTk=
+			dJECXhxol9zhAlt5MzJOE6UKJdC5HBl5aeF7mgllsH8=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaSdkSimple.framework/Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -1097,11 +1097,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/nqjqCPmsQyRkdVSxbV+A+5l56g=
+			cVBnxt4frnM56EgCwHYomz4+GGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			w020nCKyELpk1J+uxJUYDymc1rtKIN8oL1t439E2hU4=
+			zaoHkuiWjF8zLSth2SPc4HV4efcD/txcS1qjc/lvV7s=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaSdkSimple.framework/default.metallib</key>
@@ -1119,22 +1119,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yi8mdAYtphji4N4vNS/ny8aF9os=
+			MpZJOTf3YAhL1GA9sd7fAYoYEsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			BRXfg5JZPgna6foMdBl3VkIRrqZ2HQOfcxOqyaeNRDE=
+			dyCXQcJr7S5AE2ZeGHscPpGhsRIHX6Vk2IFBnp/sU3o=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/DWARF/BanubaSdkSimple</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OuZ411tMGcIX/UKOAIaP+L270mM=
+			paPuixsGSZ82Z1XOXNUGjjESLOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lUQKXu+GoJmwi31iwA8bYYmBa4alXl8hN+5RfRJwpug=
+			VYneBked9WZCm9dRyizihsTrT7psSUOEGS54uDovp1w=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaSdkSimple.yml</key>
@@ -1152,11 +1152,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aHsVFmFTpGorkuHAOSZ7oQqMG2E=
+			nghnZYVyrr0drgZ95ZW4mLp3YCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			AXGmvQv47GACH0yCl3MrsW5Doc40OMClAr9pZmMBO48=
+			G8pJW+rQtjLJTUzp7uwCIEVmdkdyECKk5M6ikG2HFaU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/Headers/BNBSimpleActiveRecognizer.h</key>
@@ -1669,11 +1669,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jeFuvNcpTpjivQ+1MfvR2HI1luc=
+			k1YtzaGXwiZVpYDZDlPYGvFmyK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			q2hQJcM8uwZFZDKCh8TOICIEYlxt0oslcX47sGsFWvA=
+			vAOBuQH/y4FmTEAGZ/KPD3Ryw7Ms/lpxoZGJAf4FAhA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/Modules/BanubaSdkSimple.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -1790,11 +1790,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0LlGCuhHu8qJV0CNNSD9nTbrt4Q=
+			PMaGXkHAWMWPt7rCkFi41j4mff4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ipodiJKsH96+MfOLtgfQ7lE2hwqld0wQ/6BVIt0TDbg=
+			Lt2s4G7tEtXOoLt/txspOR2qrNyDIA2DUQVQHwdi/qU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaSdkSimple.framework/default.metallib</key>
@@ -1812,22 +1812,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yi8mdAYtphji4N4vNS/ny8aF9os=
+			MpZJOTf3YAhL1GA9sd7fAYoYEsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			BRXfg5JZPgna6foMdBl3VkIRrqZ2HQOfcxOqyaeNRDE=
+			dyCXQcJr7S5AE2ZeGHscPpGhsRIHX6Vk2IFBnp/sU3o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/DWARF/BanubaSdkSimple</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N2d8zJ6OhVW/fCuxFj4J4XORtSY=
+			hzA6nHbTUroETy4m6rHXl7e+hs8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vAWgHZGUjn77DgGLyCWO/G87q9jtCzcddJtue8JtaIU=
+			/M6hr3w1f3toTkinU0TAprwUNJpEucFo6aeyWqttScY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaSdkSimple.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaSdkSimple.yml</key>
