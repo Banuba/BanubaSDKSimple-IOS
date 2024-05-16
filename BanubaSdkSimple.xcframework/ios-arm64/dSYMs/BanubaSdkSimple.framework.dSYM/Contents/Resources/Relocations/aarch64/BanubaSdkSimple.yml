@@ -3,7 +3,7 @@ triple:          'arm64-apple-darwin'
 binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/BanubaSdkSimple/InstallationBuildProductsLocation/Library/Frameworks/BanubaSdkSimple.framework/BanubaSdkSimple'
 relocations:
   - { offsetInCU: 0x34, offset: 0xEB58A, size: 0x8, addend: 0x0, symName: _BanubaSdkSimpleVersionString, symObjAddr: 0x0, symBinAddr: 0x3AE10, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0xEB5BF, size: 0x8, addend: 0x0, symName: _BanubaSdkSimpleVersionNumber, symObjAddr: 0x48, symBinAddr: 0x3AE58, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0xEB5BF, size: 0x8, addend: 0x0, symName: _BanubaSdkSimpleVersionNumber, symObjAddr: 0x40, symBinAddr: 0x3AE50, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0xEB5FC, size: 0x8, addend: 0x0, symName: '+[BNBSimplePostprocessHelper loadColorFilterResources:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x8 }
   - { offsetInCU: 0x3C, offset: 0xEB611, size: 0x8, addend: 0x0, symName: '+[BNBSimplePostprocessHelper loadColorFilterResources:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x8 }
   - { offsetInCU: 0x27, offset: 0xEB6B2, size: 0x8, addend: 0x0, symName: '+[BNBSimplePostprocessStage create:]', symObjAddr: 0x0, symBinAddr: 0x8008, symSize: 0x8 }
