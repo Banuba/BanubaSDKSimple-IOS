@@ -16994,28 +16994,28 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4795,
+      "offset": 4796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7487,
+      "offset": 7488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7932,
+      "offset": 7933,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8051,
+      "offset": 8052,
       "length": 5,
       "value": "false"
     },
@@ -17078,49 +17078,49 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 15688,
+      "offset": 15702,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "BooleanLiteral",
-      "offset": 15825,
+      "offset": 15839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 16804,
+      "offset": 16818,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "IntegerLiteral",
-      "offset": 17187,
+      "offset": 17201,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 17731,
+      "offset": 17745,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 18066,
+      "offset": 18080,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/OutputService.swift",
       "kind": "Array",
-      "offset": 18460,
+      "offset": 18474,
       "length": 2,
       "value": "[]"
     },
