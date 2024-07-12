@@ -362,6 +362,13 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKInput
   @objc dynamic public var currentCameraSessionType: BanubaSDKServicing.CameraModuleSessionType {
     @objc get
   }
+  @objc dynamic public var isMultiCamSupported: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var isMultiCamEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc dynamic public func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
   @objc dynamic public func setZoomFactor(_ zoomFactor: Swift.Float) -> Swift.Float
   @objc dynamic public func toggleCamera(completion: @escaping () -> ())

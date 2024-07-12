@@ -379,6 +379,8 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @property (nonatomic, readonly) float zoomFactor;
 @property (nonatomic, readonly) BOOL isFrontCamera;
 @property (nonatomic, readonly) enum CameraModuleSessionType currentCameraSessionType;
+@property (nonatomic, readonly) BOOL isMultiCamSupported;
+@property (nonatomic) BOOL isMultiCamEnabled;
 - (void)focusAt:(CGPoint)point useContinuousDetection:(BOOL)useContinuousDetection;
 - (float)setZoomFactor:(float)zoomFactor SWIFT_WARN_UNUSED_RESULT;
 - (void)toggleCameraWithCompletion:(void (^ _Nonnull)(void))completion;
@@ -1012,6 +1014,8 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @property (nonatomic, readonly) float zoomFactor;
 @property (nonatomic, readonly) BOOL isFrontCamera;
 @property (nonatomic, readonly) enum CameraModuleSessionType currentCameraSessionType;
+@property (nonatomic, readonly) BOOL isMultiCamSupported;
+@property (nonatomic) BOOL isMultiCamEnabled;
 - (void)focusAt:(CGPoint)point useContinuousDetection:(BOOL)useContinuousDetection;
 - (float)setZoomFactor:(float)zoomFactor SWIFT_WARN_UNUSED_RESULT;
 - (void)toggleCameraWithCompletion:(void (^ _Nonnull)(void))completion;
