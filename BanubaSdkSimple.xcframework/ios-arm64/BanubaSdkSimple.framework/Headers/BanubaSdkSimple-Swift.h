@@ -406,10 +406,10 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (enum AVCaptureTorchMode)toggleTorch SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class NSString;
 @class UIImage;
 @class UIColor;
 @class AVURLAsset;
-@class NSString;
 @protocol RenderEffect;
 @protocol EffectSubtypeModificationsEventListener;
 
@@ -420,6 +420,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)effectDidEndApplying;
 - (void)effectDidResetApplying;
 - (void)effectDidChangeState;
+- (void)callEffectMethod:(NSString * _Nonnull)method;
 - (void)effectAddImageTextureWithImage:(UIImage * _Nonnull)image backgroundColor:(UIColor * _Nonnull)backgroundColor;
 - (void)stopVideoTextureIfNeeded;
 - (void)effectAddVideoTextureWithAsset:(AVURLAsset * _Nonnull)asset backgroundColor:(UIColor * _Nonnull)backgroundColor;

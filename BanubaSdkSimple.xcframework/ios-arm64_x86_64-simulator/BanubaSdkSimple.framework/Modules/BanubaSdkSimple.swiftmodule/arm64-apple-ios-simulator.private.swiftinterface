@@ -400,6 +400,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffec
   @objc dynamic public func effectDidEndApplying()
   @objc dynamic public func effectDidResetApplying()
   @objc dynamic public func effectDidChangeState()
+  @objc dynamic public func callEffectMethod(_ method: Swift.String)
   @objc dynamic public func effectAddImageTexture(image: UIKit.UIImage, backgroundColor: UIKit.UIColor)
   @objc dynamic public func stopVideoTextureIfNeeded()
   @objc dynamic public func effectAddVideoTexture(asset: AVFoundation.AVURLAsset, backgroundColor: UIKit.UIColor)
