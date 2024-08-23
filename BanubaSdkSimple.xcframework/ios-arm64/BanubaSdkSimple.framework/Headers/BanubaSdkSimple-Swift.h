@@ -433,6 +433,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)applyFilter:(id <RenderEffect> _Nonnull)filter;
 - (void)removeFilter:(id <RenderEffect> _Nonnull)filter;
 - (void)setEffectSubtypeModificationsEventListener:(id <EffectSubtypeModificationsEventListener> _Nonnull)listener;
+- (void)setDoubleTapGestureEnabled:(BOOL)isEnabled;
 @end
 
 @class UIView;
@@ -515,7 +516,6 @@ SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14CameraZoomable_")
 @property (nonatomic, readonly) float zoomFactor;
 - (float)setZoomFactor:(float)zoomFactor SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 SWIFT_PROTOCOL("_TtP15BanubaSdkSimple20InputServiceDelegate_")

@@ -413,6 +413,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffec
   @objc dynamic public func applyFilter(_ filter: any BanubaSDKServicing.RenderEffect)
   @objc dynamic public func removeFilter(_ filter: any BanubaSDKServicing.RenderEffect)
   @objc dynamic public func setEffectSubtypeModificationsEventListener(_ listener: any BanubaSDKServicing.EffectSubtypeModificationsEventListener)
+  @objc dynamic public func setDoubleTapGestureEnabled(_ isEnabled: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeautyEffectManaging {
   @objc dynamic public var isBeautificationEnabled: Swift.Bool {
