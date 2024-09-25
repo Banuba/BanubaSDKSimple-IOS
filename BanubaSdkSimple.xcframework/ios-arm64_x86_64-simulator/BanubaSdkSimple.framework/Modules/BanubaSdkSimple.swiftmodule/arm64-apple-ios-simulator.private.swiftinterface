@@ -145,24 +145,6 @@ extension BanubaSdkSimple.PIPShapeDrawer : BanubaSdkSimple.PIPShapeable {
   public func set(shape: (any BanubaSdkSimple.PIPShape)?)
   public func set(shapeType: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType)
 }
-public protocol VoiceChangeable {
-  var queue: Dispatch.DispatchQueue { get set }
-  var volume: Swift.Float { get set }
-  var isConfigured: Swift.Bool { get }
-  func process(file url: Foundation.URL, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)?)
-  func process(file url: Foundation.URL) throws
-  var isVoiceChangerConfiguredHandler: (() -> Swift.Bool)? { get set }
-  var processAudioFile: ((_ atURL: Foundation.URL, _ toURL: Foundation.URL, _ volume: Swift.Float) -> Swift.Void)? { get set }
-}
-public enum VoiceChangerError : Swift.Error {
-  case cantCreateAssetExportSession
-  case exportSessionCantExportAudio
-  public static func == (a: BanubaSdkSimple.VoiceChangerError, b: BanubaSdkSimple.VoiceChangerError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @objc @_hasMissingDesignatedInitializers public class PIPPlayer : BanubaSdkSimple.PIPShapeDrawer {
   final public let assetNaturalSize: CoreFoundation.CGSize
   public var currentTime: CoreMedia.CMTime {
@@ -188,7 +170,7 @@ public enum VoiceChangerError : Swift.Error {
   @objc func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc func takeSnapshot(configuration: BanubaSdkSimple.OutputConfiguration, handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc func removeWatermark()
-  @objc func startVideoCapturing(fileURL: Foundation.URL?, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: ((CoreMedia.CMTime) -> Swift.Void)?, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, isFirstRun: Swift.Bool, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue]?, boundaryHandler: ((CoreMedia.CMTime) -> Swift.Void)?, totalDuration: Foundation.TimeInterval, configuration: BanubaSdkSimple.OutputConfiguration, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  @objc func startVideoCapturing(fileURL: Foundation.URL?, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: ((CoreMedia.CMTime) -> Swift.Void)?, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, isFirstRun: Swift.Bool, periodicProgressTimeInterval: Foundation.TimeInterval, totalDuration: Foundation.TimeInterval, configuration: BanubaSdkSimple.OutputConfiguration, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
   @objc func stopVideoCapturing(cancel: Swift.Bool)
   @objc func startForwardingFrames(handler: @escaping (CoreVideo.CVPixelBuffer) -> Swift.Void)
   @objc func stopForwardingFrames()
@@ -388,7 +370,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKOutpu
   @objc dynamic public var isEnoughDiskSpaceForRecording: Swift.Bool {
     @objc get
   }
-  @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, startTimeForVideoTexture: Swift.Double, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, periodicProgressTimeInterval: Foundation.TimeInterval, boundaryTimes: [Foundation.NSValue], boundaryHandler: @escaping (CoreMedia.CMTime) -> Swift.Void, totalDuration: Foundation.TimeInterval, itemDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, startTimeForVideoTexture: Swift.Double, externalAudioConfiguration: BanubaSDKServicing.ExternalAudioConfiguration?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, periodicProgressTimeInterval: Foundation.TimeInterval, totalDuration: Foundation.TimeInterval, itemDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
   @objc dynamic public func stopVideoCapturing(cancel: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKEffectsServicing {
@@ -487,8 +469,6 @@ extension BanubaSdkSimple.WatermarkCornerPosition : Swift.Hashable {}
 extension BanubaSdkSimple.WatermarkCornerPosition : Swift.RawRepresentable {}
 extension BanubaSdkSimple.RenderBehavior : Swift.Equatable {}
 extension BanubaSdkSimple.RenderBehavior : Swift.Hashable {}
-extension BanubaSdkSimple.VoiceChangerError : Swift.Equatable {}
-extension BanubaSdkSimple.VoiceChangerError : Swift.Hashable {}
 extension BanubaSdkSimple.CameraSessionType : Swift.Equatable {}
 extension BanubaSdkSimple.CameraSessionType : Swift.Hashable {}
 extension BanubaSdkSimple.CameraSessionType : Swift.RawRepresentable {}

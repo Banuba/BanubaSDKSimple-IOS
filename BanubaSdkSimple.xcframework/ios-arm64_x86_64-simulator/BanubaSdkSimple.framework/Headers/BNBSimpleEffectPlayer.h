@@ -329,8 +329,6 @@
 /** Get interface to control user iterations. This events will be passed to effect. */
 - (nullable BNBSimpleInputManager *)getInputManager;
 
-- (BOOL)isVoiceChangerConfigured;
-
 /**
  * Initialize video processing. To provide frames use *process_video_frame* methods.
  * Effect audio is recorded as well and can be accessed using *process_recorded_audio*
