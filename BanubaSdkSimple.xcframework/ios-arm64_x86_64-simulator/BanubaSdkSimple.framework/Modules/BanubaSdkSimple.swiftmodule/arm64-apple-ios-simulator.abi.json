@@ -9717,13 +9717,19 @@
           },
           {
             "kind": "Function",
-            "name": "startPiPMixer",
-            "printedName": "startPiPMixer(completion:)",
+            "name": "startMultiCamMixing",
+            "printedName": "startMultiCamMixing(isPresenterMode:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -9752,10 +9758,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startPiPMixerWithCompletion:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13startPiPMixer10completionyyycSg_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startMultiCamMixingWithIsPresenterMode:completion:",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19startMultiCamMixing15isPresenterMode10completionySb_yycSgtF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "startPiPMixerWithCompletion:",
+            "objc_name": "startMultiCamMixingWithIsPresenterMode:completion:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -9766,8 +9772,8 @@
           },
           {
             "kind": "Function",
-            "name": "stopPiPMixer",
-            "printedName": "stopPiPMixer(completion:)",
+            "name": "stopMultiCamMixing",
+            "printedName": "stopMultiCamMixing(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9801,10 +9807,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopPiPMixerWithCompletion:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC12stopPiPMixer10completionyyycSg_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopMultiCamMixingWithCompletion:",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC18stopMultiCamMixing10completionyyycSg_tF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "stopPiPMixerWithCompletion:",
+            "objc_name": "stopMultiCamMixingWithCompletion:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -12518,10 +12524,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "SDKPiPMixerServicing",
-            "printedName": "SDKPiPMixerServicing",
-            "usr": "c:@M@BanubaSDKServicing@objc(pl)SDKPiPMixerServicing",
-            "mangledName": "$s18BanubaSDKServicing20SDKPiPMixerServicingP"
+            "name": "SDKMultiCamMixing",
+            "printedName": "SDKMultiCamMixing",
+            "usr": "c:@M@BanubaSDKServicing@objc(pl)SDKMultiCamMixing",
+            "mangledName": "$s18BanubaSDKServicing17SDKMultiCamMixingP"
           },
           {
             "kind": "Conformance",

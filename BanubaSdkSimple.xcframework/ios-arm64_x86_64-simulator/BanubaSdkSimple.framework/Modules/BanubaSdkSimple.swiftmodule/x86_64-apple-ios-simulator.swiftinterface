@@ -302,8 +302,8 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule {
   @objc dynamic public func applyPIPSwitchSettingIfNeeded(_ setting: BanubaSDKServicing.PIPSwitchLayoutSetting, restoreSession: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule {
-  @objc dynamic public func startPiPMixer(completion: (() -> Swift.Void)?)
-  @objc dynamic public func stopPiPMixer(completion: (() -> Swift.Void)?)
+  @objc dynamic public func startMultiCamMixing(isPresenterMode: Swift.Bool, completion: (() -> Swift.Void)?)
+  @objc dynamic public func stopMultiCamMixing(completion: (() -> Swift.Void)?)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.CameraModule {
   @objc dynamic public var renderQueue: Dispatch.DispatchQueue? {

@@ -343,8 +343,8 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple))
-- (void)startPiPMixerWithCompletion:(void (^ _Nullable)(void))completion;
-- (void)stopPiPMixerWithCompletion:(void (^ _Nullable)(void))completion;
+- (void)startMultiCamMixingWithIsPresenterMode:(BOOL)isPresenterMode completion:(void (^ _Nullable)(void))completion;
+- (void)stopMultiCamMixingWithCompletion:(void (^ _Nullable)(void))completion;
 @end
 
 @class EmbeddedBackgroundImage;
@@ -992,8 +992,8 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple))
-- (void)startPiPMixerWithCompletion:(void (^ _Nullable)(void))completion;
-- (void)stopPiPMixerWithCompletion:(void (^ _Nullable)(void))completion;
+- (void)startMultiCamMixingWithIsPresenterMode:(BOOL)isPresenterMode completion:(void (^ _Nullable)(void))completion;
+- (void)stopMultiCamMixingWithCompletion:(void (^ _Nullable)(void))completion;
 @end
 
 @class EmbeddedBackgroundImage;
