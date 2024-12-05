@@ -12168,6 +12168,30 @@
           },
           {
             "kind": "Function",
+            "name": "enableBackgroundBlur",
+            "printedName": "enableBackgroundBlur()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)enableBackgroundBlur",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC20enableBackgroundBluryyF",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "enableBackgroundBlur",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "effectsPaths",
             "printedName": "effectsPaths()",
             "children": [
@@ -15307,21 +15331,21 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20393,
+      "offset": 20433,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20711,
+      "offset": 20751,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "Array",
-      "offset": 20776,
+      "offset": 20816,
       "length": 2,
       "value": "[]"
     },

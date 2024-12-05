@@ -429,6 +429,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)effectAddVideoTextureWithAsset:(AVURLAsset * _Nonnull)asset backgroundColor:(UIColor * _Nonnull)backgroundColor;
 - (void)unloadEffectTexture;
 - (void)effectReloadTexturePreviewWithStartTime:(NSTimeInterval)startTime endTime:(NSTimeInterval)endTime itemDuration:(NSTimeInterval)itemDuration;
+- (void)enableBackgroundBlur;
 - (NSArray<NSString *> * _Nonnull)effectsPaths SWIFT_WARN_UNUSED_RESULT;
 - (void)loadMaskWithName:(NSString * _Nonnull)name synchronous:(BOOL)synchronous;
 - (void)unloadMask;
