@@ -12519,13 +12519,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)supportsIntensity",
+            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvp",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvp",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "supportsIntensity",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -12543,14 +12540,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)supportsIntensity",
+                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvg",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvg",
                 "moduleName": "BanubaSdkSimple",
-                "objc_name": "supportsIntensity",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -15325,13 +15317,6 @@
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
       "offset": 18812,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20433,
       "length": 5,
       "value": "false"
     },

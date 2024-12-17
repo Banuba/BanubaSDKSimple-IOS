@@ -404,8 +404,8 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaSDKServicing.SDKBeaut
     @objc get
     @objc set
   }
-  @objc dynamic public var supportsIntensity: Swift.Bool {
-    @objc get
+  public var supportsIntensity: Swift.Bool {
+    get
   }
   @objc dynamic public var intensity: Swift.Double {
     @objc get

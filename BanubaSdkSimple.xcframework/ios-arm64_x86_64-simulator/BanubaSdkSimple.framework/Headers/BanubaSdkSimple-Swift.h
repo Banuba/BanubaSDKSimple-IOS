@@ -372,7 +372,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBeautyEffectManaging>
 @property (nonatomic) BOOL isBeautificationEnabled;
-@property (nonatomic, readonly) BOOL supportsIntensity;
 @property (nonatomic) double intensity;
 - (BOOL)toggleBeautification SWIFT_WARN_UNUSED_RESULT;
 - (void)resetIntensity;
@@ -1026,7 +1025,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBeautyEffectManaging>
 @property (nonatomic) BOOL isBeautificationEnabled;
-@property (nonatomic, readonly) BOOL supportsIntensity;
 @property (nonatomic) double intensity;
 - (BOOL)toggleBeautification SWIFT_WARN_UNUSED_RESULT;
 - (void)resetIntensity;
