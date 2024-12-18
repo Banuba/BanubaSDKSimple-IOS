@@ -45,8 +45,8 @@ relocations:
   - { offset: 0xFB457, size: 0x8, addend: 0x0, symName: _kVideoWriterErrorDomain, symObjAddr: 0x24A0, symBinAddr: 0x4CD60, symSize: 0x0 }
   - { offset: 0xFB477, size: 0x8, addend: 0x0, symName: _kUnknownRecordingErrorCode, symObjAddr: 0x2568, symBinAddr: 0x373D0, symSize: 0x0 }
   - { offset: 0xFB499, size: 0x8, addend: 0x0, symName: _kNotEnoughSpaceForRecordingErrorCode, symObjAddr: 0x2570, symBinAddr: 0x373D8, symSize: 0x0 }
-  - { offset: 0xFB51D, size: 0x8, addend: 0x0, symName: _externalAudioSamples, symObjAddr: 0xE170, symBinAddr: 0x5D900, symSize: 0x0 }
-  - { offset: 0xFB539, size: 0x8, addend: 0x0, symName: _previousExternalAudioUrl, symObjAddr: 0xE178, symBinAddr: 0x5D908, symSize: 0x0 }
+  - { offset: 0xFB51D, size: 0x8, addend: 0x0, symName: _externalAudioSamples, symObjAddr: 0xE170, symBinAddr: 0x5D920, symSize: 0x0 }
+  - { offset: 0xFB539, size: 0x8, addend: 0x0, symName: _previousExternalAudioUrl, symObjAddr: 0xE178, symBinAddr: 0x5D928, symSize: 0x0 }
   - { offset: 0xFB8CE, size: 0x8, addend: 0x0, symName: '-[SBSimpleVideoWriter initWithOutputSettings:recorderSettings:externalAudioConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x8280, symSize: 0x17C }
   - { offset: 0xFB98F, size: 0x8, addend: 0x0, symName: '-[SBSimpleVideoWriter dealloc]', symObjAddr: 0x17C, symBinAddr: 0x83FC, symSize: 0x4C }
   - { offset: 0xFB9E0, size: 0x8, addend: 0x0, symName: '-[SBSimpleVideoWriter startCapturingScreenWithUrl:progress:didStart:shouldSkipFrame:isFirstRun:periodicProgressTimeInterval:totalDuration:limitReachedHandler:completion:]', symObjAddr: 0x1C8, symBinAddr: 0x8448, symSize: 0xF0 }
@@ -213,8 +213,8 @@ relocations:
   - { offset: 0xFFED9, size: 0x8, addend: 0x0, symName: '-[BNBSimpleProcessImageParams .cxx_destruct]', symObjAddr: 0x9C, symBinAddr: 0xB5B0, symSize: 0xC }
   - { offset: 0xFFF9E, size: 0x8, addend: 0x0, symName: '-[BNBSimpleEffectManager setRenderSurface:]', symObjAddr: 0x0, symBinAddr: 0xB5BC, symSize: 0x4 }
   - { offset: 0xFFFBD, size: 0x8, addend: 0x0, symName: '-[BNBSimpleEffectManager setRenderSurface:]', symObjAddr: 0x0, symBinAddr: 0xB5BC, symSize: 0x4 }
-  - { offset: 0x100075, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22EffectPlayerRenderSizeV10hd720x1280So6CGSizeVvpZ', symObjAddr: 0x2378, symBinAddr: 0x5BFD0, symSize: 0x0 }
-  - { offset: 0x10008F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22EffectPlayerRenderSizeV11hd1080x1920So6CGSizeVvpZ', symObjAddr: 0x2390, symBinAddr: 0x5BFE8, symSize: 0x0 }
+  - { offset: 0x100075, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22EffectPlayerRenderSizeV10hd720x1280So6CGSizeVvpZ', symObjAddr: 0x2378, symBinAddr: 0x5BFF0, symSize: 0x0 }
+  - { offset: 0x10008F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22EffectPlayerRenderSizeV11hd1080x1920So6CGSizeVvpZ', symObjAddr: 0x2390, symBinAddr: 0x5C008, symSize: 0x0 }
   - { offset: 0x10014C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22EffectPlayerRenderSizeV10hd720x1280_WZ', symObjAddr: 0x148, symBinAddr: 0xB684, symSize: 0x18 }
   - { offset: 0x100166, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22EffectPlayerRenderSizeV11hd1080x1920_WZ', symObjAddr: 0x180, symBinAddr: 0xB6BC, symSize: 0x18 }
   - { offset: 0x100687, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22EffectPlayerRenderModeOSHAASQWb', symObjAddr: 0x61C, symBinAddr: 0xBA0C, symSize: 0x4 }
@@ -359,7 +359,7 @@ relocations:
   - { offset: 0x1032BA, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14RenderBehaviorOMa', symObjAddr: 0x4FC, symBinAddr: 0xDED0, symSize: 0x10 }
   - { offset: 0x10340A, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14RenderBehaviorO8viewport3for11textureSize6offset15shouldZoomToFitAA13MetalViewportVSo6CGRectV_So6CGSizeVSo7CGPointVSbtF', symObjAddr: 0x0, symBinAddr: 0xDBC8, symSize: 0x204 }
   - { offset: 0x10387B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperC07defaultD6Device33_DD36AA5407AA85BC0E8A817D98E7D880LL_WZ', symObjAddr: 0x0, symBinAddr: 0xDEE0, symSize: 0x24 }
-  - { offset: 0x10389F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperC07defaultD6Device33_DD36AA5407AA85BC0E8A817D98E7D880LLSo9MTLDevice_pvpZ', symObjAddr: 0x1638, symBinAddr: 0x5C558, symSize: 0x0 }
+  - { offset: 0x10389F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperC07defaultD6Device33_DD36AA5407AA85BC0E8A817D98E7D880LLSo9MTLDevice_pvpZ', symObjAddr: 0x1638, symBinAddr: 0x5C578, symSize: 0x0 }
   - { offset: 0x1038AD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperC07defaultD6Device33_DD36AA5407AA85BC0E8A817D98E7D880LL_WZ', symObjAddr: 0x0, symBinAddr: 0xDEE0, symSize: 0x24 }
   - { offset: 0x103A86, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperC24buildRenderPipelineState33_DD36AA5407AA85BC0E8A817D98E7D880LL_16fragmentFunction11pixelFormat010depthPixelV015blendParameters5labelSo09MTLRenderhI0_pSo11MTLFunction_p_SoAL_pSo08MTLPixelV0VANSgAA0d8BlendingZ0VSgSSSgtKF', symObjAddr: 0x770, symBinAddr: 0xE650, symSize: 0x3F0 }
   - { offset: 0x103BD7, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperCMa', symObjAddr: 0xBAC, symBinAddr: 0xEA8C, symSize: 0x20 }
@@ -484,8 +484,8 @@ relocations:
   - { offset: 0x109CA1, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple15PIPShapeBuilderC0D4TypeO2eeoiySbAE_AEtFZTf4nnd_n', symObjAddr: 0x17C, symBinAddr: 0x14574, symSize: 0xB0 }
   - { offset: 0x109CEB, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple15PIPShapeBuilderC10buildShape4size4pathAA0D0_pSo6CGSizeV_So9CGPathRefatFZTf4nnd_n', symObjAddr: 0x22C, symBinAddr: 0x14624, symSize: 0x1EC }
   - { offset: 0x109E6F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple15PIPShapeBuilderC10buildShape4type4sizeAA0D0_pSgAC0D4TypeO_So6CGSizeVtFZTf4nnd_n', symObjAddr: 0x56C, symBinAddr: 0x1495C, symSize: 0x1B8 }
-  - { offset: 0x10A1F2, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22MetalVerticesAndUVDataC14quadVertexDataSaySfGvpZ', symObjAddr: 0x348, symBinAddr: 0x5CB88, symSize: 0x0 }
-  - { offset: 0x10A20C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22MetalVerticesAndUVDataC25defaultTextureCoordinatesSaySfGvpZ', symObjAddr: 0x350, symBinAddr: 0x5CB90, symSize: 0x0 }
+  - { offset: 0x10A1F2, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22MetalVerticesAndUVDataC14quadVertexDataSaySfGvpZ', symObjAddr: 0x348, symBinAddr: 0x5CBA8, symSize: 0x0 }
+  - { offset: 0x10A20C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22MetalVerticesAndUVDataC25defaultTextureCoordinatesSaySfGvpZ', symObjAddr: 0x350, symBinAddr: 0x5CBB0, symSize: 0x0 }
   - { offset: 0x10A21A, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22MetalVerticesAndUVDataC14quadVertexData_WZ', symObjAddr: 0x0, symBinAddr: 0x14B14, symSize: 0x30 }
   - { offset: 0x10A2DB, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22MetalVerticesAndUVDataC25defaultTextureCoordinates_WZ', symObjAddr: 0xF8, symBinAddr: 0x14BCC, symSize: 0x30 }
   - { offset: 0x10A30B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple22MetalVerticesAndUVDataCMa', symObjAddr: 0x194, symBinAddr: 0x14C50, symSize: 0x20 }
@@ -508,7 +508,7 @@ relocations:
   - { offset: 0x10BB31, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14PIPShapeDrawerCACycfcTo', symObjAddr: 0x800, symBinAddr: 0x155C0, symSize: 0x2C }
   - { offset: 0x10BB90, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14PIPShapeDrawerCfD', symObjAddr: 0x82C, symBinAddr: 0x155EC, symSize: 0x30 }
   - { offset: 0x10BD58, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17MetalHelperHolderC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x1576C, symSize: 0x38 }
-  - { offset: 0x10BD7C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17MetalHelperHolderC6sharedACvpZ', symObjAddr: 0x2E60, symBinAddr: 0x5D910, symSize: 0x0 }
+  - { offset: 0x10BD7C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17MetalHelperHolderC6sharedACvpZ', symObjAddr: 0x2E60, symBinAddr: 0x5D930, symSize: 0x0 }
   - { offset: 0x10BDEF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17MetalHelperHolderC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x1576C, symSize: 0x38 }
   - { offset: 0x10BE42, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17MetalHelperHolderCMa', symObjAddr: 0xD8, symBinAddr: 0x15844, symSize: 0x20 }
   - { offset: 0x10BEBC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17MetalHelperHolderCACyc33_A61EFE655D2DF44962E1565C548EC41ELlfc', symObjAddr: 0x38, symBinAddr: 0x157A4, symSize: 0x7C }
@@ -613,7 +613,7 @@ relocations:
   - { offset: 0x110F03, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0C21EffectPlayerTouchViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x380, symBinAddr: 0x1ABA8, symSize: 0x5C }
   - { offset: 0x110FC1, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0C21EffectPlayerTouchViewC13converTouches33_C5178EED7F6939D40617E6DEA1B09C49LLySDySo8NSNumberCSo09BNBSimpleF0CGShySo7UITouchCGFTf4nd_n', symObjAddr: 0x1080, symBinAddr: 0x1B858, symSize: 0x5A0 }
   - { offset: 0x111402, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13MetalViewportVMa', symObjAddr: 0x8C, symBinAddr: 0x1BE38, symSize: 0x10 }
-  - { offset: 0x1115D6, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13OutputServiceC8Defaults33_F27EBCBBE625C77FC957472C364BB80ELLV29availablePixelFormatRemappingSDys6UInt32VSays5UInt8VGGvpZ', symObjAddr: 0x3D00, symBinAddr: 0x5D010, symSize: 0x0 }
+  - { offset: 0x1115D6, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13OutputServiceC8Defaults33_F27EBCBBE625C77FC957472C364BB80ELLV29availablePixelFormatRemappingSDys6UInt32VSays5UInt8VGGvpZ', symObjAddr: 0x3D00, symBinAddr: 0x5D030, symSize: 0x0 }
   - { offset: 0x1115E4, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13OutputServiceC6handle16snapshotProvideryAA08SnapshotH0_p_tF', symObjAddr: 0x0, symBinAddr: 0x1BE48, symSize: 0x13C }
   - { offset: 0x1116C5, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13OutputServiceC8Defaults33_F27EBCBBE625C77FC957472C364BB80ELLV29availablePixelFormatRemapping_WZ', symObjAddr: 0x700, symBinAddr: 0x1C528, symSize: 0x110 }
   - { offset: 0x1119A7, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13OutputServiceC6handle14bufferProvideryAA011PixelBufferH0_p_tF', symObjAddr: 0x13C, symBinAddr: 0x1BF84, symSize: 0x228 }
@@ -709,7 +709,7 @@ relocations:
   - { offset: 0x1140E2, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13OutputServiceCfD', symObjAddr: 0xB58, symBinAddr: 0x1C980, symSize: 0x34 }
   - { offset: 0x1143DF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13OutputServiceC12effectPlayer5input5queue9videoSizeACSo015BNBSimpleEffectG0C_AA14InputServicing_pSo16NSOperationQueueCSo6CGSizeVtcfcTf4gggnn_n', symObjAddr: 0x3448, symBinAddr: 0x1F210, symSize: 0x1A4 }
   - { offset: 0x1146A8, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple8Defaults33_07517E7B23F3777A1BC02C0BA0CAFAF9LLV17shaderEffectNames_WZ', symObjAddr: 0x20, symBinAddr: 0x1F9C8, symSize: 0x30 }
-  - { offset: 0x1146CC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple8Defaults33_07517E7B23F3777A1BC02C0BA0CAFAF9LLV17shaderEffectNamesSaySSGvpZ', symObjAddr: 0x3F8, symBinAddr: 0x5D140, symSize: 0x0 }
+  - { offset: 0x1146CC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple8Defaults33_07517E7B23F3777A1BC02C0BA0CAFAF9LLV17shaderEffectNamesSaySSGvpZ', symObjAddr: 0x3F8, symBinAddr: 0x5D160, symSize: 0x0 }
   - { offset: 0x1146DA, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple8Defaults33_07517E7B23F3777A1BC02C0BA0CAFAF9LLV17shaderEffectNames_WZ', symObjAddr: 0x20, symBinAddr: 0x1F9C8, symSize: 0x30 }
   - { offset: 0x1148E4, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14EffectsServiceCMa', symObjAddr: 0x328, symBinAddr: 0x1FCD0, symSize: 0x20 }
   - { offset: 0x1149E6, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14EffectsServiceC5apply6effecty0A12SDKServicing12RenderEffect_p_tF', symObjAddr: 0x50, symBinAddr: 0x1F9F8, symSize: 0xB4 }
@@ -720,8 +720,8 @@ relocations:
   - { offset: 0x114D9E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14EffectsServiceCAA0D9ServicingA2aDP5apply6effecty0A12SDKServicing12RenderEffect_p_tFTW', symObjAddr: 0x354, symBinAddr: 0x1FCFC, symSize: 0x20 }
   - { offset: 0x114DB2, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14EffectsServiceCAA0D9ServicingA2aDP6remove6effecty0A12SDKServicing12RenderEffect_p_tFTW', symObjAddr: 0x374, symBinAddr: 0x1FD1C, symSize: 0x20 }
   - { offset: 0x114DC6, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple14EffectsServiceCAA0D9ServicingA2aDP9removeAllyyFTW', symObjAddr: 0x394, symBinAddr: 0x1FD3C, symSize: 0x20 }
-  - { offset: 0x114F9B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12InputServiceC8DefaultsV29availablePixelFormatRemappingSDys6UInt32VSays5UInt8VGGvpZ', symObjAddr: 0x32A20, symBinAddr: 0x5D918, symSize: 0x0 }
-  - { offset: 0x114FB6, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12InputServiceC16observingContext33_C9C88109C458EA881FE75C813B30EB81LLSivpZ', symObjAddr: 0x7768, symBinAddr: 0x5D220, symSize: 0x0 }
+  - { offset: 0x114F9B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12InputServiceC8DefaultsV29availablePixelFormatRemappingSDys6UInt32VSays5UInt8VGGvpZ', symObjAddr: 0x32A20, symBinAddr: 0x5D938, symSize: 0x0 }
+  - { offset: 0x114FB6, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12InputServiceC16observingContext33_C9C88109C458EA881FE75C813B30EB81LLSivpZ', symObjAddr: 0x7768, symBinAddr: 0x5D240, symSize: 0x0 }
   - { offset: 0x1152FF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12InputServiceC8DefaultsV29availablePixelFormatRemapping_WZ', symObjAddr: 0x684, symBinAddr: 0x2027C, symSize: 0x110 }
   - { offset: 0x115C14, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12InputServiceCfETo', symObjAddr: 0x15C8, symBinAddr: 0x211C0, symSize: 0x12C }
   - { offset: 0x115C43, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12InputServiceC33startSwitchingCameraFramesUpdater33_C9C88109C458EA881FE75C813B30EB81LLyyF', symObjAddr: 0x1C08, symBinAddr: 0x217FC, symSize: 0x124 }
@@ -853,8 +853,8 @@ relocations:
   - { offset: 0x11BE5B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC15AppStateHandlerC3add4name7handlerySo18NSNotificationNamea_y10Foundation12NotificationVctF', symObjAddr: 0xA4, symBinAddr: 0x27018, symSize: 0x13C }
   - { offset: 0x11BF5E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC15AppStateHandlerC9removeAllyyF', symObjAddr: 0x1E0, symBinAddr: 0x27154, symSize: 0x128 }
   - { offset: 0x11C135, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC15AppStateHandlerCfD', symObjAddr: 0x308, symBinAddr: 0x2727C, symSize: 0x30 }
-  - { offset: 0x11C352, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9videoSizeSo6CGSizeVSgvpZ', symObjAddr: 0x7B70, symBinAddr: 0x5D438, symSize: 0x0 }
-  - { offset: 0x11C36C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19outputConfiguration33_6EC64F8CE079A24080979437215708ADLLAA06OutputG0CvpZ', symObjAddr: 0x7B88, symBinAddr: 0x5D450, symSize: 0x0 }
+  - { offset: 0x11C352, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9videoSizeSo6CGSizeVSgvpZ', symObjAddr: 0x7B70, symBinAddr: 0x5D458, symSize: 0x0 }
+  - { offset: 0x11C36C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19outputConfiguration33_6EC64F8CE079A24080979437215708ADLLAA06OutputG0CvpZ', symObjAddr: 0x7B88, symBinAddr: 0x5D470, symSize: 0x0 }
   - { offset: 0x11C37A, size: 0x8, addend: 0x0, symName: '_$sSo7UIImageCSgIeyBy_ACIegg_TR', symObjAddr: 0x0, symBinAddr: 0x272E4, symSize: 0x14 }
   - { offset: 0x11C38E, size: 0x8, addend: 0x0, symName: '_$sSo6CMTimeaIeyBy_ABIegy_TR', symObjAddr: 0x14, symBinAddr: 0x272F8, symSize: 0x38 }
   - { offset: 0x11C3A2, size: 0x8, addend: 0x0, symName: '_$sIeyB_Ieg_TR', symObjAddr: 0x4C, symBinAddr: 0x27330, symSize: 0x8 }
@@ -978,65 +978,65 @@ relocations:
   - { offset: 0x12010D, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC21effectAddVideoTexture5asset15backgroundColorySo10AVURLAssetC_So7UIColorCtFTo', symObjAddr: 0x5558, symBinAddr: 0x2C6F4, symSize: 0x4 }
   - { offset: 0x120129, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19unloadEffectTextureyyFTo', symObjAddr: 0x5560, symBinAddr: 0x2C6F8, symSize: 0x4 }
   - { offset: 0x120145, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC26effectReloadTexturePreview9startTime03endK012itemDurationySd_S2dtFTo', symObjAddr: 0x5568, symBinAddr: 0x2C6FC, symSize: 0x4 }
-  - { offset: 0x120161, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC20enableBackgroundBluryyFTo', symObjAddr: 0x5570, symBinAddr: 0x2C700, symSize: 0x4 }
-  - { offset: 0x12017D, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC12effectsPathsSaySSGyF', symObjAddr: 0x5574, symBinAddr: 0x2C704, symSize: 0xC }
-  - { offset: 0x1201AA, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC12effectsPathsSaySSGyFTo', symObjAddr: 0x5580, symBinAddr: 0x2C710, symSize: 0x24 }
-  - { offset: 0x1201C6, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC8loadMask4name11synchronousySS_SbtF', symObjAddr: 0x55A4, symBinAddr: 0x2C734, symSize: 0x84 }
-  - { offset: 0x12024E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC8loadMask4name11synchronousySS_SbtFTo', symObjAddr: 0x5628, symBinAddr: 0x2C7B8, symSize: 0xB4 }
-  - { offset: 0x1202AD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyF', symObjAddr: 0x56DC, symBinAddr: 0x2C86C, symSize: 0x1C }
-  - { offset: 0x1202CD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyF', symObjAddr: 0x56DC, symBinAddr: 0x2C86C, symSize: 0x1C }
-  - { offset: 0x120309, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyFTo', symObjAddr: 0x56F8, symBinAddr: 0x2C888, symSize: 0x1C }
-  - { offset: 0x120329, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyFTo', symObjAddr: 0x56F8, symBinAddr: 0x2C888, symSize: 0x1C }
-  - { offset: 0x120349, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyFTo', symObjAddr: 0x56F8, symBinAddr: 0x2C888, symSize: 0x1C }
-  - { offset: 0x120406, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC16removeAllFiltersyyF', symObjAddr: 0x5714, symBinAddr: 0x2C8A4, symSize: 0x12C }
-  - { offset: 0x1205BC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC16removeAllFiltersyyFTo', symObjAddr: 0x5840, symBinAddr: 0x2C9D0, symSize: 0x28 }
-  - { offset: 0x12061A, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC11applyFilteryy0A12SDKServicing12RenderEffect_pF', symObjAddr: 0x5868, symBinAddr: 0x2C9F8, symSize: 0xEC }
-  - { offset: 0x120777, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC12removeFilteryy0A12SDKServicing12RenderEffect_pF', symObjAddr: 0x5960, symBinAddr: 0x2CAF0, symSize: 0x138 }
-  - { offset: 0x1208D3, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC42setEffectSubtypeModificationsEventListeneryy0A12SDKServicing0ghijK0_pFTo', symObjAddr: 0x5AFC, symBinAddr: 0x2CC88, symSize: 0x4 }
-  - { offset: 0x1208EF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC26setDoubleTapGestureEnabledyySbFTo', symObjAddr: 0x5B00, symBinAddr: 0x2CC8C, symSize: 0x4 }
-  - { offset: 0x12090B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvgTo', symObjAddr: 0x5B04, symBinAddr: 0x2CC90, symSize: 0x8 }
-  - { offset: 0x120927, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvsTo', symObjAddr: 0x5B14, symBinAddr: 0x2CC98, symSize: 0x4 }
-  - { offset: 0x120943, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9intensitySdvgTo', symObjAddr: 0x5B20, symBinAddr: 0x2CC9C, symSize: 0x8 }
-  - { offset: 0x12095F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9intensitySdvg', symObjAddr: 0x5B28, symBinAddr: 0x2CCA4, symSize: 0x8 }
-  - { offset: 0x12098C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9intensitySdvsTo', symObjAddr: 0x5B30, symBinAddr: 0x2CCAC, symSize: 0x4 }
-  - { offset: 0x1209A8, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC20toggleBeautificationSbyFTo', symObjAddr: 0x5B40, symBinAddr: 0x2CCB0, symSize: 0x8 }
-  - { offset: 0x1209C4, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC14resetIntensityyyFTo', symObjAddr: 0x5B4C, symBinAddr: 0x2CCB8, symSize: 0x4 }
-  - { offset: 0x1209E0, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19isBackgroundEnabledSbvgTo', symObjAddr: 0x5B50, symBinAddr: 0x2CCBC, symSize: 0x8 }
-  - { offset: 0x1209FC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC14embeddedImagesSay0A12SDKServicing23EmbeddedBackgroundImageCGvgTo', symObjAddr: 0x5B60, symBinAddr: 0x2CCC4, symSize: 0x28 }
-  - { offset: 0x120A18, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC16enableBackground10completionyyyc_tFTo', symObjAddr: 0x5B98, symBinAddr: 0x2CCEC, symSize: 0x18 }
-  - { offset: 0x120A34, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC17disableBackgroundyyFTo', symObjAddr: 0x5BB4, symBinAddr: 0x2CD04, symSize: 0x4 }
-  - { offset: 0x120A50, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10willOutput11pixelBufferySo11CVBufferRefa_tF', symObjAddr: 0x5BB8, symBinAddr: 0x2CD08, symSize: 0xC0 }
-  - { offset: 0x120AE9, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF18BanubaSDKServicing12RenderEffect_p_Tgm5', symObjAddr: 0x5C78, symBinAddr: 0x2CDC8, symSize: 0xC }
-  - { offset: 0x120B01, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFyXl_Tgm5', symObjAddr: 0x5C84, symBinAddr: 0x2CDD4, symSize: 0xC }
-  - { offset: 0x120B19, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo29AVVideoCompositionInstruction_p_Tgm5', symObjAddr: 0x5C90, symBinAddr: 0x2CDE0, symSize: 0xC }
-  - { offset: 0x120B3C, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo34AVVideoCompositionLayerInstructionC_Tgm5', symObjAddr: 0x5C9C, symBinAddr: 0x2CDEC, symSize: 0x54 }
-  - { offset: 0x120BA0, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18BanubaSDKServicing12RenderEffect_p_Tg5', symObjAddr: 0x5CF0, symBinAddr: 0x2CE40, symSize: 0x158 }
-  - { offset: 0x120D63, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Tg5', symObjAddr: 0x5E48, symBinAddr: 0x2CF98, symSize: 0x184 }
-  - { offset: 0x120F77, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyyc_Tg5', symObjAddr: 0x5FCC, symBinAddr: 0x2D11C, symSize: 0x120 }
-  - { offset: 0x1210D1, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x60EC, symBinAddr: 0x2D23C, symSize: 0x100 }
-  - { offset: 0x1211FF, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF18BanubaSDKServicing12RenderEffect_p_Tg5', symObjAddr: 0x6268, symBinAddr: 0x2D3B8, symSize: 0x114 }
-  - { offset: 0x1212F8, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCMa', symObjAddr: 0x6820, symBinAddr: 0x2D970, symSize: 0x3C }
-  - { offset: 0x12130C, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x688C, symBinAddr: 0x2D9D0, symSize: 0x10 }
-  - { offset: 0x121320, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x689C, symBinAddr: 0x2D9E0, symSize: 0x8 }
-  - { offset: 0x121334, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC23startPIPSessionIfNeeded11withSetting10completiony0A12SDKServicing015PIPPlayerLayoutK0C_yycSgtFyycfU_TA', symObjAddr: 0x6944, symBinAddr: 0x2DA48, symSize: 0xC }
-  - { offset: 0x121348, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC20applyFloatingSetting33_6EC64F8CE079A24080979437215708ADLL14restoreSessionySb_tFTf4dn_n', symObjAddr: 0x6950, symBinAddr: 0x2DA54, symSize: 0x104 }
-  - { offset: 0x121478, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC15getRendererViewSo6UIViewCyFSo21BNBSimpleInputManagerCSgycfU_TA', symObjAddr: 0x6A54, symBinAddr: 0x2DB58, symSize: 0x8 }
-  - { offset: 0x121497, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC5start10completionyyyc_tF13$sIeyB_Ieg_TRIeyB_Tf1cn_nTf4ng_n', symObjAddr: 0x6A5C, symBinAddr: 0x2DB60, symSize: 0x144 }
-  - { offset: 0x121591, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19startVideoCapturing7fileURL0f7TimeForG7Texture26externalAudioConfiguration8progress8didStart15shouldSkipFrame016periodicProgressK8Interval13totalDuration12itemDuration10completiony10Foundation0J0VSg_Sd0A12SDKServicing08ExternaloP0CSgySo6CMTimeacyycSgSbycSgS3dySb_s5Error_pSgtctFTf4nnnnnnnndnn_n', symObjAddr: 0x6BA0, symBinAddr: 0x2DCA4, symSize: 0x32C }
-  - { offset: 0x1216A7, size: 0x8, addend: 0x0, symName: _keypath_get_selector_autoStart, symObjAddr: 0x71AC, symBinAddr: 0x2E21C, symSize: 0xC }
-  - { offset: 0x1216BB, size: 0x8, addend: 0x0, symName: _keypath_get_selector_isMultiCamEnabled, symObjAddr: 0x71FC, symBinAddr: 0x2E26C, symSize: 0xC }
-  - { offset: 0x1216CF, size: 0x8, addend: 0x0, symName: _keypath_get_selector_isBeautificationEnabled, symObjAddr: 0x724C, symBinAddr: 0x2E2BC, symSize: 0xC }
-  - { offset: 0x1216E3, size: 0x8, addend: 0x0, symName: _keypath_get_selector_intensity, symObjAddr: 0x729C, symBinAddr: 0x2E30C, symSize: 0xC }
-  - { offset: 0x1216F7, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCMU', symObjAddr: 0x72EC, symBinAddr: 0x2E35C, symSize: 0x8 }
-  - { offset: 0x12170B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCMr', symObjAddr: 0x72F4, symBinAddr: 0x2E364, symSize: 0xB8 }
-  - { offset: 0x12171F, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgMa', symObjAddr: 0x775C, symBinAddr: 0x2E7CC, symSize: 0x54 }
-  - { offset: 0x12173E, size: 0x8, addend: 0x0, symName: '_$sSo6CMTimeaIeyBy_ABIegy_TRTA', symObjAddr: 0x77D4, symBinAddr: 0x2E844, symSize: 0x3C }
-  - { offset: 0x121772, size: 0x8, addend: 0x0, symName: '_$s10ObjectiveC8ObjCBoolVIeyBd_SbIegd_TRTA', symObjAddr: 0x7818, symBinAddr: 0x2E880, symSize: 0x1C }
-  - { offset: 0x12179B, size: 0x8, addend: 0x0, symName: '_$sIeyB_Ieg_TRTA', symObjAddr: 0x7834, symBinAddr: 0x2E89C, symSize: 0xC }
-  - { offset: 0x1217CF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19startVideoCapturing7fileURL0f7TimeForG7Texture26externalAudioConfiguration8progress8didStart15shouldSkipFrame016periodicProgressK8Interval13totalDuration12itemDuration10completiony10Foundation0J0VSg_Sd0A12SDKServicing08ExternaloP0CSgySo6CMTimeacyycSgSbycSgS3dySb_s5Error_pSgtctFySb_A0_tcfU_TA', symObjAddr: 0x7904, symBinAddr: 0x2E8CC, symSize: 0x8 }
-  - { offset: 0x1217E3, size: 0x8, addend: 0x0, symName: '_$s18BanubaSDKServicing18OutputServiceErrorOACs0E0AAWl', symObjAddr: 0x790C, symBinAddr: 0x2E8D4, symSize: 0x48 }
-  - { offset: 0x1217F7, size: 0x8, addend: 0x0, symName: '_$sSo34AVVideoCompositionLayerInstructionCMa', symObjAddr: 0x7954, symBinAddr: 0x2E91C, symSize: 0x3C }
-  - { offset: 0x121A9A, size: 0x8, addend: 0x0, symName: '_$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKFSay18BanubaSDKServicing12RenderEffect_pG_Tg504$s15e59SdkSimple14EffectsServiceC6remove6effecty0A12SDKServicing12gH17_p_tFSbAfG_pXEfU_AhI_pTf1cn_nTf4ng_n', symObjAddr: 0x6428, symBinAddr: 0x2D578, symSize: 0x1B8 }
+  - { offset: 0x120161, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC12effectsPathsSaySSGyF', symObjAddr: 0x556C, symBinAddr: 0x2C700, symSize: 0xC }
+  - { offset: 0x12018E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC12effectsPathsSaySSGyFTo', symObjAddr: 0x5578, symBinAddr: 0x2C70C, symSize: 0x24 }
+  - { offset: 0x1201AA, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC8loadMask4name11synchronousySS_SbtF', symObjAddr: 0x559C, symBinAddr: 0x2C730, symSize: 0x84 }
+  - { offset: 0x120232, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC8loadMask4name11synchronousySS_SbtFTo', symObjAddr: 0x5620, symBinAddr: 0x2C7B4, symSize: 0xB4 }
+  - { offset: 0x120291, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyF', symObjAddr: 0x56D4, symBinAddr: 0x2C868, symSize: 0x1C }
+  - { offset: 0x1202B1, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyF', symObjAddr: 0x56D4, symBinAddr: 0x2C868, symSize: 0x1C }
+  - { offset: 0x1202ED, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyFTo', symObjAddr: 0x56F0, symBinAddr: 0x2C884, symSize: 0x1C }
+  - { offset: 0x12030D, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyFTo', symObjAddr: 0x56F0, symBinAddr: 0x2C884, symSize: 0x1C }
+  - { offset: 0x12032D, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10unloadMaskyyFTo', symObjAddr: 0x56F0, symBinAddr: 0x2C884, symSize: 0x1C }
+  - { offset: 0x1203EA, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC16removeAllFiltersyyF', symObjAddr: 0x570C, symBinAddr: 0x2C8A0, symSize: 0x12C }
+  - { offset: 0x1205A0, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC16removeAllFiltersyyFTo', symObjAddr: 0x5838, symBinAddr: 0x2C9CC, symSize: 0x28 }
+  - { offset: 0x1205FE, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC11applyFilteryy0A12SDKServicing12RenderEffect_pF', symObjAddr: 0x5860, symBinAddr: 0x2C9F4, symSize: 0xEC }
+  - { offset: 0x12075B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC12removeFilteryy0A12SDKServicing12RenderEffect_pF', symObjAddr: 0x5958, symBinAddr: 0x2CAEC, symSize: 0x138 }
+  - { offset: 0x1208B7, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC42setEffectSubtypeModificationsEventListeneryy0A12SDKServicing0ghijK0_pFTo', symObjAddr: 0x5AF4, symBinAddr: 0x2CC84, symSize: 0x4 }
+  - { offset: 0x1208D3, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC26setDoubleTapGestureEnabledyySbFTo', symObjAddr: 0x5AF8, symBinAddr: 0x2CC88, symSize: 0x4 }
+  - { offset: 0x1208EF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvgTo', symObjAddr: 0x5AFC, symBinAddr: 0x2CC8C, symSize: 0x8 }
+  - { offset: 0x12090B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC23isBeautificationEnabledSbvsTo', symObjAddr: 0x5B0C, symBinAddr: 0x2CC94, symSize: 0x4 }
+  - { offset: 0x120927, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvgTo', symObjAddr: 0x5B10, symBinAddr: 0x2CC98, symSize: 0x8 }
+  - { offset: 0x120943, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9intensitySdvgTo', symObjAddr: 0x5B20, symBinAddr: 0x2CCA0, symSize: 0x8 }
+  - { offset: 0x12095F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9intensitySdvg', symObjAddr: 0x5B28, symBinAddr: 0x2CCA8, symSize: 0x8 }
+  - { offset: 0x12098C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9intensitySdvsTo', symObjAddr: 0x5B30, symBinAddr: 0x2CCB0, symSize: 0x4 }
+  - { offset: 0x1209A8, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC20toggleBeautificationSbyFTo', symObjAddr: 0x5B40, symBinAddr: 0x2CCB4, symSize: 0x8 }
+  - { offset: 0x1209C4, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC14resetIntensityyyFTo', symObjAddr: 0x5B4C, symBinAddr: 0x2CCBC, symSize: 0x4 }
+  - { offset: 0x1209E0, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19isBackgroundEnabledSbvgTo', symObjAddr: 0x5B50, symBinAddr: 0x2CCC0, symSize: 0x8 }
+  - { offset: 0x1209FC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC14embeddedImagesSay0A12SDKServicing23EmbeddedBackgroundImageCGvgTo', symObjAddr: 0x5B60, symBinAddr: 0x2CCC8, symSize: 0x28 }
+  - { offset: 0x120A18, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC16enableBackground10completionyyyc_tFTo', symObjAddr: 0x5B98, symBinAddr: 0x2CCF0, symSize: 0x18 }
+  - { offset: 0x120A34, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC17disableBackgroundyyFTo', symObjAddr: 0x5BB4, symBinAddr: 0x2CD08, symSize: 0x4 }
+  - { offset: 0x120A50, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC10willOutput11pixelBufferySo11CVBufferRefa_tF', symObjAddr: 0x5BB8, symBinAddr: 0x2CD0C, symSize: 0xC0 }
+  - { offset: 0x120AE9, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF18BanubaSDKServicing12RenderEffect_p_Tgm5', symObjAddr: 0x5C78, symBinAddr: 0x2CDCC, symSize: 0xC }
+  - { offset: 0x120B01, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFyXl_Tgm5', symObjAddr: 0x5C84, symBinAddr: 0x2CDD8, symSize: 0xC }
+  - { offset: 0x120B19, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo29AVVideoCompositionInstruction_p_Tgm5', symObjAddr: 0x5C90, symBinAddr: 0x2CDE4, symSize: 0xC }
+  - { offset: 0x120B3C, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo34AVVideoCompositionLayerInstructionC_Tgm5', symObjAddr: 0x5C9C, symBinAddr: 0x2CDF0, symSize: 0x54 }
+  - { offset: 0x120BA0, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18BanubaSDKServicing12RenderEffect_p_Tg5', symObjAddr: 0x5CF0, symBinAddr: 0x2CE44, symSize: 0x158 }
+  - { offset: 0x120D63, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Tg5', symObjAddr: 0x5E48, symBinAddr: 0x2CF9C, symSize: 0x184 }
+  - { offset: 0x120F77, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyyc_Tg5', symObjAddr: 0x5FCC, symBinAddr: 0x2D120, symSize: 0x120 }
+  - { offset: 0x1210D1, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x60EC, symBinAddr: 0x2D240, symSize: 0x100 }
+  - { offset: 0x1211FF, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF18BanubaSDKServicing12RenderEffect_p_Tg5', symObjAddr: 0x6268, symBinAddr: 0x2D3BC, symSize: 0x114 }
+  - { offset: 0x1212F8, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCMa', symObjAddr: 0x6820, symBinAddr: 0x2D974, symSize: 0x3C }
+  - { offset: 0x12130C, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x688C, symBinAddr: 0x2D9D4, symSize: 0x10 }
+  - { offset: 0x121320, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x689C, symBinAddr: 0x2D9E4, symSize: 0x8 }
+  - { offset: 0x121334, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC23startPIPSessionIfNeeded11withSetting10completiony0A12SDKServicing015PIPPlayerLayoutK0C_yycSgtFyycfU_TA', symObjAddr: 0x6944, symBinAddr: 0x2DA4C, symSize: 0xC }
+  - { offset: 0x121348, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC20applyFloatingSetting33_6EC64F8CE079A24080979437215708ADLL14restoreSessionySb_tFTf4dn_n', symObjAddr: 0x6950, symBinAddr: 0x2DA58, symSize: 0x104 }
+  - { offset: 0x121478, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC15getRendererViewSo6UIViewCyFSo21BNBSimpleInputManagerCSgycfU_TA', symObjAddr: 0x6A54, symBinAddr: 0x2DB5C, symSize: 0x8 }
+  - { offset: 0x121497, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC5start10completionyyyc_tF13$sIeyB_Ieg_TRIeyB_Tf1cn_nTf4ng_n', symObjAddr: 0x6A5C, symBinAddr: 0x2DB64, symSize: 0x144 }
+  - { offset: 0x121591, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19startVideoCapturing7fileURL0f7TimeForG7Texture26externalAudioConfiguration8progress8didStart15shouldSkipFrame016periodicProgressK8Interval13totalDuration12itemDuration10completiony10Foundation0J0VSg_Sd0A12SDKServicing08ExternaloP0CSgySo6CMTimeacyycSgSbycSgS3dySb_s5Error_pSgtctFTf4nnnnnnnndnn_n', symObjAddr: 0x6BA0, symBinAddr: 0x2DCA8, symSize: 0x32C }
+  - { offset: 0x1216A7, size: 0x8, addend: 0x0, symName: _keypath_get_selector_autoStart, symObjAddr: 0x71AC, symBinAddr: 0x2E220, symSize: 0xC }
+  - { offset: 0x1216BB, size: 0x8, addend: 0x0, symName: _keypath_get_selector_isMultiCamEnabled, symObjAddr: 0x71FC, symBinAddr: 0x2E270, symSize: 0xC }
+  - { offset: 0x1216CF, size: 0x8, addend: 0x0, symName: _keypath_get_selector_isBeautificationEnabled, symObjAddr: 0x724C, symBinAddr: 0x2E2C0, symSize: 0xC }
+  - { offset: 0x1216E3, size: 0x8, addend: 0x0, symName: _keypath_get_selector_intensity, symObjAddr: 0x729C, symBinAddr: 0x2E310, symSize: 0xC }
+  - { offset: 0x1216F7, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCMU', symObjAddr: 0x72EC, symBinAddr: 0x2E360, symSize: 0x8 }
+  - { offset: 0x12170B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCMr', symObjAddr: 0x72F4, symBinAddr: 0x2E368, symSize: 0xB8 }
+  - { offset: 0x12171F, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgMa', symObjAddr: 0x775C, symBinAddr: 0x2E7D0, symSize: 0x54 }
+  - { offset: 0x12173E, size: 0x8, addend: 0x0, symName: '_$sSo6CMTimeaIeyBy_ABIegy_TRTA', symObjAddr: 0x77D4, symBinAddr: 0x2E848, symSize: 0x3C }
+  - { offset: 0x121772, size: 0x8, addend: 0x0, symName: '_$s10ObjectiveC8ObjCBoolVIeyBd_SbIegd_TRTA', symObjAddr: 0x7818, symBinAddr: 0x2E884, symSize: 0x1C }
+  - { offset: 0x12179B, size: 0x8, addend: 0x0, symName: '_$sIeyB_Ieg_TRTA', symObjAddr: 0x7834, symBinAddr: 0x2E8A0, symSize: 0xC }
+  - { offset: 0x1217CF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC19startVideoCapturing7fileURL0f7TimeForG7Texture26externalAudioConfiguration8progress8didStart15shouldSkipFrame016periodicProgressK8Interval13totalDuration12itemDuration10completiony10Foundation0J0VSg_Sd0A12SDKServicing08ExternaloP0CSgySo6CMTimeacyycSgSbycSgS3dySb_s5Error_pSgtctFySb_A0_tcfU_TA', symObjAddr: 0x7904, symBinAddr: 0x2E8D0, symSize: 0x8 }
+  - { offset: 0x1217E3, size: 0x8, addend: 0x0, symName: '_$s18BanubaSDKServicing18OutputServiceErrorOACs0E0AAWl', symObjAddr: 0x790C, symBinAddr: 0x2E8D8, symSize: 0x48 }
+  - { offset: 0x1217F7, size: 0x8, addend: 0x0, symName: '_$sSo34AVVideoCompositionLayerInstructionCMa', symObjAddr: 0x7954, symBinAddr: 0x2E920, symSize: 0x3C }
+  - { offset: 0x121A9A, size: 0x8, addend: 0x0, symName: '_$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKFSay18BanubaSDKServicing12RenderEffect_pG_Tg504$s15e59SdkSimple14EffectsServiceC6remove6effecty0A12SDKServicing12gH17_p_tFSbAfG_pXEfU_AhI_pTf1cn_nTf4ng_n', symObjAddr: 0x6428, symBinAddr: 0x2D57C, symSize: 0x1B8 }
   - { offset: 0x121D11, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvgTo', symObjAddr: 0xC4, symBinAddr: 0x273A8, symSize: 0x44 }
   - { offset: 0x121D46, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvg', symObjAddr: 0x108, symBinAddr: 0x273EC, symSize: 0x44 }
   - { offset: 0x121D90, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvsTo', symObjAddr: 0x14C, symBinAddr: 0x27430, symSize: 0x48 }
@@ -1092,71 +1092,71 @@ relocations:
   - { offset: 0x1228FB, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCACycfc', symObjAddr: 0x1C04, symBinAddr: 0x28E1C, symSize: 0x2C }
   - { offset: 0x122954, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCACycfcTo', symObjAddr: 0x1C30, symBinAddr: 0x28E48, symSize: 0x2C }
   - { offset: 0x1229B3, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleCfD', symObjAddr: 0x1C5C, symBinAddr: 0x28E74, symSize: 0x34 }
-  - { offset: 0x122E7E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9videoSize0F6Preset22useHEVCCodecIfPossibleACSo6CGSizeV_So016AVCaptureSessionH0aSbtcfcTf4ngnn_n', symObjAddr: 0x65E0, symBinAddr: 0x2D730, symSize: 0x240 }
-  - { offset: 0x123A78, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvpACTk', symObjAddr: 0x2D0, symBinAddr: 0x2EBA4, symSize: 0x68 }
-  - { offset: 0x123BBA, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13MetalViewportVSgWOb', symObjAddr: 0xBB4, symBinAddr: 0x2F484, symSize: 0x48 }
-  - { offset: 0x123DA1, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCfE', symObjAddr: 0x3510, symBinAddr: 0x31DA0, symSize: 0xDC }
-  - { offset: 0x123DCE, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCfETo', symObjAddr: 0x361C, symBinAddr: 0x31EAC, symSize: 0xE8 }
-  - { offset: 0x123DFD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCMa', symObjAddr: 0x3778, symBinAddr: 0x32008, symSize: 0x20 }
-  - { offset: 0x123E11, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOSHAASQWb', symObjAddr: 0x3798, symBinAddr: 0x32028, symSize: 0x4 }
-  - { offset: 0x123E25, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOACSQAAWl', symObjAddr: 0x379C, symBinAddr: 0x3202C, symSize: 0x44 }
-  - { offset: 0x123E39, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOMa', symObjAddr: 0x3A38, symBinAddr: 0x322C8, symSize: 0x10 }
-  - { offset: 0x123E4D, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaABSHSCWl', symObjAddr: 0x3CCC, symBinAddr: 0x3254C, symSize: 0x48 }
-  - { offset: 0x123E61, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x3D58, symBinAddr: 0x325B8, symSize: 0x44 }
-  - { offset: 0x123E75, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x3D9C, symBinAddr: 0x325FC, symSize: 0x44 }
-  - { offset: 0x124148, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperC10makeBuffer5arraySo9MTLBuffer_pSayxG_tlFSf_Tg5', symObjAddr: 0x0, symBinAddr: 0x2E9B8, symSize: 0xE0 }
-  - { offset: 0x124231, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeO8rawValueACSgSi_tcfC', symObjAddr: 0xF4, symBinAddr: 0x2EA98, symSize: 0x10 }
-  - { offset: 0x124273, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOSYAASY8rawValuexSg03RawH0Qz_tcfCTW', symObjAddr: 0x1C8, symBinAddr: 0x2EAA8, symSize: 0x1C }
-  - { offset: 0x12429C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15renderBehaviourAA0D8BehaviorOvg', symObjAddr: 0x1F0, symBinAddr: 0x2EAC4, symSize: 0x4C }
-  - { offset: 0x1242BB, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15renderBehaviourAA0D8BehaviorOvs', symObjAddr: 0x23C, symBinAddr: 0x2EB10, symSize: 0x50 }
-  - { offset: 0x1242E4, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15renderBehaviourAA0D8BehaviorOvM', symObjAddr: 0x28C, symBinAddr: 0x2EB60, symSize: 0x44 }
-  - { offset: 0x124333, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvg', symObjAddr: 0x338, symBinAddr: 0x2EC0C, symSize: 0x50 }
-  - { offset: 0x124352, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvs', symObjAddr: 0x388, symBinAddr: 0x2EC5C, symSize: 0x50 }
-  - { offset: 0x12437B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvM', symObjAddr: 0x3D8, symBinAddr: 0x2ECAC, symSize: 0x44 }
-  - { offset: 0x1243A0, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC29pipPlayerRelativeLeftTopPointSo7CGPointVvM', symObjAddr: 0x434, symBinAddr: 0x2ED08, symSize: 0x44 }
-  - { offset: 0x1243C5, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC05splitD6OffsetSo7CGPointVvM', symObjAddr: 0x520, symBinAddr: 0x2EDF4, symSize: 0x44 }
-  - { offset: 0x1244D3, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC10playerRectSo6CGRectVvg', symObjAddr: 0x568, symBinAddr: 0x2EE38, symSize: 0xA8 }
-  - { offset: 0x12462F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC7pipRectSo6CGRectVSgvg', symObjAddr: 0x610, symBinAddr: 0x2EEE0, symSize: 0x304 }
-  - { offset: 0x124826, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC22absolutePiPPlayerScale33_3C6CDA493D97A5966CB7C0E1EA16258DLL12CoreGraphics7CGFloatVSgvg', symObjAddr: 0x914, symBinAddr: 0x2F1E4, symSize: 0x124 }
-  - { offset: 0x12492C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18shouldZoomPipImageSbvg', symObjAddr: 0xA38, symBinAddr: 0x2F308, symSize: 0x44 }
-  - { offset: 0x12494B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18shouldZoomPipImageSbvs', symObjAddr: 0xA7C, symBinAddr: 0x2F34C, symSize: 0x48 }
-  - { offset: 0x124970, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18shouldZoomPipImageSbvM', symObjAddr: 0xAC4, symBinAddr: 0x2F394, symSize: 0x44 }
-  - { offset: 0x1249A9, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC14playerViewport33_3C6CDA493D97A5966CB7C0E1EA16258DLLAA05MetalG0Vvg', symObjAddr: 0xB08, symBinAddr: 0x2F3D8, symSize: 0xAC }
-  - { offset: 0x124A81, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC08setSplitD04rect6offsetySo6CGRectV_So7CGPointVtF', symObjAddr: 0xC3C, symBinAddr: 0x2F4CC, symSize: 0x18C }
-  - { offset: 0x124CC8, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC6player5layer11contentMode10renderSizeACSo21BNBSimpleEffectPlayerCSg_So12CAMetalLayerCAA0d7ContentI0OSo6CGSizeVtcfc', symObjAddr: 0xDC8, symBinAddr: 0x2F658, symSize: 0x238 }
-  - { offset: 0x124D79, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC6player5layer11contentMode10renderSizeACSo21BNBSimpleEffectPlayerCSg_So12CAMetalLayerCAA0d7ContentI0OSo6CGSizeVtcfcTo', symObjAddr: 0x1000, symBinAddr: 0x2F890, symSize: 0x6C }
-  - { offset: 0x124E5A, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC5setup33_3C6CDA493D97A5966CB7C0E1EA16258DLLyyF', symObjAddr: 0x106C, symBinAddr: 0x2F8FC, symSize: 0x2BC }
-  - { offset: 0x1250A0, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18createTextureCache33_3C6CDA493D97A5966CB7C0E1EA16258DLLyyF', symObjAddr: 0x1328, symBinAddr: 0x2FBB8, symSize: 0xFC }
-  - { offset: 0x12519D, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC24createEpTextureAndBuffer33_3C6CDA493D97A5966CB7C0E1EA16258DLL10attributesySo15CFDictionaryRefa_tF', symObjAddr: 0x1424, symBinAddr: 0x2FCB4, symSize: 0x2F4 }
-  - { offset: 0x125381, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC27createFinalTextureAndBuffer33_3C6CDA493D97A5966CB7C0E1EA16258DLL10attributesySo15CFDictionaryRefa_tF', symObjAddr: 0x1718, symBinAddr: 0x2FFA8, symSize: 0x2F4 }
-  - { offset: 0x12559E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC17createDrawBuffers33_3C6CDA493D97A5966CB7C0E1EA16258DLLyyF', symObjAddr: 0x1A0C, symBinAddr: 0x3029C, symSize: 0x114 }
-  - { offset: 0x12566C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC20makeVideoPixelBufferSo11CVBufferRefaSgyF', symObjAddr: 0x1B20, symBinAddr: 0x303B0, symSize: 0x50 }
-  - { offset: 0x1256BF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC20makeVideoPixelBufferSo11CVBufferRefaSgyFTo', symObjAddr: 0x1B70, symBinAddr: 0x30400, symSize: 0x48 }
-  - { offset: 0x1258CE, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC24makeSnapshotWithSettings_20watermarkPixelBufferSo7UIImageCSgSo08VEOutputI0C_So11CVBufferRefaSgtF', symObjAddr: 0x1BB8, symBinAddr: 0x30448, symSize: 0x3EC }
-  - { offset: 0x125BDF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC24makeSnapshotWithSettings_20watermarkPixelBufferSo7UIImageCSgSo08VEOutputI0C_So11CVBufferRefaSgtFTo', symObjAddr: 0x1FA4, symBinAddr: 0x30834, symSize: 0x78 }
-  - { offset: 0x125C07, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC8activateyyF', symObjAddr: 0x201C, symBinAddr: 0x308AC, symSize: 0x8C }
-  - { offset: 0x125C6B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC8activateyyFTo', symObjAddr: 0x20A8, symBinAddr: 0x30938, symSize: 0x28 }
-  - { offset: 0x125D2C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC028calculateAndActiveEPViewportG4Data33_3C6CDA493D97A5966CB7C0E1EA16258DLL13renderEncoderySo016MTLRenderCommandT0_p_tF', symObjAddr: 0x20D0, symBinAddr: 0x30960, symSize: 0x1E8 }
-  - { offset: 0x125F53, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC037calculateAndActivatePipViewportForNonI9ModeMetal33_3C6CDA493D97A5966CB7C0E1EA16258DLL13renderEncoder4withySo016MTLRenderCommandX0_p_AA0D8BehaviorOtF', symObjAddr: 0x22B8, symBinAddr: 0x30B48, symSize: 0x3E8 }
-  - { offset: 0x1262BD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC40fetchEPAssociatedMetalTexturePixelBuffer33_3C6CDA493D97A5966CB7C0E1EA16258DLLSo11CVBufferRefaSgyF', symObjAddr: 0x26A0, symBinAddr: 0x30F30, symSize: 0x3CC }
-  - { offset: 0x1266AD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC7presentyyySo11CVBufferRefaSgcSgF', symObjAddr: 0x2A7C, symBinAddr: 0x3130C, symSize: 0x498 }
-  - { offset: 0x126921, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC7presentyyySo11CVBufferRefaSgcSgFTo', symObjAddr: 0x2F14, symBinAddr: 0x317A4, symSize: 0x8C }
-  - { offset: 0x126935, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15drawPIPIfNeeded33_3C6CDA493D97A5966CB7C0E1EA16258DLL13renderEncoderySo016MTLRenderCommandR0_p_tF', symObjAddr: 0x2FA0, symBinAddr: 0x31830, symSize: 0x15C }
-  - { offset: 0x126A35, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC22pixelBufferFromCIImage33_3C6CDA493D97A5966CB7C0E1EA16258DLL_4rectSo11CVBufferRefaSgSo0I0C_So6CGRectVtF', symObjAddr: 0x30FC, symBinAddr: 0x3198C, symSize: 0x2B4 }
-  - { offset: 0x126CB9, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC13srcBufferRect33_3C6CDA493D97A5966CB7C0E1EA16258DLLSo6CGRectVvg', symObjAddr: 0x33B0, symBinAddr: 0x31C40, symSize: 0x160 }
-  - { offset: 0x126D42, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCfD', symObjAddr: 0x35EC, symBinAddr: 0x31E7C, symSize: 0x30 }
-  - { offset: 0x126D65, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCAA16SnapshotProviderA2aDP04makeF12WithSettings_20watermarkPixelBufferSo7UIImageCSgSo08VEOutputJ0C_So11CVBufferRefaSgtFTW', symObjAddr: 0x3704, symBinAddr: 0x31F94, symSize: 0x20 }
-  - { offset: 0x126D79, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCAA19PixelBufferProviderA2aDP09makeVideofG0So11CVBufferRefaSgyFTW', symObjAddr: 0x3724, symBinAddr: 0x31FB4, symSize: 0x54 }
-  - { offset: 0x126E15, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC4rect33_3C6CDA493D97A5966CB7C0E1EA16258DLL4from22toResizeAspectFillRectSo6CGRectVAI_AItFTf4nnd_n', symObjAddr: 0x3DE0, symBinAddr: 0x32640, symSize: 0x11C }
-  - { offset: 0x1271BD, size: 0x8, addend: 0x0, symName: '_$sIeg_IyB_TR', symObjAddr: 0x20, symBinAddr: 0x3275C, symSize: 0x20 }
-  - { offset: 0x12726C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerCMa', symObjAddr: 0x4F4, symBinAddr: 0x32C30, symSize: 0x20 }
-  - { offset: 0x127280, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerC06deviceE0So08UIDeviceE0VvgyyXEfU_TA', symObjAddr: 0x538, symBinAddr: 0x32C74, symSize: 0x10 }
-  - { offset: 0x1272BD, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x578, symBinAddr: 0x32C94, symSize: 0x10 }
-  - { offset: 0x1272D1, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x588, symBinAddr: 0x32CA4, symSize: 0x8 }
-  - { offset: 0x1272E5, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWl', symObjAddr: 0x5CC, symBinAddr: 0x32CAC, symSize: 0x48 }
-  - { offset: 0x1272F9, size: 0x8, addend: 0x0, symName: '_$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWl', symObjAddr: 0x654, symBinAddr: 0x32CF4, symSize: 0x4C }
-  - { offset: 0x127333, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerC06deviceE0So08UIDeviceE0Vvg', symObjAddr: 0x40, symBinAddr: 0x3277C, symSize: 0x13C }
-  - { offset: 0x1274B3, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerCAEycfc', symObjAddr: 0x17C, symBinAddr: 0x328B8, symSize: 0x200 }
-  - { offset: 0x1275DC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerC5startyyFySo19CMAccelerometerDataCSg_s5Error_pSgtcfU_', symObjAddr: 0x37C, symBinAddr: 0x32AB8, symSize: 0x128 }
-  - { offset: 0x127698, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerCfD', symObjAddr: 0x4A4, symBinAddr: 0x32BE0, symSize: 0x50 }
+  - { offset: 0x122E7E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0aC12CameraModuleC9videoSize0F6Preset22useHEVCCodecIfPossibleACSo6CGSizeV_So016AVCaptureSessionH0aSbtcfcTf4ngnn_n', symObjAddr: 0x65E0, symBinAddr: 0x2D734, symSize: 0x240 }
+  - { offset: 0x123A78, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvpACTk', symObjAddr: 0x2D0, symBinAddr: 0x2EBA8, symSize: 0x68 }
+  - { offset: 0x123BBA, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple13MetalViewportVSgWOb', symObjAddr: 0xBB4, symBinAddr: 0x2F488, symSize: 0x48 }
+  - { offset: 0x123DA1, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCfE', symObjAddr: 0x3510, symBinAddr: 0x31DA4, symSize: 0xDC }
+  - { offset: 0x123DCE, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCfETo', symObjAddr: 0x361C, symBinAddr: 0x31EB0, symSize: 0xE8 }
+  - { offset: 0x123DFD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCMa', symObjAddr: 0x3778, symBinAddr: 0x3200C, symSize: 0x20 }
+  - { offset: 0x123E11, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOSHAASQWb', symObjAddr: 0x3798, symBinAddr: 0x3202C, symSize: 0x4 }
+  - { offset: 0x123E25, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOACSQAAWl', symObjAddr: 0x379C, symBinAddr: 0x32030, symSize: 0x44 }
+  - { offset: 0x123E39, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOMa', symObjAddr: 0x3A38, symBinAddr: 0x322CC, symSize: 0x10 }
+  - { offset: 0x123E4D, size: 0x8, addend: 0x0, symName: '_$sSo11CFStringRefaABSHSCWl', symObjAddr: 0x3CCC, symBinAddr: 0x32550, symSize: 0x48 }
+  - { offset: 0x123E61, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x3D58, symBinAddr: 0x325BC, symSize: 0x44 }
+  - { offset: 0x123E75, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x3D9C, symBinAddr: 0x32600, symSize: 0x44 }
+  - { offset: 0x124148, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple11MetalHelperC10makeBuffer5arraySo9MTLBuffer_pSayxG_tlFSf_Tg5', symObjAddr: 0x0, symBinAddr: 0x2E9BC, symSize: 0xE0 }
+  - { offset: 0x124231, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeO8rawValueACSgSi_tcfC', symObjAddr: 0xF4, symBinAddr: 0x2EA9C, symSize: 0x10 }
+  - { offset: 0x124273, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple17RenderContentModeOSYAASY8rawValuexSg03RawH0Qz_tcfCTW', symObjAddr: 0x1C8, symBinAddr: 0x2EAAC, symSize: 0x1C }
+  - { offset: 0x12429C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15renderBehaviourAA0D8BehaviorOvg', symObjAddr: 0x1F0, symBinAddr: 0x2EAC8, symSize: 0x4C }
+  - { offset: 0x1242BB, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15renderBehaviourAA0D8BehaviorOvs', symObjAddr: 0x23C, symBinAddr: 0x2EB14, symSize: 0x50 }
+  - { offset: 0x1242E4, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15renderBehaviourAA0D8BehaviorOvM', symObjAddr: 0x28C, symBinAddr: 0x2EB64, symSize: 0x44 }
+  - { offset: 0x124333, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvg', symObjAddr: 0x338, symBinAddr: 0x2EC10, symSize: 0x50 }
+  - { offset: 0x124352, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvs', symObjAddr: 0x388, symBinAddr: 0x2EC60, symSize: 0x50 }
+  - { offset: 0x12437B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC9pipPlayerAA9PIPPlayerCSgvM', symObjAddr: 0x3D8, symBinAddr: 0x2ECB0, symSize: 0x44 }
+  - { offset: 0x1243A0, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC29pipPlayerRelativeLeftTopPointSo7CGPointVvM', symObjAddr: 0x434, symBinAddr: 0x2ED0C, symSize: 0x44 }
+  - { offset: 0x1243C5, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC05splitD6OffsetSo7CGPointVvM', symObjAddr: 0x520, symBinAddr: 0x2EDF8, symSize: 0x44 }
+  - { offset: 0x1244D3, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC10playerRectSo6CGRectVvg', symObjAddr: 0x568, symBinAddr: 0x2EE3C, symSize: 0xA8 }
+  - { offset: 0x12462F, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC7pipRectSo6CGRectVSgvg', symObjAddr: 0x610, symBinAddr: 0x2EEE4, symSize: 0x304 }
+  - { offset: 0x124826, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC22absolutePiPPlayerScale33_3C6CDA493D97A5966CB7C0E1EA16258DLL12CoreGraphics7CGFloatVSgvg', symObjAddr: 0x914, symBinAddr: 0x2F1E8, symSize: 0x124 }
+  - { offset: 0x12492C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18shouldZoomPipImageSbvg', symObjAddr: 0xA38, symBinAddr: 0x2F30C, symSize: 0x44 }
+  - { offset: 0x12494B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18shouldZoomPipImageSbvs', symObjAddr: 0xA7C, symBinAddr: 0x2F350, symSize: 0x48 }
+  - { offset: 0x124970, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18shouldZoomPipImageSbvM', symObjAddr: 0xAC4, symBinAddr: 0x2F398, symSize: 0x44 }
+  - { offset: 0x1249A9, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC14playerViewport33_3C6CDA493D97A5966CB7C0E1EA16258DLLAA05MetalG0Vvg', symObjAddr: 0xB08, symBinAddr: 0x2F3DC, symSize: 0xAC }
+  - { offset: 0x124A81, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC08setSplitD04rect6offsetySo6CGRectV_So7CGPointVtF', symObjAddr: 0xC3C, symBinAddr: 0x2F4D0, symSize: 0x18C }
+  - { offset: 0x124CC8, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC6player5layer11contentMode10renderSizeACSo21BNBSimpleEffectPlayerCSg_So12CAMetalLayerCAA0d7ContentI0OSo6CGSizeVtcfc', symObjAddr: 0xDC8, symBinAddr: 0x2F65C, symSize: 0x238 }
+  - { offset: 0x124D79, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC6player5layer11contentMode10renderSizeACSo21BNBSimpleEffectPlayerCSg_So12CAMetalLayerCAA0d7ContentI0OSo6CGSizeVtcfcTo', symObjAddr: 0x1000, symBinAddr: 0x2F894, symSize: 0x6C }
+  - { offset: 0x124E5A, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC5setup33_3C6CDA493D97A5966CB7C0E1EA16258DLLyyF', symObjAddr: 0x106C, symBinAddr: 0x2F900, symSize: 0x2BC }
+  - { offset: 0x1250A0, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC18createTextureCache33_3C6CDA493D97A5966CB7C0E1EA16258DLLyyF', symObjAddr: 0x1328, symBinAddr: 0x2FBBC, symSize: 0xFC }
+  - { offset: 0x12519D, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC24createEpTextureAndBuffer33_3C6CDA493D97A5966CB7C0E1EA16258DLL10attributesySo15CFDictionaryRefa_tF', symObjAddr: 0x1424, symBinAddr: 0x2FCB8, symSize: 0x2F4 }
+  - { offset: 0x125381, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC27createFinalTextureAndBuffer33_3C6CDA493D97A5966CB7C0E1EA16258DLL10attributesySo15CFDictionaryRefa_tF', symObjAddr: 0x1718, symBinAddr: 0x2FFAC, symSize: 0x2F4 }
+  - { offset: 0x12559E, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC17createDrawBuffers33_3C6CDA493D97A5966CB7C0E1EA16258DLLyyF', symObjAddr: 0x1A0C, symBinAddr: 0x302A0, symSize: 0x114 }
+  - { offset: 0x12566C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC20makeVideoPixelBufferSo11CVBufferRefaSgyF', symObjAddr: 0x1B20, symBinAddr: 0x303B4, symSize: 0x50 }
+  - { offset: 0x1256BF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC20makeVideoPixelBufferSo11CVBufferRefaSgyFTo', symObjAddr: 0x1B70, symBinAddr: 0x30404, symSize: 0x48 }
+  - { offset: 0x1258CE, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC24makeSnapshotWithSettings_20watermarkPixelBufferSo7UIImageCSgSo08VEOutputI0C_So11CVBufferRefaSgtF', symObjAddr: 0x1BB8, symBinAddr: 0x3044C, symSize: 0x3EC }
+  - { offset: 0x125BDF, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC24makeSnapshotWithSettings_20watermarkPixelBufferSo7UIImageCSgSo08VEOutputI0C_So11CVBufferRefaSgtFTo', symObjAddr: 0x1FA4, symBinAddr: 0x30838, symSize: 0x78 }
+  - { offset: 0x125C07, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC8activateyyF', symObjAddr: 0x201C, symBinAddr: 0x308B0, symSize: 0x8C }
+  - { offset: 0x125C6B, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC8activateyyFTo', symObjAddr: 0x20A8, symBinAddr: 0x3093C, symSize: 0x28 }
+  - { offset: 0x125D2C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC028calculateAndActiveEPViewportG4Data33_3C6CDA493D97A5966CB7C0E1EA16258DLL13renderEncoderySo016MTLRenderCommandT0_p_tF', symObjAddr: 0x20D0, symBinAddr: 0x30964, symSize: 0x1E8 }
+  - { offset: 0x125F53, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC037calculateAndActivatePipViewportForNonI9ModeMetal33_3C6CDA493D97A5966CB7C0E1EA16258DLL13renderEncoder4withySo016MTLRenderCommandX0_p_AA0D8BehaviorOtF', symObjAddr: 0x22B8, symBinAddr: 0x30B4C, symSize: 0x3E8 }
+  - { offset: 0x1262BD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC40fetchEPAssociatedMetalTexturePixelBuffer33_3C6CDA493D97A5966CB7C0E1EA16258DLLSo11CVBufferRefaSgyF', symObjAddr: 0x26A0, symBinAddr: 0x30F34, symSize: 0x3CC }
+  - { offset: 0x1266AD, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC7presentyyySo11CVBufferRefaSgcSgF', symObjAddr: 0x2A7C, symBinAddr: 0x31310, symSize: 0x498 }
+  - { offset: 0x126921, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC7presentyyySo11CVBufferRefaSgcSgFTo', symObjAddr: 0x2F14, symBinAddr: 0x317A8, symSize: 0x8C }
+  - { offset: 0x126935, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC15drawPIPIfNeeded33_3C6CDA493D97A5966CB7C0E1EA16258DLL13renderEncoderySo016MTLRenderCommandR0_p_tF', symObjAddr: 0x2FA0, symBinAddr: 0x31834, symSize: 0x15C }
+  - { offset: 0x126A35, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC22pixelBufferFromCIImage33_3C6CDA493D97A5966CB7C0E1EA16258DLL_4rectSo11CVBufferRefaSgSo0I0C_So6CGRectVtF', symObjAddr: 0x30FC, symBinAddr: 0x31990, symSize: 0x2B4 }
+  - { offset: 0x126CB9, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC13srcBufferRect33_3C6CDA493D97A5966CB7C0E1EA16258DLLSo6CGRectVvg', symObjAddr: 0x33B0, symBinAddr: 0x31C44, symSize: 0x160 }
+  - { offset: 0x126D42, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCfD', symObjAddr: 0x35EC, symBinAddr: 0x31E80, symSize: 0x30 }
+  - { offset: 0x126D65, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCAA16SnapshotProviderA2aDP04makeF12WithSettings_20watermarkPixelBufferSo7UIImageCSgSo08VEOutputJ0C_So11CVBufferRefaSgtFTW', symObjAddr: 0x3704, symBinAddr: 0x31F98, symSize: 0x20 }
+  - { offset: 0x126D79, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetCAA19PixelBufferProviderA2aDP09makeVideofG0So11CVBufferRefaSgyFTW', symObjAddr: 0x3724, symBinAddr: 0x31FB8, symSize: 0x54 }
+  - { offset: 0x126E15, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple12RenderTargetC4rect33_3C6CDA493D97A5966CB7C0E1EA16258DLL4from22toResizeAspectFillRectSo6CGRectVAI_AItFTf4nnd_n', symObjAddr: 0x3DE0, symBinAddr: 0x32644, symSize: 0x11C }
+  - { offset: 0x1271BD, size: 0x8, addend: 0x0, symName: '_$sIeg_IyB_TR', symObjAddr: 0x20, symBinAddr: 0x32760, symSize: 0x20 }
+  - { offset: 0x12726C, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerCMa', symObjAddr: 0x4F4, symBinAddr: 0x32C34, symSize: 0x20 }
+  - { offset: 0x127280, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerC06deviceE0So08UIDeviceE0VvgyyXEfU_TA', symObjAddr: 0x538, symBinAddr: 0x32C78, symSize: 0x10 }
+  - { offset: 0x1272BD, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x578, symBinAddr: 0x32C98, symSize: 0x10 }
+  - { offset: 0x1272D1, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x588, symBinAddr: 0x32CA8, symSize: 0x8 }
+  - { offset: 0x1272E5, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWl', symObjAddr: 0x5CC, symBinAddr: 0x32CB0, symSize: 0x48 }
+  - { offset: 0x1272F9, size: 0x8, addend: 0x0, symName: '_$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWl', symObjAddr: 0x654, symBinAddr: 0x32CF8, symSize: 0x4C }
+  - { offset: 0x127333, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerC06deviceE0So08UIDeviceE0Vvg', symObjAddr: 0x40, symBinAddr: 0x32780, symSize: 0x13C }
+  - { offset: 0x1274B3, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerCAEycfc', symObjAddr: 0x17C, symBinAddr: 0x328BC, symSize: 0x200 }
+  - { offset: 0x1275DC, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerC5startyyFySo19CMAccelerometerDataCSg_s5Error_pSgtcfU_', symObjAddr: 0x37C, symBinAddr: 0x32ABC, symSize: 0x128 }
+  - { offset: 0x127698, size: 0x8, addend: 0x0, symName: '_$s15BanubaSdkSimple0abC7ManagerC18OrientationHandlerCfD', symObjAddr: 0x4A4, symBinAddr: 0x32BE4, symSize: 0x50 }
 ...
