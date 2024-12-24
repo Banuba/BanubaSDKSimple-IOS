@@ -3202,13 +3202,6 @@
       },
       {
         "kind": "Import",
-        "name": "BanubaUtilities",
-        "printedName": "BanubaUtilities",
-        "declKind": "Import",
-        "moduleName": "BanubaSdkSimple"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -12175,6 +12168,30 @@
           },
           {
             "kind": "Function",
+            "name": "enableBackgroundBlur",
+            "printedName": "enableBackgroundBlur()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)enableBackgroundBlur",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC20enableBackgroundBluryyF",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "enableBackgroundBlur",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "effectsPaths",
             "printedName": "effectsPaths()",
             "children": [
@@ -12502,13 +12519,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)supportsIntensity",
+            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvp",
             "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvp",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "supportsIntensity",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -12526,14 +12540,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)supportsIntensity",
+                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvg",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC17supportsIntensitySbvg",
                 "moduleName": "BanubaSdkSimple",
-                "objc_name": "supportsIntensity",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -14642,16 +14651,23 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
       "kind": "Dictionary",
-      "offset": 1278,
+      "offset": 1255,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5025,
+      "offset": 5002,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalHelper.swift",
+      "kind": "Array",
+      "offset": 6604,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
@@ -15307,21 +15323,14 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20393,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20711,
+      "offset": 20751,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "Array",
-      "offset": 20776,
+      "offset": 20816,
       "length": 2,
       "value": "[]"
     },
