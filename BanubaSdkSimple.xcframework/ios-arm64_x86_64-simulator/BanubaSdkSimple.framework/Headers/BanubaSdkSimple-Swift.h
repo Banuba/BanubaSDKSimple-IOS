@@ -281,7 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFoundation;
-@import BanubaSDKServicing;
+@import BanubaVideoEditorCore;
 @import CoreFoundation;
 @import CoreMedia;
 @import CoreVideo;
@@ -351,15 +351,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)stopMultiCamMixingWithCompletion:(void (^ _Nullable)(void))completion;
 @end
 
-@class EmbeddedBackgroundImage;
-
-@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBackgroundEffectManaging>
-@property (nonatomic, readonly) BOOL isBackgroundEnabled;
-@property (nonatomic, readonly, copy) NSArray<EmbeddedBackgroundImage *> * _Nonnull embeddedImages;
-- (void)enableBackgroundWithCompletion:(void (^ _Nonnull)(void))completion;
-- (void)disableBackground;
-@end
-
 @class ExternalAudioConfiguration;
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKOutputServicing>
@@ -367,6 +358,15 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @property (nonatomic, readonly) BOOL isEnoughDiskSpaceForRecording;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL startTimeForVideoTexture:(double)startTimeForVideoTexture externalAudioConfiguration:(ExternalAudioConfiguration * _Nullable)externalAudioConfiguration progress:(void (^ _Nonnull)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart shouldSkipFrame:(BOOL (^ _Nullable)(void))shouldSkipFrame periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval totalDuration:(NSTimeInterval)totalDuration itemDuration:(NSTimeInterval)itemDuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)stopVideoCapturingWithCancel:(BOOL)cancel;
+@end
+
+@class EmbeddedBackgroundImage;
+
+@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBackgroundEffectManaging>
+@property (nonatomic, readonly) BOOL isBackgroundEnabled;
+@property (nonatomic, readonly, copy) NSArray<EmbeddedBackgroundImage *> * _Nonnull embeddedImages;
+- (void)enableBackgroundWithCompletion:(void (^ _Nonnull)(void))completion;
+- (void)disableBackground;
 @end
 
 
@@ -428,7 +428,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)effectAddVideoTextureWithAsset:(AVURLAsset * _Nonnull)asset backgroundColor:(UIColor * _Nonnull)backgroundColor;
 - (void)unloadEffectTexture;
 - (void)effectReloadTexturePreviewWithStartTime:(NSTimeInterval)startTime endTime:(NSTimeInterval)endTime itemDuration:(NSTimeInterval)itemDuration;
-- (void)enableBackgroundBlur;
 - (NSArray<NSString *> * _Nonnull)effectsPaths SWIFT_WARN_UNUSED_RESULT;
 - (void)loadMaskWithName:(NSString * _Nonnull)name synchronous:(BOOL)synchronous;
 - (void)unloadMask;
@@ -934,7 +933,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFoundation;
-@import BanubaSDKServicing;
+@import BanubaVideoEditorCore;
 @import CoreFoundation;
 @import CoreMedia;
 @import CoreVideo;
@@ -1004,15 +1003,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)stopMultiCamMixingWithCompletion:(void (^ _Nullable)(void))completion;
 @end
 
-@class EmbeddedBackgroundImage;
-
-@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBackgroundEffectManaging>
-@property (nonatomic, readonly) BOOL isBackgroundEnabled;
-@property (nonatomic, readonly, copy) NSArray<EmbeddedBackgroundImage *> * _Nonnull embeddedImages;
-- (void)enableBackgroundWithCompletion:(void (^ _Nonnull)(void))completion;
-- (void)disableBackground;
-@end
-
 @class ExternalAudioConfiguration;
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKOutputServicing>
@@ -1020,6 +1010,15 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @property (nonatomic, readonly) BOOL isEnoughDiskSpaceForRecording;
 - (void)startVideoCapturingWithFileURL:(NSURL * _Nullable)fileURL startTimeForVideoTexture:(double)startTimeForVideoTexture externalAudioConfiguration:(ExternalAudioConfiguration * _Nullable)externalAudioConfiguration progress:(void (^ _Nonnull)(CMTime))progress didStart:(void (^ _Nullable)(void))didStart shouldSkipFrame:(BOOL (^ _Nullable)(void))shouldSkipFrame periodicProgressTimeInterval:(NSTimeInterval)periodicProgressTimeInterval totalDuration:(NSTimeInterval)totalDuration itemDuration:(NSTimeInterval)itemDuration completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)stopVideoCapturingWithCancel:(BOOL)cancel;
+@end
+
+@class EmbeddedBackgroundImage;
+
+@interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBackgroundEffectManaging>
+@property (nonatomic, readonly) BOOL isBackgroundEnabled;
+@property (nonatomic, readonly, copy) NSArray<EmbeddedBackgroundImage *> * _Nonnull embeddedImages;
+- (void)enableBackgroundWithCompletion:(void (^ _Nonnull)(void))completion;
+- (void)disableBackground;
 @end
 
 
@@ -1081,7 +1080,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)effectAddVideoTextureWithAsset:(AVURLAsset * _Nonnull)asset backgroundColor:(UIColor * _Nonnull)backgroundColor;
 - (void)unloadEffectTexture;
 - (void)effectReloadTexturePreviewWithStartTime:(NSTimeInterval)startTime endTime:(NSTimeInterval)endTime itemDuration:(NSTimeInterval)itemDuration;
-- (void)enableBackgroundBlur;
 - (NSArray<NSString *> * _Nonnull)effectsPaths SWIFT_WARN_UNUSED_RESULT;
 - (void)loadMaskWithName:(NSString * _Nonnull)name synchronous:(BOOL)synchronous;
 - (void)unloadMask;
