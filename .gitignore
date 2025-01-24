@@ -1,1 +1,3 @@
 .swiftpm/xcode/*
+Package.resolved
+*.DS_Store

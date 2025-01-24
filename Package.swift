@@ -12,11 +12,7 @@ let package = Package(
   products: [
     .library(
       name: "BanubaSdkSimple",
-      targets: [
-        "BanubaSdkSimple",
-        "BanubaUtilities",
-        "BanubaVideoEditorCore"
-      ]
+      targets: ["BanubaSdkSimpleTarget"]
     )
   ],
   dependencies: [
@@ -28,13 +24,21 @@ let package = Package(
       name: "BanubaSdkSimple",
       path: "BanubaSdkSimple.xcframework"
     ),
-    .binaryTarget(
-      name: "BanubaUtilities",
-      path: "BanubaUtilities.xcframework"
+    .target(
+      name: "BanubaSdkSimpleTarget",
+      dependencies: [
+        .target(name: "BanubaSdkSimpleWrapper")
+      ],
+      path: "BanubaSdkSimpleTarget"
     ),
-    .binaryTarget(
-      name: "BanubaVideoEditorCore",
-      path: "BanubaVideoEditorCore.xcframework"
-    )
+    .target(
+      name: "BanubaSdkSimpleWrapper",
+      dependencies: [
+        "BanubaSdkSimple",
+        .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS"),
+        .product(name: "BanubaVideoEditorCore", package: "BanubaVideoEditorCore-iOS"),
+      ],
+      path: "BanubaSdkSimpleWrapper"
+    ),
   ]
 )
