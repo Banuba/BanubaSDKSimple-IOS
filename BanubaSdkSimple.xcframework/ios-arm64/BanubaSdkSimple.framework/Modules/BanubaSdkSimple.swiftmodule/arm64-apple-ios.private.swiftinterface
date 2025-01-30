@@ -327,10 +327,6 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.Camer
   @objc dynamic public func removeRenderTarget()
   @objc dynamic public func setup()
   @objc dynamic public func addFPSListener(_ listener: ((_ fpsInfo: Foundation.NSAttributedString) -> Swift.Void)?)
-  public func postprocessProcessVideoFrame(_ from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, time: CoreMedia.CMTime)
-  public func postprocessSurfaceCreated(with size: CoreFoundation.CGSize)
-  public func postprocessSetEffectSize(_ size: CoreFoundation.CGSize)
-  public func postprocessLoadEffect(path: Swift.String)
   @objc dynamic public func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc dynamic public func getRendererView() -> UIKit.UIView
   @objc dynamic public func startRenderLoop()

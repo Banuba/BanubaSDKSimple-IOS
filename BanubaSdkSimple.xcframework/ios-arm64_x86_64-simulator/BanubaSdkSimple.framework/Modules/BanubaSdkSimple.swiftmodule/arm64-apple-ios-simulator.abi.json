@@ -10697,126 +10697,6 @@
           },
           {
             "kind": "Function",
-            "name": "postprocessProcessVideoFrame",
-            "printedName": "postprocessProcessVideoFrame(_:to:time:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CVBuffer",
-                "printedName": "CoreVideo.CVBuffer",
-                "usr": "c:@T@CVBufferRef"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CVBuffer",
-                "printedName": "CoreVideo.CVBuffer",
-                "usr": "c:@T@CVBufferRef"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CMTime",
-                "printedName": "CoreMedia.CMTime",
-                "usr": "c:@SA@CMTime"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC28postprocessProcessVideoFrame_2to4timeySo11CVBufferRefa_AHSo6CMTimeatF",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC28postprocessProcessVideoFrame_2to4timeySo11CVBufferRefa_AHSo6CMTimeatF",
-            "moduleName": "BanubaSdkSimple",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "postprocessSurfaceCreated",
-            "printedName": "postprocessSurfaceCreated(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC25postprocessSurfaceCreated4withySo6CGSizeV_tF",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC25postprocessSurfaceCreated4withySo6CGSizeV_tF",
-            "moduleName": "BanubaSdkSimple",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "postprocessSetEffectSize",
-            "printedName": "postprocessSetEffectSize(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC24postprocessSetEffectSizeyySo6CGSizeVF",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24postprocessSetEffectSizeyySo6CGSizeVF",
-            "moduleName": "BanubaSdkSimple",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "postprocessLoadEffect",
-            "printedName": "postprocessLoadEffect(path:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15BanubaSdkSimple0aC12CameraModuleC21postprocessLoadEffect4pathySS_tF",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21postprocessLoadEffect4pathySS_tF",
-            "moduleName": "BanubaSdkSimple",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "takeSnapshot",
             "printedName": "takeSnapshot(handler:)",
             "children": [
@@ -15215,42 +15095,42 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 16067,
+      "offset": 15786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 17196,
+      "offset": 16915,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 17323,
+      "offset": 17042,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 18786,
+      "offset": 18505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20635,
+      "offset": 20354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "Array",
-      "offset": 20700,
+      "offset": 20419,
       "length": 2,
       "value": "[]"
     },
