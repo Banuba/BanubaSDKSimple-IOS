@@ -167,7 +167,6 @@ extension BanubaSdkSimple.PIPShapeDrawer : BanubaSdkSimple.PIPShapeable {
 }
 @objc public protocol OutputServicing {
   @objc func configureWatermark(_ watermarkInfo: BanubaSdkSimple.WatermarkInfo)
-  @objc func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc func takeSnapshot(configuration: BanubaSdkSimple.OutputConfiguration, handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc func removeWatermark()
   @objc func startVideoCapturing(fileURL: Foundation.URL?, externalAudioConfiguration: BanubaVideoEditorCore.ExternalAudioConfiguration?, progress: ((CoreMedia.CMTime) -> Swift.Void)?, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, isFirstRun: Swift.Bool, periodicProgressTimeInterval: Foundation.TimeInterval, totalDuration: Foundation.TimeInterval, configuration: BanubaSdkSimple.OutputConfiguration, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
@@ -233,6 +232,7 @@ public typealias RotateCameraCallBack = () -> ()
   @objc var minZoomFactor: Swift.Float { get }
   @objc var maxZoomFactor: Swift.Float { get }
   @objc var zoomFactor: Swift.Float { get }
+  @objc var defaultZoom: Swift.Float { get }
   @objc func setZoomFactor(_ zoomFactor: Swift.Float) -> Swift.Float
 }
 @objc public protocol InputServiceDelegate {
@@ -327,7 +327,7 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.Camer
   @objc dynamic public func removeRenderTarget()
   @objc dynamic public func setup()
   @objc dynamic public func addFPSListener(_ listener: ((_ fpsInfo: Foundation.NSAttributedString) -> Swift.Void)?)
-  @objc dynamic public func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc dynamic public func takeSnapshot(isFrontCameraMirrored: Swift.Bool, handler: @escaping (UIKit.UIImage?) -> Swift.Void)
   @objc dynamic public func getRendererView() -> UIKit.UIView
   @objc dynamic public func startRenderLoop()
   @objc dynamic public func stopRenderLoop()
@@ -335,6 +335,9 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.Camer
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKInputServicing {
   @objc dynamic public func setCameraSessionType(_ type: BanubaVideoEditorCore.CameraModuleSessionType)
   @objc dynamic public var zoomFactor: Swift.Float {
+    @objc get
+  }
+  @objc dynamic public var defaultZoom: Swift.Float {
     @objc get
   }
   @objc dynamic public var isFrontCamera: Swift.Bool {
@@ -390,11 +393,10 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKEf
   @objc dynamic public func removeAllFilters()
   @objc dynamic public func applyFilter(_ filter: any BanubaVideoEditorCore.RenderEffect)
   @objc dynamic public func removeFilter(_ filter: any BanubaVideoEditorCore.RenderEffect)
-  @objc dynamic public func setEffectSubtypeModificationsEventListener(_ listener: any BanubaVideoEditorCore.EffectSubtypeModificationsEventListener)
   @objc dynamic public func setDoubleTapGestureEnabled(_ isEnabled: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKBeautyEffectManaging {
-  @objc dynamic public var isBeautificationEnabled: Swift.Bool {
+  @objc dynamic public var isBeautyEnabled: Swift.Bool {
     @objc get
     @objc set
   }
@@ -402,7 +404,8 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKBe
     @objc get
     @objc set
   }
-  @objc dynamic public func toggleBeautification() -> Swift.Bool
+  @objc dynamic public func enableBeauty() async
+  @objc dynamic public func disableBeauty()
   @objc dynamic public func resetIntensity()
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKBackgroundEffectManaging {
@@ -412,8 +415,11 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKBa
   @objc dynamic public var embeddedImages: [BanubaVideoEditorCore.EmbeddedBackgroundImage] {
     @objc get
   }
-  @objc dynamic public func enableBackground(completion: @escaping () -> Swift.Void)
+  @objc dynamic public func enableBackground() async
+  @objc dynamic public func enableBackgroundBlur()
   @objc dynamic public func disableBackground()
+  @objc dynamic public func setCameraVideoFrame(_ frame: CoreFoundation.CGRect)
+  @objc dynamic public func resetCameraVideoFrame()
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule {
   public func willOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
