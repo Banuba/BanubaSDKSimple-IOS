@@ -4232,8 +4232,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "BanubaUtilities",
+        "printedName": "BanubaUtilities",
         "declKind": "Import",
         "moduleName": "BanubaSdkSimple",
         "declAttributes": [
@@ -4433,7 +4433,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(asset:)",
+            "printedName": "init(asset:firstFrameTime:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4446,11 +4446,17 @@
                 "name": "AVAsset",
                 "printedName": "AVFoundation.AVAsset",
                 "usr": "c:objc(cs)AVAsset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15BanubaSdkSimple9PIPPlayerC5assetACSo7AVAssetC_tcfc",
-            "mangledName": "$s15BanubaSdkSimple9PIPPlayerC5assetACSo7AVAssetC_tcfc",
+            "usr": "s:15BanubaSdkSimple9PIPPlayerC5asset14firstFrameTimeACSo7AVAssetC_So6CMTimeatcfc",
+            "mangledName": "$s15BanubaSdkSimple9PIPPlayerC5asset14firstFrameTimeACSo7AVAssetC_So6CMTimeatcfc",
             "moduleName": "BanubaSdkSimple",
             "declAttributes": [
               "AccessControl"
@@ -8306,103 +8312,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "isPIPSessionAlreadySetup",
-            "printedName": "isPIPSessionAlreadySetup",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isPIPSessionAlreadySetup",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvp",
-            "moduleName": "BanubaSdkSimple",
-            "objc_name": "isPIPSessionAlreadySetup",
-            "declAttributes": [
-              "HasInitialValue",
-              "ObjC",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isPIPSessionAlreadySetup",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvg",
-                "moduleName": "BanubaSdkSimple",
-                "implicit": true,
-                "objc_name": "isPIPSessionAlreadySetup",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setIsPIPSessionAlreadySetup:",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvs",
-                "moduleName": "BanubaSdkSimple",
-                "implicit": true,
-                "objc_name": "setIsPIPSessionAlreadySetup:",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvM",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24isPIPSessionAlreadySetupSbvM",
-                "moduleName": "BanubaSdkSimple",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "isPIPSession",
             "printedName": "isPIPSession",
             "children": [
@@ -8980,6 +8889,102 @@
           },
           {
             "kind": "Var",
+            "name": "pipVideoContentMode",
+            "printedName": "pipVideoContentMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PIPVideoContentMode",
+                "printedName": "BanubaVideoEditorCore.PIPVideoContentMode",
+                "usr": "c:@M@BanubaVideoEditorCore@E@PIPVideoContentMode"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)pipVideoContentMode",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19pipVideoContentMode0aG10EditorCore08PIPVideohI0Ovp",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "pipVideoContentMode",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPVideoContentMode",
+                    "printedName": "BanubaVideoEditorCore.PIPVideoContentMode",
+                    "usr": "c:@M@BanubaVideoEditorCore@E@PIPVideoContentMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)pipVideoContentMode",
+                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19pipVideoContentMode0aG10EditorCore08PIPVideohI0Ovg",
+                "moduleName": "BanubaSdkSimple",
+                "implicit": true,
+                "objc_name": "pipVideoContentMode",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPVideoContentMode",
+                    "printedName": "BanubaVideoEditorCore.PIPVideoContentMode",
+                    "usr": "c:@M@BanubaVideoEditorCore@E@PIPVideoContentMode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setPipVideoContentMode:",
+                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19pipVideoContentMode0aG10EditorCore08PIPVideohI0Ovs",
+                "moduleName": "BanubaSdkSimple",
+                "implicit": true,
+                "objc_name": "setPipVideoContentMode:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC19pipVideoContentMode0aG10EditorCore08PIPVideohI0OvM",
+                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19pipVideoContentMode0aG10EditorCore08PIPVideohI0OvM",
+                "moduleName": "BanubaSdkSimple",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "didStartCaptureFrameHandler",
             "printedName": "didStartCaptureFrameHandler",
             "children": [
@@ -9218,6 +9223,52 @@
           },
           {
             "kind": "Var",
+            "name": "isRenderLoopRunning",
+            "printedName": "isRenderLoopRunning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)isRenderLoopRunning",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19isRenderLoopRunningSbvp",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "isRenderLoopRunning",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)isRenderLoopRunning",
+                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19isRenderLoopRunningSbvg",
+                "moduleName": "BanubaSdkSimple",
+                "objc_name": "isRenderLoopRunning",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isCameraEnabled",
             "printedName": "isCameraEnabled",
             "children": [
@@ -9306,102 +9357,6 @@
                 "declKind": "Accessor",
                 "usr": "s:15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvM",
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC02isD7EnabledSbvM",
-                "moduleName": "BanubaSdkSimple",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "allowProcessing",
-            "printedName": "allowProcessing",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)allowProcessing",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvp",
-            "moduleName": "BanubaSdkSimple",
-            "objc_name": "allowProcessing",
-            "declAttributes": [
-              "HasInitialValue",
-              "ObjC",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)allowProcessing",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvg",
-                "moduleName": "BanubaSdkSimple",
-                "implicit": true,
-                "objc_name": "allowProcessing",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)setAllowProcessing:",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvs",
-                "moduleName": "BanubaSdkSimple",
-                "implicit": true,
-                "objc_name": "setAllowProcessing:",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvM",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15allowProcessingSbvM",
                 "moduleName": "BanubaSdkSimple",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -9760,26 +9715,68 @@
           },
           {
             "kind": "Function",
-            "name": "seekPIPPlayer",
-            "printedName": "seekPIPPlayer(to:)",
+            "name": "rewindPIPPlayer",
+            "printedName": "rewindPIPPlayer()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)seekPIPPlayerTo:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC13seekPIPPlayer2toySd_tF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)rewindPIPPlayer",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15rewindPIPPlayeryyF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "seekPIPPlayerTo:",
+            "objc_name": "rewindPIPPlayer",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetPIPPlayerPlayback",
+            "printedName": "resetPIPPlayerPlayback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)resetPIPPlayerPlayback",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC22resetPIPPlayerPlaybackyyF",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "resetPIPPlayerPlayback",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resumePIPPlayer",
+            "printedName": "resumePIPPlayer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)resumePIPPlayer",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC15resumePIPPlayeryyF",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "resumePIPPlayer",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -9916,6 +9913,30 @@
           },
           {
             "kind": "Function",
+            "name": "stopPIPSession",
+            "printedName": "stopPIPSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)stopPIPSession",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14stopPIPSessionyyF",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "stopPIPSession",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "startPIPSessionIfNeeded",
             "printedName": "startPIPSessionIfNeeded(withSetting:completion:)",
             "children": [
@@ -9971,8 +9992,8 @@
           },
           {
             "kind": "Function",
-            "name": "applyPIPCameraSettingIfNeeded",
-            "printedName": "applyPIPCameraSettingIfNeeded(_:restoreSession:)",
+            "name": "applyVideoContentMode",
+            "printedName": "applyVideoContentMode(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9981,35 +10002,28 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PIPCameraLayoutSetting",
-                "printedName": "BanubaVideoEditorCore.PIPCameraLayoutSetting",
-                "usr": "c:@M@BanubaVideoEditorCore@objc(cs)PIPCameraLayoutSetting"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "PIPVideoContentMode",
+                "printedName": "BanubaVideoEditorCore.PIPVideoContentMode",
+                "usr": "c:@M@BanubaVideoEditorCore@E@PIPVideoContentMode"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyPIPCameraSettingIfNeeded:restoreSession:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29applyPIPCameraSettingIfNeeded_14restoreSessiony0A15VideoEditorCore0g6LayoutH0C_SbtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyVideoContentMode:",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21applyVideoContentModeyy0aG10EditorCore08PIPVideohI0OF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "applyPIPCameraSettingIfNeeded:restoreSession:",
+            "objc_name": "applyVideoContentMode:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "applyPIPPlayerSettingIfNeeded",
-            "printedName": "applyPIPPlayerSettingIfNeeded(_:restoreSession:)",
+            "name": "applyPIPLayoutSetting",
+            "printedName": "applyPIPLayoutSetting(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10018,64 +10032,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PIPPlayerLayoutSetting",
-                "printedName": "BanubaVideoEditorCore.PIPPlayerLayoutSetting",
-                "usr": "c:@M@BanubaVideoEditorCore@objc(cs)PIPPlayerLayoutSetting"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "PIPLayoutSettings",
+                "printedName": "BanubaVideoEditorCore.PIPLayoutSettings",
+                "usr": "c:@M@BanubaVideoEditorCore@objc(cs)PIPLayoutSettings"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyPIPPlayerSettingIfNeeded:restoreSession:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29applyPIPPlayerSettingIfNeeded_14restoreSessiony0A15VideoEditorCore0g6LayoutH0C_SbtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyPIPLayoutSetting:",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC21applyPIPLayoutSettingyy0A15VideoEditorCore0G8SettingsCF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "applyPIPPlayerSettingIfNeeded:restoreSession:",
+            "objc_name": "applyPIPLayoutSetting:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "applyPIPSwitchSettingIfNeeded",
-            "printedName": "applyPIPSwitchSettingIfNeeded(_:restoreSession:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PIPSwitchLayoutSetting",
-                "printedName": "BanubaVideoEditorCore.PIPSwitchLayoutSetting",
-                "usr": "c:@M@BanubaVideoEditorCore@objc(cs)PIPSwitchLayoutSetting"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)applyPIPSwitchSettingIfNeeded:restoreSession:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29applyPIPSwitchSettingIfNeeded_14restoreSessiony0A15VideoEditorCore0g6LayoutH0C_SbtF",
-            "moduleName": "BanubaSdkSimple",
-            "objc_name": "applyPIPSwitchSettingIfNeeded:restoreSession:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -10412,6 +10382,56 @@
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC29isPIPPlayerReadyToProvideDataSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "isPIPPlayerReadyToProvideData",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentPiPVideoTime",
+            "printedName": "currentPiPVideoTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)currentPiPVideoTime",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19currentPiPVideoTimeSo6CMTimeavp",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "currentPiPVideoTime",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)currentPiPVideoTime",
+                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19currentPiPVideoTimeSo6CMTimeavg",
+                "moduleName": "BanubaSdkSimple",
+                "objc_name": "currentPiPVideoTime",
                 "declAttributes": [
                   "Dynamic",
                   "ObjC"
@@ -14579,98 +14599,98 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 597,
+      "offset": 590,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 662,
+      "offset": 653,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 919,
+      "offset": 906,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1290,
+      "offset": 1275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1619,
+      "offset": 1604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "StringLiteral",
-      "offset": 2151,
+      "offset": 2126,
       "length": 44,
       "value": "\"com.banuba.sdk.frame-synchronization-queue\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5076,
+      "offset": 5007,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5848,
+      "offset": 5765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11939,
+      "offset": 11762,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12700,
+      "offset": 12517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13163,
+      "offset": 12978,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13513,
+      "offset": 13326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13547,
+      "offset": 13360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13648,
+      "offset": 13461,
       "length": 5,
       "value": "false"
     },
@@ -14733,84 +14753,105 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 258,
-      "length": 4,
+      "offset": 263,
+      "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 618,
       "length": 23,
       "value": "\"com.banuba.pip-player\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 713,
       "length": 28,
       "value": "\"com.banuba.pip-player.sync\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 737,
+      "offset": 793,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 861,
+      "offset": 909,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 918,
+      "offset": 966,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1100,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12247,
+      "offset": 4498,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18939,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23278,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12266,
+      "offset": 23301,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12286,
+      "offset": 23325,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12307,
+      "offset": 23350,
       "length": 11,
       "value": "4"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/PiP\/PIPPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12328,
+      "offset": 23375,
       "length": 14,
       "value": "5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Handlers\/DisplayLinkRunLoop.swift",
       "kind": "BooleanLiteral",
-      "offset": 263,
+      "offset": 264,
       "length": 4,
       "value": "true"
     },
@@ -15139,112 +15180,112 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 1768,
+      "offset": 1741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 1808,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2275,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2381,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2502,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2802,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2839,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2871,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2908,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11385,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16082,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17211,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17338,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18801,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20540,
+      "offset": 1781,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "Array",
-      "offset": 20605,
+      "offset": 1873,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2426,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2534,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2903,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2938,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3003,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15951,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18646,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "Array",
+      "offset": 20434,
       "length": 2,
       "value": "[]"
     },
@@ -15293,7 +15334,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
       "kind": "BooleanLiteral",
-      "offset": 4824,
+      "offset": 4746,
       "length": 4,
       "value": "true"
     },

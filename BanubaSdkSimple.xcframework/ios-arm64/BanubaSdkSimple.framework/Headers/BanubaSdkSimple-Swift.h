@@ -329,15 +329,15 @@ SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14AudioCapturing_")
 
 SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @interface BanubaSimpleCameraModule : NSObject
-@property (nonatomic) BOOL isPIPSessionAlreadySetup;
 @property (nonatomic) BOOL isPIPSession;
 @property (nonatomic, copy) NSURL * _Nullable pipVideoURL;
 @property (nonatomic, strong) PIPSwitchLayoutSetting * _Nullable pipSwitchSetting;
 @property (nonatomic, strong) PIPPlayerLayoutSetting * _Nullable pipPlayerSetting;
 @property (nonatomic, strong) PIPCameraLayoutSetting * _Nullable pipCameraSetting;
+@property (nonatomic) enum PIPVideoContentMode pipVideoContentMode;
 @property (nonatomic) BOOL isLoaded;
+@property (nonatomic, readonly) BOOL isRenderLoopRunning;
 @property (nonatomic) BOOL isCameraEnabled;
-@property (nonatomic) BOOL allowProcessing;
 @property (nonatomic, strong) id <SDKInputServicingDelegate> _Nullable inputDelegate;
 - (nonnull instancetype)initWithVideoSize:(CGSize)videoSize videoPreset:(AVCaptureSessionPreset _Nonnull)videoPreset useHEVCCodecIfPossible:(BOOL)useHEVCCodecIfPossible OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -381,17 +381,20 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)resetCameraVideoFrame;
 @end
 
+@class PIPLayoutSettings;
 
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple))
-- (void)seekPIPPlayerTo:(NSTimeInterval)time;
+- (void)rewindPIPPlayer;
+- (void)resetPIPPlayerPlayback;
+- (void)resumePIPPlayer;
 - (void)startPIPPlayer;
 - (void)stopPIPPlayer;
 - (void)setPIPPlayerVolume:(float)volume;
 - (void)setupPIPSessionWithVideoURL:(NSURL * _Nonnull)url playerSetting:(PIPPlayerLayoutSetting * _Nonnull)playerSetting cameraSetting:(PIPCameraLayoutSetting * _Nonnull)cameraSetting switchSetting:(PIPSwitchLayoutSetting * _Nonnull)switchSetting;
+- (void)stopPIPSession;
 - (void)startPIPSessionIfNeededWithSetting:(PIPPlayerLayoutSetting * _Nonnull)setting completion:(void (^ _Nullable)(void))completion;
-- (void)applyPIPCameraSettingIfNeeded:(PIPCameraLayoutSetting * _Nonnull)setting restoreSession:(BOOL)restoreSession;
-- (void)applyPIPPlayerSettingIfNeeded:(PIPPlayerLayoutSetting * _Nonnull)setting restoreSession:(BOOL)restoreSession;
-- (void)applyPIPSwitchSettingIfNeeded:(PIPSwitchLayoutSetting * _Nonnull)setting restoreSession:(BOOL)restoreSession;
+- (void)applyVideoContentMode:(enum PIPVideoContentMode)contentMode;
+- (void)applyPIPLayoutSetting:(PIPLayoutSettings * _Nonnull)layoutSettings;
 @end
 
 @class NSString;
@@ -448,6 +451,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 @property (nonatomic, readonly, strong) dispatch_queue_t _Nullable renderQueue;
 @property (nonatomic) BOOL autoStart;
 @property (nonatomic, readonly) BOOL isPIPPlayerReadyToProvideData;
+@property (nonatomic, readonly) CMTime currentPiPVideoTime;
 - (void)setMaxFacesWithFacesCount:(int32_t)facesCount;
 - (void)destroy;
 - (void)startWithCompletion:(void (^ _Nonnull)(void))completion;
