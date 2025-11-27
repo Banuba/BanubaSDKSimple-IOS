@@ -3219,6 +3219,13 @@
       },
       {
         "kind": "Import",
+        "name": "BanubaUtilities",
+        "printedName": "BanubaUtilities",
+        "declKind": "Import",
+        "moduleName": "BanubaSdkSimple"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4779,6 +4786,13 @@
             "mangledName": "$s15BanubaSdkSimple12PIPShapeableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BanubaSdkSimple"
       },
       {
         "kind": "Import",
@@ -14479,6 +14493,188 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSObject",
+        "printedName": "NSObject",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "performSync",
+            "printedName": "performSync(onThread:block:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Thread?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Thread",
+                    "printedName": "Foundation.Thread",
+                    "usr": "c:objc(cs)NSThread"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8NSObjectC15BanubaSdkSimpleE11performSync8onThread5blockySo8NSThreadCSg_yyXLtF",
+            "mangledName": "$sSo8NSObjectC15BanubaSdkSimpleE11performSync8onThread5blockySo8NSThreadCSg_yyXLtF",
+            "moduleName": "BanubaSdkSimple",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performAsync",
+            "printedName": "performAsync(onThread:block:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Thread?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Thread",
+                    "printedName": "Foundation.Thread",
+                    "usr": "c:objc(cs)NSThread"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8NSObjectC15BanubaSdkSimpleE12performAsync8onThread5blockySo8NSThreadCSg_yyXLtF",
+            "mangledName": "$sSo8NSObjectC15BanubaSdkSimpleE12performAsync8onThread5blockySo8NSThreadCSg_yyXLtF",
+            "moduleName": "BanubaSdkSimple",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSObject",
+        "moduleName": "ObjectiveC",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "NSObject",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -14599,98 +14795,112 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 590,
+      "offset": 623,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 653,
+      "offset": 686,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 906,
+      "offset": 939,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1275,
+      "offset": 1308,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1604,
+      "offset": 1637,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "StringLiteral",
-      "offset": 2126,
+      "offset": 2159,
       "length": 44,
       "value": "\"com.banuba.sdk.frame-synchronization-queue\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4588,
+      "length": 38,
+      "value": "\"com.banuba.sdk.synchronization-queue\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4760,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5007,
+      "offset": 5744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5765,
+      "offset": 5868,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11762,
+      "offset": 11904,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12517,
+      "offset": 12678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12978,
+      "offset": 13085,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13326,
+      "offset": 13452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13360,
+      "offset": 13486,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/BanubaSdkSimpleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13461,
+      "offset": 13587,
       "length": 5,
       "value": "false"
     },
@@ -14851,9 +15061,23 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Handlers\/DisplayLinkRunLoop.swift",
       "kind": "BooleanLiteral",
-      "offset": 264,
+      "offset": 263,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Handlers\/DisplayLinkRunLoop.swift",
+      "kind": "BooleanLiteral",
+      "offset": 703,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Handlers\/DisplayLinkRunLoop.swift",
+      "kind": "IntegerLiteral",
+      "offset": 767,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/Metal\/MetalViewport.swift",

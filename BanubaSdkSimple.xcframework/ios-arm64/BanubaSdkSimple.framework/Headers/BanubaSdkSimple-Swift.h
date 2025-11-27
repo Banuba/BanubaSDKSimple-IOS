@@ -540,6 +540,7 @@ SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14InputServicing_")
 @end
 
 
+
 SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
 @interface OutputConfiguration : NSObject
 @property (nonatomic, readonly) BOOL applyWatermark;

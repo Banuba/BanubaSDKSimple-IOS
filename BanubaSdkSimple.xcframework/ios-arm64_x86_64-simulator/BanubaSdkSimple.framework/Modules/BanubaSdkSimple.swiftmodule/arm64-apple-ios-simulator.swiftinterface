@@ -165,6 +165,10 @@ extension BanubaSdkSimple.PIPShapeDrawer : BanubaSdkSimple.PIPShapeable {
   public func draw(renderEncoder: any Metal.MTLRenderCommandEncoder, fullRenderSize: CoreFoundation.CGSize, relativeLeftTopPoint: CoreFoundation.CGPoint, scale: CoreFoundation.CGFloat)
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
+extension ObjectiveC.NSObject {
+  public func performSync(onThread: Foundation.Thread?, block: @escaping @convention(block) () -> Swift.Void)
+  public func performAsync(onThread: Foundation.Thread?, block: @escaping @convention(block) () -> Swift.Void)
+}
 @objc public protocol OutputServicing {
   @objc func configureWatermark(_ watermarkInfo: BanubaSdkSimple.WatermarkInfo)
   @objc func takeSnapshot(configuration: BanubaSdkSimple.OutputConfiguration, handler: @escaping (UIKit.UIImage?) -> Swift.Void)

@@ -540,6 +540,7 @@ SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14InputServicing_")
 @end
 
 
+
 SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
 @interface OutputConfiguration : NSObject
 @property (nonatomic, readonly) BOOL applyWatermark;
@@ -1197,6 +1198,7 @@ SWIFT_PROTOCOL("_TtP15BanubaSdkSimple20InputServiceDelegate_")
 SWIFT_PROTOCOL("_TtP15BanubaSdkSimple14InputServicing_")
 @protocol InputServicing <AudioCapturing, CameraServicing, CameraZoomable>
 @end
+
 
 
 SWIFT_CLASS("_TtC15BanubaSdkSimple19OutputConfiguration")
