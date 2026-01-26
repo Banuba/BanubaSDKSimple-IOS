@@ -387,6 +387,9 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKEf
   @objc dynamic public var isMaskLoaded: Swift.Bool {
     @objc get
   }
+  @objc dynamic public var currentMaskName: Swift.String? {
+    @objc get
+  }
   @objc dynamic public func enableBlur()
   @objc dynamic public func effectDidBeginApplying()
   @objc dynamic public func effectDidEndApplying()
