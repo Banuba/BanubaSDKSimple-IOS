@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaSdkSimple
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BanubaSdkSimple
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVKit
 import Accelerate
 @_exported import BanubaSdkSimple
@@ -77,7 +77,9 @@ public struct EffectPlayerConfinguration {
   case topRight
   case bottomRight
   case bottomLeft
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -112,7 +114,9 @@ public protocol PIPShape : AnyObject {
   var data: Swift.UnsafeMutablePointer<Swift.UInt8> { get }
 }
 public protocol PIPShapeable {
+  #if compiler(>=5.3) && $NonescapableTypes
   func set(shape: (any BanubaSdkSimple.PIPShape)?)
+  #endif
   func set(shapeType: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType)
 }
 @_hasMissingDesignatedInitializers public class PIPShapeBuilder {
@@ -142,7 +146,9 @@ extension UIKit.UITouch {
   @objc deinit
 }
 extension BanubaSdkSimple.PIPShapeDrawer : BanubaSdkSimple.PIPShapeable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func set(shape: (any BanubaSdkSimple.PIPShape)?)
+  #endif
   public func set(shapeType: BanubaSdkSimple.PIPShapeBuilder.PIPShapeType)
 }
 @objc @_hasMissingDesignatedInitializers public class PIPPlayer : BanubaSdkSimple.PIPShapeDrawer {
@@ -163,17 +169,27 @@ extension BanubaSdkSimple.PIPShapeDrawer : BanubaSdkSimple.PIPShapeable {
   public func stopPlaying()
   public func seek(to time: Foundation.TimeInterval)
   public func draw(renderEncoder: any Metal.MTLRenderCommandEncoder, fullRenderSize: CoreFoundation.CGSize, relativeLeftTopPoint: CoreFoundation.CGPoint, scale: CoreFoundation.CGFloat)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  #endif
 }
 extension ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func performSync(onThread: Foundation.Thread?, block: @escaping @convention(block) () -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func performAsync(onThread: Foundation.Thread?, block: @escaping @convention(block) () -> Swift.Void)
+  #endif
 }
 @objc public protocol OutputServicing {
   @objc func configureWatermark(_ watermarkInfo: BanubaSdkSimple.WatermarkInfo)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func takeSnapshot(configuration: BanubaSdkSimple.OutputConfiguration, handler: @escaping (UIKit.UIImage?) -> Swift.Void)
+  #endif
   @objc func removeWatermark()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func startVideoCapturing(fileURL: Foundation.URL?, externalAudioConfiguration: BanubaVideoEditorCore.ExternalAudioConfiguration?, progress: ((CoreMedia.CMTime) -> Swift.Void)?, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, isFirstRun: Swift.Bool, periodicProgressTimeInterval: Foundation.TimeInterval, totalDuration: Foundation.TimeInterval, configuration: BanubaSdkSimple.OutputConfiguration, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc func stopVideoCapturing(cancel: Swift.Bool)
   @objc func startForwardingFrames(handler: @escaping (CoreVideo.CVPixelBuffer) -> Swift.Void)
   @objc func stopForwardingFrames()
@@ -206,13 +222,17 @@ public protocol EffectsServicing {
 }
 public typealias RotateCameraCallBack = () -> ()
 @objc public protocol CameraServicing {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var delegate: (any BanubaSdkSimple.InputServiceDelegate)? { get set }
+  #endif
   @objc var isFrontCamera: Swift.Bool { get }
   @objc var isPhotoCameraSession: Swift.Bool { get }
   @objc var currentCameraSessionType: BanubaSdkSimple.CameraSessionType { get }
   @objc var exposurePointOfInterest: CoreFoundation.CGPoint { get }
   @objc var flipCamera: Swift.Bool { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var cameraVideoOutput: AVFoundation.AVCaptureVideoDataOutput? { get }
+  #endif
   @objc func setupCamera()
   @objc func startCamera()
   @objc func stopCamera()
@@ -223,7 +243,9 @@ public typealias RotateCameraCallBack = () -> ()
   @objc func focus(at point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
   @objc func setTorch(mode: AVFoundation.AVCaptureDevice.TorchMode) -> AVFoundation.AVCaptureDevice.TorchMode
   @objc func toggleTorch() -> AVFoundation.AVCaptureDevice.TorchMode
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func initiatePhotoCapture(cameraSettings: BanubaSdkSimple.CameraPhotoSettings, completion: @escaping (CoreVideo.CVImageBuffer?) -> Swift.Void)
+  #endif
   @objc func switchCamera(to type: BanubaSdkSimple.CameraSessionType, completion: @escaping BanubaSdkSimple.RotateCameraCallBack)
 }
 @objc public protocol AudioCapturing {
@@ -248,7 +270,9 @@ public typealias RotateCameraCallBack = () -> ()
   case BackCameraVideoSession = 1
   case FrontCameraPhotoSession = 2
   case BackCameraPhotoSession = 3
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -305,18 +329,26 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule {
   @objc dynamic public func setPIPPlayerVolume(_ volume: Swift.Float)
   @objc dynamic public func setupPIPSession(withVideoURL url: Foundation.URL, playerSetting: BanubaVideoEditorCore.PIPPlayerLayoutSetting, cameraSetting: BanubaVideoEditorCore.PIPCameraLayoutSetting, switchSetting: BanubaVideoEditorCore.PIPSwitchLayoutSetting)
   @objc dynamic public func stopPIPSession()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func startPIPSessionIfNeeded(withSetting setting: BanubaVideoEditorCore.PIPPlayerLayoutSetting, completion: (() -> Swift.Void)?)
+  #endif
   @objc dynamic public func applyVideoContentMode(_ contentMode: BanubaVideoEditorCore.PIPVideoContentMode)
   @objc dynamic public func applyPIPLayoutSetting(_ layoutSettings: BanubaVideoEditorCore.PIPLayoutSettings)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func startMultiCamMixing(isPresenterMode: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func stopMultiCamMixing(completion: (() -> Swift.Void)?)
+  #endif
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.CameraModule {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public var renderQueue: Dispatch.DispatchQueue? {
     @objc get
   }
+  #endif
   public var pipRenderSize: CoreFoundation.CGSize {
     get
   }
@@ -333,12 +365,18 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.Camer
   @objc dynamic public func setMaxFaces(facesCount: Swift.Int32)
   @objc dynamic public func destroy()
   @objc dynamic public func start(completion: @escaping () -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func stop(completion: (() -> Swift.Void)?)
+  #endif
   @objc dynamic public func setRenderTarget(view: UIKit.UIView)
   @objc dynamic public func removeRenderTarget()
   @objc dynamic public func setup()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func addFPSListener(_ listener: ((_ fpsInfo: Foundation.NSAttributedString) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func takeSnapshot(isFrontCameraMirrored: Swift.Bool, handler: @escaping (UIKit.UIImage?) -> Swift.Void)
+  #endif
   @objc dynamic public func getRendererView() -> UIKit.UIView
   @objc dynamic public func startRenderLoop()
   @objc dynamic public func stopRenderLoop()
@@ -380,16 +418,20 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKOu
   @objc dynamic public var isEnoughDiskSpaceForRecording: Swift.Bool {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func startVideoCapturing(fileURL: Foundation.URL?, startTimeForVideoTexture: Swift.Double, externalAudioConfiguration: BanubaVideoEditorCore.ExternalAudioConfiguration?, progress: @escaping (CoreMedia.CMTime) -> Swift.Void, didStart: (() -> Swift.Void)?, shouldSkipFrame: (() -> Swift.Bool)?, periodicProgressTimeInterval: Foundation.TimeInterval, totalDuration: Foundation.TimeInterval, itemDuration: Foundation.TimeInterval, completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc dynamic public func stopVideoCapturing(cancel: Swift.Bool)
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKEffectsServicing {
   @objc dynamic public var isMaskLoaded: Swift.Bool {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public var currentMaskName: Swift.String? {
     @objc get
   }
+  #endif
   @objc dynamic public func enableBlur()
   @objc dynamic public func effectDidBeginApplying()
   @objc dynamic public func effectDidEndApplying()
@@ -442,17 +484,23 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule {
   case resizeAspect
   case resizeAspectFill
   case resize
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 public protocol SnapshotProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func makeSnapshotWithSettings(_ settings: BanubaVideoEditorCore.VEOutputSettings, watermarkPixelBuffer: CoreVideo.CVPixelBuffer?) -> UIKit.UIImage?
+  #endif
 }
 public protocol PixelBufferProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func makeVideoPixelBuffer() -> CoreVideo.CVPixelBuffer?
+  #endif
 }
 @_hasMissingDesignatedInitializers @objc public class RenderTarget : BanubaSdkSimple.PIPShapeDrawer, BanubaSdkSimple.SnapshotProvider, BanubaSdkSimple.PixelBufferProvider {
   public var renderBehaviour: BanubaSdkSimple.RenderBehavior
@@ -462,15 +510,23 @@ public protocol PixelBufferProvider {
   public var playerRect: CoreFoundation.CGRect {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var pipRect: CoreFoundation.CGRect? {
     get
   }
+  #endif
   public var shouldZoomPipImage: Swift.Bool
   public func setSplitRender(rect: CoreFoundation.CGRect, offset: CoreFoundation.CGPoint)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func makeVideoPixelBuffer() -> CoreVideo.CVPixelBuffer?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func makeSnapshotWithSettings(_ settings: BanubaVideoEditorCore.VEOutputSettings, watermarkPixelBuffer: CoreVideo.CVPixelBuffer?) -> UIKit.UIImage?
+  #endif
   @objc public func activate()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func present(_ willPresentHandler: ((CoreVideo.CVPixelBuffer?) -> Swift.Void)?)
+  #endif
   @objc deinit
 }
 extension BanubaSdkSimple.EffectPlayerRenderMode : Swift.Equatable {}
