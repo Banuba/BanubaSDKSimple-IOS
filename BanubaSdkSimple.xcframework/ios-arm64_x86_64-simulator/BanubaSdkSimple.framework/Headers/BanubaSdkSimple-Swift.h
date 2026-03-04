@@ -360,10 +360,11 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)resetIntensity;
 @end
 
-@class EmbeddedBackgroundImage;
+@class EmbeddedAsset;
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBackgroundEffectManaging>
+@property (nonatomic, readonly, copy) NSArray<EmbeddedAsset *> * _Nonnull embeddedGreenScreenAssets;
+@property (nonatomic, readonly, copy) NSArray<EmbeddedAsset *> * _Nonnull embeddedWeathermanAssets;
 @property (nonatomic, readonly) BOOL isBackgroundEnabled;
-@property (nonatomic, readonly, copy) NSArray<EmbeddedBackgroundImage *> * _Nonnull embeddedImages;
 - (void)enableBackgroundWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)enableBackgroundBlur;
 - (void)disableBackground;
@@ -990,10 +991,11 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)resetIntensity;
 @end
 
-@class EmbeddedBackgroundImage;
+@class EmbeddedAsset;
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBackgroundEffectManaging>
+@property (nonatomic, readonly, copy) NSArray<EmbeddedAsset *> * _Nonnull embeddedGreenScreenAssets;
+@property (nonatomic, readonly, copy) NSArray<EmbeddedAsset *> * _Nonnull embeddedWeathermanAssets;
 @property (nonatomic, readonly) BOOL isBackgroundEnabled;
-@property (nonatomic, readonly, copy) NSArray<EmbeddedBackgroundImage *> * _Nonnull embeddedImages;
 - (void)enableBackgroundWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)enableBackgroundBlur;
 - (void)disableBackground;

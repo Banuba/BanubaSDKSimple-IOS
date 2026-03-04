@@ -12631,6 +12631,138 @@
           },
           {
             "kind": "Var",
+            "name": "embeddedGreenScreenAssets",
+            "printedName": "embeddedGreenScreenAssets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BanubaVideoEditorCore.EmbeddedAsset]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EmbeddedAsset",
+                    "printedName": "BanubaVideoEditorCore.EmbeddedAsset",
+                    "usr": "c:@M@BanubaVideoEditorCore@objc(cs)EmbeddedAsset"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)embeddedGreenScreenAssets",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC25embeddedGreenScreenAssetsSay0A15VideoEditorCore13EmbeddedAssetCGvp",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "embeddedGreenScreenAssets",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BanubaVideoEditorCore.EmbeddedAsset]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedAsset",
+                        "printedName": "BanubaVideoEditorCore.EmbeddedAsset",
+                        "usr": "c:@M@BanubaVideoEditorCore@objc(cs)EmbeddedAsset"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)embeddedGreenScreenAssets",
+                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC25embeddedGreenScreenAssetsSay0A15VideoEditorCore13EmbeddedAssetCGvg",
+                "moduleName": "BanubaSdkSimple",
+                "objc_name": "embeddedGreenScreenAssets",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "embeddedWeathermanAssets",
+            "printedName": "embeddedWeathermanAssets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BanubaVideoEditorCore.EmbeddedAsset]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EmbeddedAsset",
+                    "printedName": "BanubaVideoEditorCore.EmbeddedAsset",
+                    "usr": "c:@M@BanubaVideoEditorCore@objc(cs)EmbeddedAsset"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)embeddedWeathermanAssets",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24embeddedWeathermanAssetsSay0A15VideoEditorCore13EmbeddedAssetCGvp",
+            "moduleName": "BanubaSdkSimple",
+            "objc_name": "embeddedWeathermanAssets",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BanubaVideoEditorCore.EmbeddedAsset]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedAsset",
+                        "printedName": "BanubaVideoEditorCore.EmbeddedAsset",
+                        "usr": "c:@M@BanubaVideoEditorCore@objc(cs)EmbeddedAsset"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)embeddedWeathermanAssets",
+                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC24embeddedWeathermanAssetsSay0A15VideoEditorCore13EmbeddedAssetCGvg",
+                "moduleName": "BanubaSdkSimple",
+                "objc_name": "embeddedWeathermanAssets",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isBackgroundEnabled",
             "printedName": "isBackgroundEnabled",
             "children": [
@@ -12670,72 +12802,6 @@
                 "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC19isBackgroundEnabledSbvg",
                 "moduleName": "BanubaSdkSimple",
                 "objc_name": "isBackgroundEnabled",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "embeddedImages",
-            "printedName": "embeddedImages",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[BanubaVideoEditorCore.EmbeddedBackgroundImage]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EmbeddedBackgroundImage",
-                    "printedName": "BanubaVideoEditorCore.EmbeddedBackgroundImage",
-                    "usr": "c:@M@BanubaVideoEditorCore@objc(cs)EmbeddedBackgroundImage"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(py)embeddedImages",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14embeddedImagesSay0A15VideoEditorCore23EmbeddedBackgroundImageCGvp",
-            "moduleName": "BanubaSdkSimple",
-            "objc_name": "embeddedImages",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[BanubaVideoEditorCore.EmbeddedBackgroundImage]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EmbeddedBackgroundImage",
-                        "printedName": "BanubaVideoEditorCore.EmbeddedBackgroundImage",
-                        "usr": "c:@M@BanubaVideoEditorCore@objc(cs)EmbeddedBackgroundImage"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)embeddedImages",
-                "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC14embeddedImagesSay0A15VideoEditorCore23EmbeddedBackgroundImageCGvg",
-                "moduleName": "BanubaSdkSimple",
-                "objc_name": "embeddedImages",
                 "declAttributes": [
                   "Dynamic",
                   "ObjC"
@@ -15435,28 +15501,28 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "IntegerLiteral",
-      "offset": 29757,
+      "offset": 29760,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 29830,
+      "offset": 29833,
       "length": 23,
       "value": "\"adjustingWhiteBalance\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 29893,
+      "offset": 29896,
       "length": 16,
       "value": "\"adjustingFocus\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 29952,
+      "offset": 29955,
       "length": 19,
       "value": "\"adjustingExposure\""
     },
@@ -15581,17 +15647,24 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20416,
-      "length": 5,
-      "value": "false"
+      "kind": "Array",
+      "offset": 20433,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "Array",
-      "offset": 20481,
+      "offset": 20495,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20541,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
