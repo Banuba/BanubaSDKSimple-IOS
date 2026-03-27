@@ -15501,28 +15501,28 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "IntegerLiteral",
-      "offset": 29760,
+      "offset": 29957,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 29833,
+      "offset": 30030,
       "length": 23,
       "value": "\"adjustingWhiteBalance\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 29896,
+      "offset": 30093,
       "length": 16,
       "value": "\"adjustingFocus\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/EffectPlayer\/Services\/InputService.swift",
       "kind": "StringLiteral",
-      "offset": 29955,
+      "offset": 30152,
       "length": 19,
       "value": "\"adjustingExposure\""
     },
