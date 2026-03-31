@@ -3,7 +3,7 @@ triple:          'arm64-apple-darwin'
 binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/BanubaSdkSimple/InstallationBuildProductsLocation/Library/Frameworks/BanubaSdkSimple.framework/BanubaSdkSimple'
 relocations:
   - { offset: 0x1B074A, size: 0x8, addend: 0x0, symName: _BanubaSdkSimpleVersionString, symObjAddr: 0x0, symBinAddr: 0x37FC0, symSize: 0x0 }
-  - { offset: 0x1B077F, size: 0x8, addend: 0x0, symName: _BanubaSdkSimpleVersionNumber, symObjAddr: 0x48, symBinAddr: 0x38008, symSize: 0x0 }
+  - { offset: 0x1B077F, size: 0x8, addend: 0x0, symName: _BanubaSdkSimpleVersionNumber, symObjAddr: 0x40, symBinAddr: 0x38000, symSize: 0x0 }
   - { offset: 0x1B07BC, size: 0x8, addend: 0x0, symName: '+[BNBSimplePostprocessHelper loadColorFilterResources:]', symObjAddr: 0x0, symBinAddr: 0x1F40, symSize: 0x8 }
   - { offset: 0x1B07CA, size: 0x8, addend: 0x0, symName: '+[BNBSimplePostprocessHelper loadColorFilterResources:]', symObjAddr: 0x0, symBinAddr: 0x1F40, symSize: 0x8 }
   - { offset: 0x1B0872, size: 0x8, addend: 0x0, symName: '+[BNBSimplePostprocessStage create:]', symObjAddr: 0x0, symBinAddr: 0x1F48, symSize: 0x8 }
@@ -43,8 +43,8 @@ relocations:
   - { offset: 0x1B147D, size: 0x8, addend: 0x0, symName: '+[BNBSimpleUtilityManager setLogRecordCallback:lvl:]', symObjAddr: 0x24, symBinAddr: 0x21BC, symSize: 0x4 }
   - { offset: 0x1B155F, size: 0x8, addend: 0x0, symName: '-[SBSimpleVideoWriter initWithOutputSettings:recorderSettings:externalAudioConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x21C0, symSize: 0x17C }
   - { offset: 0x1B1579, size: 0x8, addend: 0x0, symName: _kVideoWriterErrorDomain, symObjAddr: 0x2468, symBinAddr: 0x50E48, symSize: 0x0 }
-  - { offset: 0x1B1599, size: 0x8, addend: 0x0, symName: _kUnknownRecordingErrorCode, symObjAddr: 0x2530, symBinAddr: 0x38020, symSize: 0x0 }
-  - { offset: 0x1B15BB, size: 0x8, addend: 0x0, symName: _kNotEnoughSpaceForRecordingErrorCode, symObjAddr: 0x2538, symBinAddr: 0x38028, symSize: 0x0 }
+  - { offset: 0x1B1599, size: 0x8, addend: 0x0, symName: _kUnknownRecordingErrorCode, symObjAddr: 0x2530, symBinAddr: 0x38018, symSize: 0x0 }
+  - { offset: 0x1B15BB, size: 0x8, addend: 0x0, symName: _kNotEnoughSpaceForRecordingErrorCode, symObjAddr: 0x2538, symBinAddr: 0x38020, symSize: 0x0 }
   - { offset: 0x1B163F, size: 0x8, addend: 0x0, symName: _externalAudioSamples, symObjAddr: 0xE2D8, symBinAddr: 0x5F248, symSize: 0x0 }
   - { offset: 0x1B165B, size: 0x8, addend: 0x0, symName: _previousExternalAudioUrl, symObjAddr: 0xE2E0, symBinAddr: 0x5F250, symSize: 0x0 }
   - { offset: 0x1B1A06, size: 0x8, addend: 0x0, symName: '-[SBSimpleVideoWriter initWithOutputSettings:recorderSettings:externalAudioConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x21C0, symSize: 0x17C }
