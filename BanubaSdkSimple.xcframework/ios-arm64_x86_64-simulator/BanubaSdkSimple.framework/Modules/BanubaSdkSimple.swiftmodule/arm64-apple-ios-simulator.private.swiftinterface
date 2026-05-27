@@ -465,17 +465,14 @@ extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKBe
   @objc dynamic public func resetIntensity()
 }
 extension BanubaSdkSimple.BanubaSimpleCameraModule : BanubaVideoEditorCore.SDKBackgroundEffectManaging {
-  @objc dynamic public var embeddedGreenScreenAssets: [BanubaVideoEditorCore.EmbeddedAsset] {
-    @objc get
-  }
-  @objc dynamic public var embeddedWeathermanAssets: [BanubaVideoEditorCore.EmbeddedAsset] {
-    @objc get
-  }
   @objc dynamic public var isBackgroundEnabled: Swift.Bool {
     @objc get
   }
   @objc dynamic public func enableBackground() async
   @objc dynamic public func enableBackgroundBlur()
+  @objc dynamic public func disableBackgroundBlur()
+  @objc dynamic public func enableBackgroundColor(with color: UIKit.UIColor)
+  @objc dynamic public func disableBackgroundColor()
   @objc dynamic public func disableBackground()
   @objc dynamic public func setCameraVideoFrame(_ frame: CoreFoundation.CGRect)
   @objc dynamic public func resetCameraVideoFrame()

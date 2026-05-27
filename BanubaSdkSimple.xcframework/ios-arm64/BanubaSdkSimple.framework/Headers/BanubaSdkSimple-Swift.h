@@ -360,13 +360,14 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)resetIntensity;
 @end
 
-@class EmbeddedAsset;
+@class UIColor;
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKBackgroundEffectManaging>
-@property (nonatomic, readonly, copy) NSArray<EmbeddedAsset *> * _Nonnull embeddedGreenScreenAssets;
-@property (nonatomic, readonly, copy) NSArray<EmbeddedAsset *> * _Nonnull embeddedWeathermanAssets;
 @property (nonatomic, readonly) BOOL isBackgroundEnabled;
 - (void)enableBackgroundWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)enableBackgroundBlur;
+- (void)disableBackgroundBlur;
+- (void)enableBackgroundColorWith:(UIColor * _Nonnull)color;
+- (void)disableBackgroundColor;
 - (void)disableBackground;
 - (void)setCameraVideoFrame:(CGRect)frame;
 - (void)resetCameraVideoFrame;
@@ -407,7 +408,6 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 
 @class NSString;
 @class UIImage;
-@class UIColor;
 @class AVURLAsset;
 @protocol RenderEffect;
 @interface BanubaSimpleCameraModule (SWIFT_EXTENSION(BanubaSdkSimple)) <SDKEffectsServicing>
