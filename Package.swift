@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let version: Version = "1.52.1"
+let version: Version = "1.53.0-beta.0"
 
 let package = Package(
   name: "BanubaSdkSimple",
@@ -22,7 +22,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BanubaSdkSimple",
-      path: "BanubaSdkSimple.xcframework"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/1.53.0-beta.0/BanubaSdkSimple-1.53.0-beta.0.xcframework.zip",
+      checksum: "a5880f99b4aa354d0211d5d0c3a4eef5c3b0b9a7ecae8a7b2d1f7b160b2a86f0"
     ),
     .target(
       name: "BanubaSdkSimpleTarget",
