@@ -383,7 +383,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)setPIPPlayerVolume:(float)volume;
 - (void)setupPIPSessionWithVideoURL:(NSURL * _Nonnull)url playerSetting:(PIPPlayerLayoutSetting * _Nonnull)playerSetting cameraSetting:(PIPCameraLayoutSetting * _Nonnull)cameraSetting switchSetting:(PIPSwitchLayoutSetting * _Nonnull)switchSetting;
 - (void)stopPIPSession;
-- (void)startPIPSessionIfNeededWithSetting:(PIPPlayerLayoutSetting * _Nonnull)setting completion:(void (^ _Nullable)(void))completion;
+- (void)startPIPSessionIfNeededWithSetting:(PIPPlayerLayoutSetting * _Nonnull)setting completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)applyVideoContentMode:(enum PIPVideoContentMode)contentMode;
 - (void)applyPIPLayoutSetting:(PIPLayoutSettings * _Nonnull)layoutSettings;
 @end
@@ -1014,7 +1014,7 @@ SWIFT_CLASS("_TtC15BanubaSdkSimple24BanubaSimpleCameraModule")
 - (void)setPIPPlayerVolume:(float)volume;
 - (void)setupPIPSessionWithVideoURL:(NSURL * _Nonnull)url playerSetting:(PIPPlayerLayoutSetting * _Nonnull)playerSetting cameraSetting:(PIPCameraLayoutSetting * _Nonnull)cameraSetting switchSetting:(PIPSwitchLayoutSetting * _Nonnull)switchSetting;
 - (void)stopPIPSession;
-- (void)startPIPSessionIfNeededWithSetting:(PIPPlayerLayoutSetting * _Nonnull)setting completion:(void (^ _Nullable)(void))completion;
+- (void)startPIPSessionIfNeededWithSetting:(PIPPlayerLayoutSetting * _Nonnull)setting completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (void)applyVideoContentMode:(enum PIPVideoContentMode)contentMode;
 - (void)applyPIPLayoutSetting:(PIPLayoutSettings * _Nonnull)layoutSettings;
 @end

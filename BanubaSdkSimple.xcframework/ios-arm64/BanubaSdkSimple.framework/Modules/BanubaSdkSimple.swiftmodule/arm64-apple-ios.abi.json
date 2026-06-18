@@ -2946,6 +2946,80 @@
           },
           {
             "kind": "Var",
+            "name": "verticalSplitTwoThirdsDown",
+            "printedName": "verticalSplitTwoThirdsDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaSdkSimple.RenderBehavior.Type) -> BanubaSdkSimple.RenderBehavior",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderBehavior",
+                    "printedName": "BanubaSdkSimple.RenderBehavior",
+                    "usr": "s:15BanubaSdkSimple14RenderBehaviorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BanubaSdkSimple.RenderBehavior.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RenderBehavior",
+                        "printedName": "BanubaSdkSimple.RenderBehavior",
+                        "usr": "s:15BanubaSdkSimple14RenderBehaviorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15BanubaSdkSimple14RenderBehaviorO26verticalSplitTwoThirdsDownyA2CmF",
+            "mangledName": "$s15BanubaSdkSimple14RenderBehaviorO26verticalSplitTwoThirdsDownyA2CmF",
+            "moduleName": "BanubaSdkSimple"
+          },
+          {
+            "kind": "Var",
+            "name": "verticalSplitOneThirdUp",
+            "printedName": "verticalSplitOneThirdUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaSdkSimple.RenderBehavior.Type) -> BanubaSdkSimple.RenderBehavior",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RenderBehavior",
+                    "printedName": "BanubaSdkSimple.RenderBehavior",
+                    "usr": "s:15BanubaSdkSimple14RenderBehaviorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BanubaSdkSimple.RenderBehavior.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RenderBehavior",
+                        "printedName": "BanubaSdkSimple.RenderBehavior",
+                        "usr": "s:15BanubaSdkSimple14RenderBehaviorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15BanubaSdkSimple14RenderBehaviorO23verticalSplitOneThirdUpyA2CmF",
+            "mangledName": "$s15BanubaSdkSimple14RenderBehaviorO23verticalSplitOneThirdUpyA2CmF",
+            "moduleName": "BanubaSdkSimple"
+          },
+          {
+            "kind": "Var",
             "name": "horizontalSplitLeft",
             "printedName": "horizontalSplitLeft",
             "children": [
@@ -9952,7 +10026,7 @@
           {
             "kind": "Function",
             "name": "startPIPSessionIfNeeded",
-            "printedName": "startPIPSessionIfNeeded(withSetting:completion:)",
+            "printedName": "startPIPSessionIfNeeded(withSetting:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9964,38 +10038,13 @@
                 "name": "PIPPlayerLayoutSetting",
                 "printedName": "BanubaVideoEditorCore.PIPPlayerLayoutSetting",
                 "usr": "c:@M@BanubaVideoEditorCore@objc(cs)PIPPlayerLayoutSetting"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startPIPSessionIfNeededWithSetting:completion:",
-            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC23startPIPSessionIfNeeded11withSetting10completiony0A15VideoEditorCore015PIPPlayerLayoutK0C_yycSgtF",
+            "usr": "c:@CM@BanubaSdkSimple@objc(cs)BanubaSimpleCameraModule(im)startPIPSessionIfNeededWithSetting:completionHandler:",
+            "mangledName": "$s15BanubaSdkSimple0aC12CameraModuleC23startPIPSessionIfNeeded11withSettingy0A15VideoEditorCore015PIPPlayerLayoutK0C_tYaF",
             "moduleName": "BanubaSdkSimple",
-            "objc_name": "startPIPSessionIfNeededWithSetting:completion:",
+            "objc_name": "startPIPSessionIfNeededWithSetting:completionHandler:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -15559,42 +15608,42 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 11168,
+      "offset": 11155,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 15951,
+      "offset": 15938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 17062,
+      "offset": 17049,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 17187,
+      "offset": 17174,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 18647,
+      "offset": 18634,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/BanubaSimpleCameraModule.swift",
       "kind": "BooleanLiteral",
-      "offset": 20416,
+      "offset": 20403,
       "length": 5,
       "value": "false"
     },
@@ -15643,7 +15692,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaSdkSimple\/BanubaSdk\/Components\/RenderTarget\/RenderTarget.swift",
       "kind": "BooleanLiteral",
-      "offset": 4746,
+      "offset": 5062,
       "length": 4,
       "value": "true"
     },
