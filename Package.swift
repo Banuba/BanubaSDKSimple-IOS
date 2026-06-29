@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let version: Version = "1.52.2"
+let banubaCoreVersionRange: Range<Version> = "1.53.0-beta.0"..<"1.53.99"
 
 let package = Package(
   name: "BanubaSdkSimple",
@@ -16,13 +16,20 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", exact: version),
-    .package(url: "https://github.com/Banuba/BanubaVideoEditorCore-iOS.git", exact: version)
+    .package(url: "https://github.com/Banuba/BanubaVideoEditorCore-iOS.git", banubaCoreVersionRange)
   ],
   targets: [
+    // Local development uses the path-based binaryTarget below.
+    // Release flow (fastlane patch_package_swift_for_nexus) replaces it in the GitHub distribution repo with:
+    // .binaryTarget(
+    //   name: "BanubaSdkSimple",
+    //   url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/{version}/BanubaSdkSimple-{version}.xcframework.zip",
+    //   checksum: "{computed at release}"
+    // )
     .binaryTarget(
       name: "BanubaSdkSimple",
-      path: "BanubaSdkSimple.xcframework"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/1.53.0/BanubaSdkSimple-1.53.0.xcframework.zip",
+      checksum: "7f8224d5574863f23c8a4d4f1f276b6a87646fab706bc2d6d23ca69ec0a407bc"
     ),
     .target(
       name: "BanubaSdkSimpleTarget",
