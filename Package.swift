@@ -23,8 +23,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BanubaSdkSimple",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/1.54.1/BanubaSdkSimple-1.54.1.xcframework.zip",
-      checksum: "f169f0af158e730d142ee4881e60e33ad856e347c4f9ee62ef711475cf40131a"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/1.54.2/BanubaSdkSimple-1.54.2.xcframework.zip",
+      checksum: "db5a5bb7f30b7cbcfba4907af86107f033873a3f776d5ca9745132b28c4408da"
     ),
     .target(
       name: "BanubaSdkSimpleTarget",
