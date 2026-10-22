@@ -2,8 +2,8 @@
 
 import PackageDescription
 
-let banubaUtilsVersionRange: Range<Version> = "0.54.5-beta.2"..<"1.59.99"
-let banubaCoreVersionRange: Range<Version> = "0.54.5-beta.2"..<"1.59.99"
+let banubaUtilsVersionRange: Range<Version> = "0.54.5-beta.4"..<"1.59.99"
+let banubaCoreVersionRange: Range<Version> = "0.54.5-beta.4"..<"1.59.99"
 
 let package = Package(
   name: "BanubaSdkSimple",
@@ -23,8 +23,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BanubaSdkSimple",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/0.54.5-beta.2/BanubaSdkSimple-0.54.5-beta.2.xcframework.zip",
-      checksum: "2ad337a61267fe1f12909c82d4f6c1eae89e90c068c6d4afc99d654044f833cd"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/0.54.5-beta.4/BanubaSdkSimple-0.54.5-beta.4.xcframework.zip",
+      checksum: "6671fee22f0768e62c0516cae14b8f2a4d7629d4f561462a5304468757e88487"
     ),
     .target(
       name: "BanubaSdkSimpleTarget",
