@@ -2,8 +2,8 @@
 
 import PackageDescription
 
-let banubaUtilsVersionRange: Range<Version> = "1.55.0"..<"1.59.99"
-let banubaCoreVersionRange: Range<Version> = "1.55.0"..<"1.59.99"
+let banubaUtilsVersion: Version = "1.55.1"
+let banubaCoreVersion: Version = "1.55.1"
 
 let package = Package(
   name: "BanubaSdkSimple",
@@ -17,14 +17,14 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", banubaUtilsVersionRange),
-    .package(url: "https://github.com/Banuba/BanubaVideoEditorCore-iOS.git", banubaCoreVersionRange)
+    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", exact: banubaUtilsVersion),
+    .package(url: "https://github.com/Banuba/BanubaVideoEditorCore-iOS.git", exact: banubaCoreVersion)
   ],
   targets: [
     .binaryTarget(
       name: "BanubaSdkSimple",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/1.55.0/BanubaSdkSimple-1.55.0.xcframework.zip",
-      checksum: "646c6b7379a71dd4dc600c7a7a08a5606bf3fa86b5308c6aa8dbac61e90ee4a1"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaSDKSimple/1.55.1/BanubaSdkSimple-1.55.1.xcframework.zip",
+      checksum: "cc11a1cc12f3c20b457aaa367347cfd037e98d847e9ff4f0856db1a27bcb1394"
     ),
     .target(
       name: "BanubaSdkSimpleTarget",
